@@ -1508,3 +1508,53 @@ input:focus-visible,
   font-size: 12px;
   z-index: 1;
 }
+
+
+/* ============================================
+   History Modal Updates (Delete & Footer)
+   ============================================ */
+
+.btn-danger {
+  background: rgba(239, 68, 68, 0.1);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  padding: 6px 12px;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: var(--radius-sm);
+  margin-left: 12px;
+}
+
+.btn-danger:hover {
+  background: rgba(239, 68, 68, 0.2);
+  border-color: #f87171;
+}
+
+.modal-footer {
+  padding: 16px 20px;
+  border-top: 1px solid var(--border-glass);
+  text-align: center;
+}
+
+.history-storage-info {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.delete-item-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+  margin-left: 8px;
+  opacity: 0.6;
+  transition: opacity 0.2s, color 0.2s;
+}
+
+.delete-item-btn:hover {
+  opacity: 1;
+  color: #f87171;
+}

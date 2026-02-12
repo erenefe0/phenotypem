@@ -283,6 +283,7 @@
     const historyModal = document.getElementById('historyModal');
     const closeHistoryBtn = document.getElementById('closeHistoryBtn');
     const saveResultBtn = document.getElementById('saveResultBtn');
+    const clearHistoryBtn = document.getElementById('clearHistoryBtn');
 
     if (historyBtn) {
         historyBtn.addEventListener('click', () => {
@@ -294,6 +295,14 @@
     if (closeHistoryBtn) {
         closeHistoryBtn.addEventListener('click', () => {
             historyModal.classList.add('hidden');
+        });
+    }
+
+    if (clearHistoryBtn) {
+        clearHistoryBtn.addEventListener('click', () => {
+            if (confirm(t('clearHistory') + '?')) {
+                HistoryManager.clearAll();
+            }
         });
     }
 
@@ -1074,30 +1083,65 @@
 
             const history = getHistory();
             const noMsg = document.getElementById('noHistoryMsg');
+            const clearBtn = document.getElementById('clearHistoryBtn');
 
             container.innerHTML = '';
 
             if (history.length === 0) {
                 if (noMsg) noMsg.classList.remove('hidden');
+                if (clearBtn) clearBtn.classList.add('hidden');
                 return;
             }
 
             if (noMsg) noMsg.classList.add('hidden');
+            if (clearBtn) clearBtn.classList.remove('hidden');
 
             history.forEach(item => {
                 const date = new Date(item.date).toLocaleDateString(currentLang) + ' ' + new Date(item.date).toLocaleTimeString(currentLang, {hour: '2-digit', minute:'2-digit'});
                 const el = document.createElement('div');
                 el.className = 'history-item';
-                el.innerHTML = `
+
+                // Content wrapper for click
+                const content = document.createElement('div');
+                content.style.display = 'flex';
+                content.style.alignItems = 'center';
+                content.style.gap = '16px';
+                content.style.flex = '1';
+                content.innerHTML = `
                     <img src="${item.thumb}" class="history-thumb" alt="History">
                     <div class="history-info">
                         <div class="history-summary">${item.topMatchName} (%${item.topMatchScore.toFixed(1)})</div>
                         <div class="history-date">${date}</div>
                     </div>
                 `;
-                el.addEventListener('click', () => load(item));
+                content.addEventListener('click', () => load(item));
+
+                // Delete button
+                const delBtn = document.createElement('button');
+                delBtn.className = 'delete-item-btn';
+                delBtn.innerHTML = '&times;';
+                delBtn.title = t('delete') || 'Sil';
+                delBtn.onclick = (e) => {
+                    e.stopPropagation();
+                    deleteItem(item.id);
+                };
+
+                el.appendChild(content);
+                el.appendChild(delBtn);
                 container.appendChild(el);
             });
+        }
+
+        function deleteItem(id) {
+            let history = getHistory();
+            history = history.filter(item => item.id !== id);
+            localStorage.setItem(KEY, JSON.stringify(history));
+            render('historyList');
+        }
+
+        function clearAll() {
+            localStorage.removeItem(KEY);
+            render('historyList');
         }
 
         function load(item) {
@@ -1231,7 +1275,7 @@
             // unless we reconstruct the full object structure. For now, it's acceptable.
         }
 
-        return { save, render, load };
+        return { save, render, load, deleteItem, clearAll };
     })();
 
     // Expose for debugging
