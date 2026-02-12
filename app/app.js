@@ -944,9 +944,12 @@
             const top5 = matches.slice(0, 5);
             const imagePromises = [];
 
-            top5.forEach(m => {
+            top5.forEach((m, idx) => {
                 const div = document.createElement('div');
-                div.className = 'export-match-item';
+
+                // Use prominent card style for top match, list item for others
+                const isTop = idx === 0;
+                div.className = isTop ? 'export-match-card' : 'export-match-item';
 
                 // Create image manually to track loading
                 const imgEl = new Image();
@@ -973,9 +976,9 @@
                 imgEl.src = primarySrc;
 
                 div.innerHTML = `
-                    <div class="export-match-details">
-                        <span class="export-match-name">${m.name}</span>
-                        <span class="export-match-score">${m.score.toFixed(1)}%</span>
+                    <div class="${isTop ? 'export-match-info' : 'export-match-details'}">
+                        <div class="export-match-name">${m.name}</div>
+                        <div class="export-match-score">${m.score.toFixed(1)}%</div>
                     </div>
                 `;
                 div.prepend(imgEl); // Add image to start
