@@ -1463,14 +1463,15 @@ input:focus-visible,
   flex: 1;
 }
 
-.export-match-name {
+/* Scoped for Main Card */
+.export-match-card .export-match-name {
   font-size: 24px;
   font-weight: 700;
   color: #06d6a0;
   margin-bottom: 4px;
 }
 
-.export-match-score {
+.export-match-card .export-match-score {
   font-size: 16px;
   color: #fff;
 }
@@ -1600,13 +1601,14 @@ input:focus-visible,
   align-items: center;
 }
 
-.export-match-name {
+/* Scoped for List Items */
+.export-match-item .export-match-name {
   font-size: 15px;
   font-weight: 600;
   color: #fff;
 }
 
-.export-match-score {
+.export-match-item .export-match-score {
   font-size: 14px;
   font-weight: 700;
   color: #06d6a0;

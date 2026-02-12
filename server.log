@@ -1,0 +1,13 @@
+127.0.0.1 - - [12/Feb/2026 21:45:52] "GET /app/index.html HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2026 21:45:52] "GET /app/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2026 21:45:52] "GET /face-api.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2026 21:45:52] "GET /app/locales.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2026 21:45:52] "GET /app/morphology.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2026 21:45:52] "GET /app/phenotype-matcher.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2026 21:45:53] "GET /app/app.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2026 21:45:54] "GET /service-worker.js HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2026 21:45:54] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2026 21:45:54] "GET /index.html HTTP/1.1" 200 -
+127.0.0.1 - - [12/Feb/2026 21:45:54] code 404, message File not found
+127.0.0.1 - - [12/Feb/2026 21:45:54] "GET /app/color-analysis.js HTTP/1.1" 404 -
+127.0.0.1 - - [12/Feb/2026 21:45:54] "GET /app/phenotype-worker.js HTTP/1.1" 200 -
