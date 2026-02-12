@@ -16,11 +16,17 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 
 <body>
   <!-- Header -->
   <header class="header">
+    <div class="history-btn-container" style="position: absolute; top: 20px; left: 20px; z-index: 10;">
+      <button id="historyBtn" class="btn btn-secondary btn-sm" aria-label="Geçmiş Analizler">
+        <span class="btn-icon">📜</span> <span class="history-text" data-i18n="historyBtn">Geçmiş</span>
+      </button>
+    </div>
     <div class="lang-switch-container" style="position: absolute; top: 20px; right: 20px; z-index: 10;">
       <select id="langSelect" class="lang-select" aria-label="Dil Seçimi / Language Selection">
         <option value="tr">🇹🇷 TR</option>
@@ -133,6 +139,12 @@
   <section id="resultsSection" class="results-section hidden">
     <h2 class="results-title" tabindex="-1" data-i18n="resultsTitle">📊 Analiz Sonuçları</h2>
 
+    <div class="result-actions-bar" style="display: flex; justify-content: center; gap: 16px; margin-bottom: 30px;">
+      <button id="saveResultBtn" class="btn btn-secondary">
+        <span class="btn-icon">💾</span> <span data-i18n="saveResultBtn">Sonucu Kaydet</span>
+      </button>
+    </div>
+
     <!-- Face Visualization -->
     <div class="result-card visualization-card">
       <h3 data-i18n="cardMap">🗺️ Yüz Haritası</h3>
@@ -175,6 +187,72 @@
       </button>
     </div>
   </section>
+
+  <!-- Hidden Export Card (For Image Generation) -->
+  <div id="exportCardWrapper" style="position: absolute; left: -9999px; top: -9999px;">
+    <div id="exportCard" class="export-card">
+      <div class="export-header">
+        <div class="export-logo">
+          <span class="logo-icon">🧬</span>
+          <h1>Pheno<span class="accent">Type</span> AI</h1>
+        </div>
+        <p class="export-date" id="exportDate"></p>
+      </div>
+
+      <div class="export-content">
+        <div class="export-left">
+          <div class="export-image-box">
+            <img id="exportUserImage" alt="User Face">
+            <canvas id="exportFaceOverlay"></canvas>
+          </div>
+          <div class="export-basic-info">
+            <div class="export-badge" id="exportGender"></div>
+            <div class="export-badge" id="exportAge"></div>
+          </div>
+        </div>
+
+        <div class="export-right">
+          <div class="export-section">
+            <h3>🧬 Top Match</h3>
+            <div class="export-match-card">
+              <img id="exportMatchImage" alt="Phenotype">
+              <div class="export-match-info">
+                <div class="export-match-name" id="exportMatchName"></div>
+                <div class="export-match-score" id="exportMatchScore"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="export-section">
+            <h3>📐 Morphology Highlights</h3>
+            <div class="export-stats-grid" id="exportStats">
+              <!-- JS will populate -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="export-footer">
+        <p>Analyze your phenotype at <strong>phenotype-ai.com</strong></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- History Modal -->
+  <div id="historyModal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 data-i18n="historyTitle">Geçmiş Analizler</h2>
+        <button id="closeHistoryBtn" class="close-btn">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div id="historyList" class="history-list">
+          <!-- JS will populate -->
+        </div>
+        <p id="noHistoryMsg" class="no-history hidden" data-i18n="noHistory">Henüz kayıtlı analiz yok.</p>
+      </div>
+    </div>
+  </div>
 
   <!-- Scripts -->
   <script src="../face-api.min.js"></script>
