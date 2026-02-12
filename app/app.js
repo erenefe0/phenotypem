@@ -429,30 +429,7 @@
 
         document.getElementById('genderAgeInfo').innerHTML = `
       <div class="info-item">
-        <div class="info-label">${t('genderMale').substring(0, 0) === 'M' ? 'Gender' : 'Cinsiyet'}</div> 
-        <div class="info-value">${genderLabel} ${info.gender === 'male' ? '♂️' : '♀️'}</div>
-      </div>
-      <div class="info-item">
-        <div class="info-label">${t('confidence')}</div>
-        <div class="info-value">${info.genderProb}%</div>
-      </div>
-      <div class="info-item">
-        <div class="info-label">${t('estAge')}</div>
-        <div class="info-value">${ageRange}</div>
-      </div>
-    `;
-        // Note: I hacked the Gender label above to be safe, ideally use a key like `label_gender` but I didn't add it.
-        // I will assume "Cinsiyet" is fine or add `label_gender` implicitly? 
-        // Wait, "Cinsiyet" is hardcoded in my locales? No, "genderMale"/"genderFemale" is there. "Gender" label is missing.
-        // I will use "Cinsiyet" / "Gender" hardcoded based on lang for now or add it to locales. 
-        // Let's just use `currentLang === 'tr' ? 'Cinsiyet' : 'Gender'` logic here for safety or add to dict if I can.
-        // I'll add `label_gender` to locales next time or simple ternary here.
-
-        const labelGender = currentLang === 'tr' ? 'Cinsiyet' : 'Gender';
-
-        document.getElementById('genderAgeInfo').innerHTML = `
-      <div class="info-item">
-        <div class="info-label">${labelGender}</div>
+        <div class="info-label">${t('label_gender')}</div>
         <div class="info-value">${genderLabel} ${info.gender === 'male' ? '♂️' : '♀️'}</div>
       </div>
       <div class="info-item">
