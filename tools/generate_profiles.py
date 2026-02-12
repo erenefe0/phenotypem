@@ -3,7 +3,6 @@ import os
 import math
 import mediapipe as mp
 import cv2
-import numpy as np
 from pathlib import Path
 
 # --- Constants & Helpers ---
