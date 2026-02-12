@@ -1,0 +1,192 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#0a0e1a">
+    <title>PhenoType AI — Detaylı Fenotip Analizi</title>
+    <meta name="description" content="Yapay zeka ile detaylı yüz fenotip analizi. Tamamen tarayıcıda çalışır.">
+    <link rel="icon" type="image/png" href="icon.png">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #0a0a1a 0%, #0d1117 40%, #111827 100%);
+            color: #e2e8f0;
+            overflow: hidden;
+        }
+
+        .splash {
+            text-align: center;
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo-icon {
+            font-size: 72px;
+            display: block;
+            margin-bottom: 16px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+
+            0%,
+            100% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+        }
+
+        h1 {
+            font-size: 48px;
+            font-weight: 800;
+            letter-spacing: -1px;
+            margin-bottom: 8px;
+        }
+
+        h1 .accent {
+            background: linear-gradient(135deg, #06d6a0, #38bdf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #94a3b8;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+
+        .loader {
+            width: 200px;
+            height: 3px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 4px;
+            margin: 0 auto 20px;
+            overflow: hidden;
+        }
+
+        .loader-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, #06d6a0, #38bdf8);
+            border-radius: 4px;
+            animation: load 1.8s ease-in-out forwards;
+        }
+
+        @keyframes load {
+            0% {
+                width: 0%;
+            }
+
+            60% {
+                width: 80%;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+        .redirect-text {
+            font-size: 13px;
+            color: #475569;
+        }
+
+        .redirect-text a {
+            color: #38bdf8;
+            text-decoration: none;
+        }
+
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0.15;
+            pointer-events: none;
+        }
+
+        .orb-1 {
+            width: 400px;
+            height: 400px;
+            background: #06d6a0;
+            top: -100px;
+            left: -100px;
+        }
+
+        .orb-2 {
+            width: 350px;
+            height: 350px;
+            background: #38bdf8;
+            bottom: -80px;
+            right: -80px;
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            * {
+                animation-duration: 0.001ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.001ms !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="splash">
+        <span class="logo-icon">🧬</span>
+        <h1>Pheno<span class="accent">Type</span> AI</h1>
+        <p class="subtitle">Detaylı Yüz Fenotip Analizi</p>
+        <div class="loader">
+            <div class="loader-fill"></div>
+        </div>
+        <p class="redirect-text">Yönlendiriliyorsunuz... <a href="app/index.html">Hemen git →</a></p>
+    </div>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                    .catch((err) => console.warn('[SW] registration failed', err));
+            });
+        }
+        setTimeout(() => { window.location.href = 'app/index.html'; }, 2000);
+    </script>
+</body>
+
+</html>

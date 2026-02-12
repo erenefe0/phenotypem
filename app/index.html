@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0a0e1a">
+  <title>PhenoType AI — Detaylı Fenotip Analizi</title>
+  <meta name="description"
+    content="Yapay zeka ile detaylı yüz fenotip analizi. Yüz morfolojisi ve 200+ fenotiple karşılaştırma. Tamamen tarayıcıda çalışır.">
+  <link rel="icon" type="image/png" href="../icon.png">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="lang-switch-container" style="position: absolute; top: 20px; right: 20px; z-index: 10;">
+      <select id="langSelect" class="lang-select" aria-label="Dil Seçimi / Language Selection">
+        <option value="tr">🇹🇷 TR</option>
+        <option value="en">🇺🇸 EN</option>
+        <option value="de">🇩🇪 DE</option>
+      </select>
+    </div>
+    <div class="logo">
+      <span class="logo-icon">🧬</span>
+      <h1>Pheno<span class="accent">Type</span> AI</h1>
+    </div>
+    <p class="subtitle" data-i18n="subtitle">Detaylı Yüz Fenotip Analizi</p>
+    <p class="privacy-badge" data-i18n="privacy">🔒 Tüm analiz tarayıcınızda yapılır — fotoğrafınız sunucuya gönderilmez
+    </p>
+  </header>
+
+  <!-- Loading Section -->
+  <section id="loadingSection" class="loading-section">
+    <div class="loader-ring"></div>
+    <p id="loadingText" class="loading-text" role="status" aria-live="polite" data-i18n="loadingModel">AI modelleri
+      yükleniyor...</p>
+    <div class="progress-bar">
+      <div id="progressFill" class="progress-fill" style="width: 0%"></div>
+    </div>
+  </section>
+
+  <!-- Upload Section -->
+  <section id="uploadSection" class="upload-section hidden">
+    <div id="dropZone" class="drop-zone" role="button" tabindex="0"
+      aria-label="Fotoğraf yüklemek için tıklayın veya sürükleyip bırakın">
+      <div class="drop-zone-content">
+        <span class="upload-icon">📸</span>
+        <h3 data-i18n="uploadTitle">Fotoğrafınızı yükleyin</h3>
+        <p data-i18n="uploadDesc">Sürükleyip bırakın, tıklayarak seçin veya <strong>Ctrl+V</strong> ile yapıştırın</p>
+        <small data-i18n="uploadFormats">Desteklenen formatlar: JPG, PNG, WebP</small>
+      </div>
+      <input type="file" id="fileInput" accept="image/*" hidden>
+    </div>
+  </section>
+
+  <!-- Preview Section -->
+  <section id="previewSection" class="preview-section hidden">
+    <div class="preview-layout">
+      <!-- Left Column: Image -->
+      <div class="preview-left">
+        <div class="preview-card">
+          <div class="preview-image-wrapper" id="previewWrapper">
+            <canvas id="previewCanvas"></canvas>
+            <img id="previewImage" alt="Yüklenen fotoğraf">
+          </div>
+        </div>
+        <div id="faceSelectHint" class="face-select-hint hidden" role="status" aria-live="polite"
+          data-i18n="faceSelectHint">
+          Birden fazla yüz algılandı. Lütfen analiz edilecek yüzü seçin.
+        </div>
+      </div>
+
+      <!-- Right Column: Controls -->
+      <div class="preview-right">
+        <div class="analysis-options">
+          <label class="checkbox-label">
+            <input type="checkbox" id="morphologyToggle">
+            <span><span data-i18n="morphologyToggle">Morfoloji Analizini Dahil Et</span> <span
+                style="opacity: 0.7; font-size: 0.9em;" data-i18n="morphologyBeta">(Beta - Hatalar
+                olabilir)</span></span>
+          </label>
+        </div>
+
+        <div class="warning-box"
+          style="margin-top: 15px; padding: 10px; background: rgba(255, 193, 7, 0.15); border: 1px solid rgba(255, 193, 7, 0.3); border-radius: 8px; font-size: 0.9em; color: #ffc107;">
+          <span data-i18n="betaWarning">⚠️ <strong>Site Yapım Aşamasındadır (Beta):</strong> Sonuçlar kesin değildir.
+            Sakal/bıyık gibi detaylar morfolojik ölçümleri etkileyebilir.</span>
+        </div>
+
+        <div class="preview-actions">
+          <button id="analyzeBtn" class="btn btn-primary">
+            <span class="btn-icon">🔍</span> <span data-i18n="analyzeBtn">Analiz Et</span>
+          </button>
+          <button id="changePhotoBtn" class="btn btn-secondary">
+            <span class="btn-icon">🔄</span> <span data-i18n="changePhotoBtn">Fotoğraf Değiştir</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Analyzing Overlay -->
+  <section id="analyzingSection" class="analyzing-section hidden">
+    <div class="analyzing-card">
+      <div class="dna-spinner">
+        <div class="dna-strand"></div>
+        <div class="dna-strand"></div>
+      </div>
+      <h3 id="analyzingText" role="status" aria-live="polite" data-i18n="analyzing_face">Yüz analiz ediliyor...</h3>
+      <div class="analyzing-steps">
+        <div id="step1" class="step">
+          <span class="step-icon">⏳</span> <span data-i18n="step1">Yüz algılama</span>
+        </div>
+        <div id="step2" class="step">
+          <span class="step-icon">⏳</span> <span data-i18n="step2">Morfoloji ölçümleri</span>
+        </div>
+        <div id="step3" class="step">
+          <span class="step-icon">⏳</span> <span data-i18n="step3">Fenotip eşleştirme</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Results Section -->
+  <section id="resultsSection" class="results-section hidden">
+    <h2 class="results-title" data-i18n="resultsTitle">📊 Analiz Sonuçları</h2>
+
+    <!-- Face Visualization -->
+    <div class="result-card visualization-card">
+      <h3 data-i18n="cardMap">🗺️ Yüz Haritası</h3>
+      <div class="face-map-wrapper">
+        <canvas id="faceMapCanvas"></canvas>
+      </div>
+    </div>
+
+    <!-- Gender & Age -->
+    <div class="result-card gender-age-card">
+      <h3 data-i18n="cardBasic">👤 Temel Bilgiler</h3>
+      <div id="genderAgeInfo" class="info-grid"></div>
+    </div>
+
+    <!-- Morphology Results -->
+    <div class="result-card morphology-card">
+      <h3 data-i18n="cardMorph">📐 Yüz Morfolojisi</h3>
+      <div id="morphologyResults" class="morphology-grid"></div>
+    </div>
+
+    <!-- Anthropometric Indices -->
+    <div class="result-card indices-card">
+      <h3 data-i18n="cardIndices">📏 Antropometrik İndeksler</h3>
+      <div id="indicesResults" class="indices-grid"></div>
+    </div>
+
+    <!-- Phenotype Match -->
+    <div class="result-card phenotype-card">
+      <h3 data-i18n="cardMatch">🧬 Fenotip Eşleşmeleri</h3>
+      <p class="match-disclaimer" data-i18n="matchDisclaimer">En benzer fenotiplerin gösterilmektedir. Yüksek yüzdeler
+        yüz vektörü benzerliğini
+        ifade eder.</p>
+      <div id="phenotypeResults" class="phenotype-list"></div>
+    </div>
+
+    <!-- New Analysis -->
+    <div class="new-analysis">
+      <button id="newAnalysisBtn" class="btn btn-primary btn-large">
+        <span class="btn-icon">📸</span> <span data-i18n="newAnalysisBtn">Yeni Analiz</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="../face-api.min.js"></script>
+  <script src="locales.js"></script>
+  <script src="morphology.js"></script>
+  <script src="phenotype-matcher.js"></script>
+  <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('../service-worker.js')
+          .catch((err) => console.warn('[SW] registration failed', err));
+      });
+    }
+  </script>
+</body>
+
+</html>

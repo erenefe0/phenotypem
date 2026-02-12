@@ -1,0 +1,4162 @@
+{
+  "Strandlooper_m": {
+    "facialIndex": 86.13985886912755,
+    "nasalIndex": 151.77858495643727,
+    "mouthFaceRatio": 40.30302945633045,
+    "interocularRatio": 28.552369462278186,
+    "eyeAspectRatio": 0.19405807748147041,
+    "lipFullnessRatio": 0.3375591288793942,
+    "jawFaceRatio": 88.45046770984708,
+    "foreheadRatio": 33.29515387410184
+  },
+  "Strandlooper_f": {
+    "facialIndex": 89.7963392192983,
+    "nasalIndex": 133.19514530388352,
+    "mouthFaceRatio": 41.0390048565432,
+    "interocularRatio": 27.391694969915275,
+    "eyeAspectRatio": 0.1990800095280246,
+    "lipFullnessRatio": 0.31633242198581646,
+    "jawFaceRatio": 86.15600655754372,
+    "foreheadRatio": 35.000918516161526
+  },
+  "Khoid_m": {
+    "facialIndex": 86.675640617812,
+    "nasalIndex": 148.37609449069714,
+    "mouthFaceRatio": 38.41132884926714,
+    "interocularRatio": 28.44968463406557,
+    "eyeAspectRatio": 0.18463796151227949,
+    "lipFullnessRatio": 0.32054323880709357,
+    "jawFaceRatio": 86.64185043751141,
+    "foreheadRatio": 33.781594591074
+  },
+  "Khoid_f": {
+    "facialIndex": 83.90742699145017,
+    "nasalIndex": 150.17890272138382,
+    "mouthFaceRatio": 40.627256178911075,
+    "interocularRatio": 26.136602484360704,
+    "eyeAspectRatio": 0.20418780526805694,
+    "lipFullnessRatio": 0.32717589210848336,
+    "jawFaceRatio": 85.93267841372798,
+    "foreheadRatio": 34.29555015025825
+  },
+  "Sandawe_m": {
+    "facialIndex": 93.4044370360205,
+    "nasalIndex": 131.66326648765317,
+    "mouthFaceRatio": 42.00499519911007,
+    "interocularRatio": 27.516646028577718,
+    "eyeAspectRatio": 0.2255620920970926,
+    "lipFullnessRatio": 0.34724719282465494,
+    "jawFaceRatio": 87.00872470900913,
+    "foreheadRatio": 34.57017960844567
+  },
+  "Sandawe_f": {
+    "facialIndex": 88.55998739789422,
+    "nasalIndex": 136.1932496191618,
+    "mouthFaceRatio": 39.59120795884289,
+    "interocularRatio": 26.132911025524407,
+    "eyeAspectRatio": 0.2257694228301883,
+    "lipFullnessRatio": 0.35774646493219836,
+    "jawFaceRatio": 84.92953233189657,
+    "foreheadRatio": 34.56505464711477
+  },
+  "Kalaharid_m": {
+    "facialIndex": 85.36544979376633,
+    "nasalIndex": 161.30437632129576,
+    "mouthFaceRatio": 43.53728602539061,
+    "interocularRatio": 28.47764799796334,
+    "eyeAspectRatio": 0.1723186057767219,
+    "lipFullnessRatio": 0.3153781558174321,
+    "jawFaceRatio": 84.96860282523005,
+    "foreheadRatio": 33.0691617765555
+  },
+  "Kalaharid_f": {
+    "facialIndex": 91.89604791133472,
+    "nasalIndex": 130.69324481662449,
+    "mouthFaceRatio": 39.85354690003882,
+    "interocularRatio": 26.812307865891594,
+    "eyeAspectRatio": 0.21826475198674666,
+    "lipFullnessRatio": 0.34004080507527407,
+    "jawFaceRatio": 81.9607661570955,
+    "foreheadRatio": 34.87332593707904
+  },
+  "Karroid_m": {
+    "facialIndex": 87.33265823192636,
+    "nasalIndex": 155.17278796535072,
+    "mouthFaceRatio": 41.927751559477905,
+    "interocularRatio": 29.294264598648788,
+    "eyeAspectRatio": 0.18315091477666043,
+    "lipFullnessRatio": 0.3246977653314944,
+    "jawFaceRatio": 87.37048794578331,
+    "foreheadRatio": 32.771796635620845
+  },
+  "Karroid_f": {
+    "facialIndex": 82.4310322994106,
+    "nasalIndex": 156.92988898570795,
+    "mouthFaceRatio": 40.28520308608655,
+    "interocularRatio": 28.975342079547577,
+    "eyeAspectRatio": 0.20749840988628881,
+    "lipFullnessRatio": 0.3120300529739302,
+    "jawFaceRatio": 85.8081668536937,
+    "foreheadRatio": 33.44864794207454
+  },
+  "Katangid_m": {
+    "facialIndex": 90.5629302014748,
+    "nasalIndex": 154.64383379713635,
+    "mouthFaceRatio": 41.71331725233412,
+    "interocularRatio": 27.019651975917448,
+    "eyeAspectRatio": 0.22142023973602892,
+    "lipFullnessRatio": 0.3582585350283415,
+    "jawFaceRatio": 86.6113242482936,
+    "foreheadRatio": 32.47619463568678
+  },
+  "Katangid_f": {
+    "facialIndex": 93.59522508817444,
+    "nasalIndex": 144.05334144053933,
+    "mouthFaceRatio": 43.2333155977344,
+    "interocularRatio": 28.26567918979447,
+    "eyeAspectRatio": 0.2453055631155066,
+    "lipFullnessRatio": 0.3401405898785832,
+    "jawFaceRatio": 84.57756974388187,
+    "foreheadRatio": 34.44074584426324
+  },
+  "Hadza_m": {
+    "facialIndex": 87.22965001533505,
+    "nasalIndex": 145.76289617603905,
+    "mouthFaceRatio": 41.51777438267706,
+    "interocularRatio": 27.827792177377557,
+    "eyeAspectRatio": 0.20032501253902002,
+    "lipFullnessRatio": 0.33997410599243083,
+    "jawFaceRatio": 85.8909544768787,
+    "foreheadRatio": 34.43047881085221
+  },
+  "Hadza_f": {
+    "facialIndex": 86.99214513298584,
+    "nasalIndex": 140.8235694252067,
+    "mouthFaceRatio": 41.07867518130856,
+    "interocularRatio": 26.1244655957934,
+    "eyeAspectRatio": 0.22543521831719307,
+    "lipFullnessRatio": 0.35636689908172325,
+    "jawFaceRatio": 84.77325514767035,
+    "foreheadRatio": 35.018723367992386
+  },
+  "NorthBantuid_m": {
+    "facialIndex": 89.07761581722725,
+    "nasalIndex": 130.64869693465218,
+    "mouthFaceRatio": 41.216743435188704,
+    "interocularRatio": 26.232852447571265,
+    "eyeAspectRatio": 0.25064894297185164,
+    "lipFullnessRatio": 0.31858868301735693,
+    "jawFaceRatio": 88.16951352591848,
+    "foreheadRatio": 33.926131166125295
+  },
+  "NorthBantuid_f": {
+    "facialIndex": 86.85101439727086,
+    "nasalIndex": 145.01468796464232,
+    "mouthFaceRatio": 40.77657942733846,
+    "interocularRatio": 27.290235748964314,
+    "eyeAspectRatio": 0.2495768277290696,
+    "lipFullnessRatio": 0.3383470557363885,
+    "jawFaceRatio": 84.93218789533697,
+    "foreheadRatio": 34.93173848792171
+  },
+  "CentralBantuid_m": {
+    "facialIndex": 86.88776365114715,
+    "nasalIndex": 159.0836126901583,
+    "mouthFaceRatio": 44.73336658384056,
+    "interocularRatio": 27.4238349425142,
+    "eyeAspectRatio": 0.23210974973334858,
+    "lipFullnessRatio": 0.3239084201121451,
+    "jawFaceRatio": 86.04707912247689,
+    "foreheadRatio": 32.73041012006033
+  },
+  "CentralBantuid_f": {
+    "facialIndex": 91.5044084931123,
+    "nasalIndex": 148.46907388389997,
+    "mouthFaceRatio": 44.41777625411338,
+    "interocularRatio": 25.849624855289687,
+    "eyeAspectRatio": 0.25638656424941303,
+    "lipFullnessRatio": 0.33505765702904405,
+    "jawFaceRatio": 84.88552296583849,
+    "foreheadRatio": 35.47360957003499
+  },
+  "ChopiTswana_m": {
+    "facialIndex": 88.18340994124122,
+    "nasalIndex": 149.059202289727,
+    "mouthFaceRatio": 41.616357854838846,
+    "interocularRatio": 27.680071322347814,
+    "eyeAspectRatio": 0.2316968197755226,
+    "lipFullnessRatio": 0.37553284356773314,
+    "jawFaceRatio": 86.59453675697834,
+    "foreheadRatio": 33.51732591017805
+  },
+  "ChopiTswana_f": {
+    "facialIndex": 88.61216812910409,
+    "nasalIndex": 138.637559201362,
+    "mouthFaceRatio": 40.38681366326974,
+    "interocularRatio": 27.087095549385204,
+    "eyeAspectRatio": 0.2538166724020167,
+    "lipFullnessRatio": 0.2981403581642208,
+    "jawFaceRatio": 85.73966856908349,
+    "foreheadRatio": 35.41160571813753
+  },
+  "SouthBantuid_m": {
+    "facialIndex": 88.63280992567628,
+    "nasalIndex": 144.74829296917216,
+    "mouthFaceRatio": 40.1474313239328,
+    "interocularRatio": 25.87536652878697,
+    "eyeAspectRatio": 0.23814301130141355,
+    "lipFullnessRatio": 0.34105444450693406,
+    "jawFaceRatio": 88.33800229652306,
+    "foreheadRatio": 33.54762527879955
+  },
+  "SouthBantuid_f": {
+    "facialIndex": 89.5329193955173,
+    "nasalIndex": 142.05834928324768,
+    "mouthFaceRatio": 41.74907964101266,
+    "interocularRatio": 25.871201301626236,
+    "eyeAspectRatio": 0.23809042927097485,
+    "lipFullnessRatio": 0.3243745383101345,
+    "jawFaceRatio": 83.58243039522193,
+    "foreheadRatio": 35.10434346139753
+  },
+  "FenguPondo_m": {
+    "facialIndex": 88.87792187981327,
+    "nasalIndex": 141.32593411175986,
+    "mouthFaceRatio": 40.04169781096781,
+    "interocularRatio": 26.390506769159472,
+    "eyeAspectRatio": 0.2289849167929572,
+    "lipFullnessRatio": 0.34388206072064126,
+    "jawFaceRatio": 86.70124101292147,
+    "foreheadRatio": 33.53598398479068
+  },
+  "FenguPondo_f": {
+    "facialIndex": 98.31336300669128,
+    "nasalIndex": 137.75674216511652,
+    "mouthFaceRatio": 41.745427751302735,
+    "interocularRatio": 28.62147452842268,
+    "eyeAspectRatio": 0.2569084919272427,
+    "lipFullnessRatio": 0.383551686852213,
+    "jawFaceRatio": 83.79649531085333,
+    "foreheadRatio": 35.691056101790366
+  },
+  "Xhosaid_m": {
+    "facialIndex": 90.31487060754174,
+    "nasalIndex": 148.33559156424442,
+    "mouthFaceRatio": 41.82618716228519,
+    "interocularRatio": 27.886246033747202,
+    "eyeAspectRatio": 0.21489991667661626,
+    "lipFullnessRatio": 0.34086584389408275,
+    "jawFaceRatio": 84.62867363756631,
+    "foreheadRatio": 33.50147805190951
+  },
+  "Xhosaid_f": {
+    "facialIndex": 91.4411552106793,
+    "nasalIndex": 146.2152737740658,
+    "mouthFaceRatio": 43.7424290598169,
+    "interocularRatio": 26.57613195653895,
+    "eyeAspectRatio": 0.22698757998274646,
+    "lipFullnessRatio": 0.31829343187843157,
+    "jawFaceRatio": 85.31302854342168,
+    "foreheadRatio": 34.63042302560543
+  },
+  "Malagasid_m": {
+    "facialIndex": 89.52813245329408,
+    "nasalIndex": 125.55217078650061,
+    "mouthFaceRatio": 38.39517058316028,
+    "interocularRatio": 25.664938061287852,
+    "eyeAspectRatio": 0.2511461891897675,
+    "lipFullnessRatio": 0.3502554379455456,
+    "jawFaceRatio": 87.304012631599,
+    "foreheadRatio": 34.202693610897
+  },
+  "Malagasid_f": {
+    "facialIndex": 89.09561984366708,
+    "nasalIndex": 120.53514784829362,
+    "mouthFaceRatio": 39.60184348189627,
+    "interocularRatio": 25.00586260858575,
+    "eyeAspectRatio": 0.2646628525173629,
+    "lipFullnessRatio": 0.3316345768423481,
+    "jawFaceRatio": 85.39963673971212,
+    "foreheadRatio": 35.71478221195976
+  },
+  "EastBambutid_m": {
+    "facialIndex": 86.0639180367382,
+    "nasalIndex": 150.5729660506761,
+    "mouthFaceRatio": 39.128984998769674,
+    "interocularRatio": 28.542744550315373,
+    "eyeAspectRatio": 0.2194499697239433,
+    "lipFullnessRatio": 0.30087528588313683,
+    "jawFaceRatio": 83.9744464129933,
+    "foreheadRatio": 35.089594258686844
+  },
+  "EastBambutid_f": {
+    "facialIndex": 88.37032438755642,
+    "nasalIndex": 133.4180718145893,
+    "mouthFaceRatio": 38.799904202169635,
+    "interocularRatio": 26.18004938153029,
+    "eyeAspectRatio": 0.23567088023989965,
+    "lipFullnessRatio": 0.2887971399387326,
+    "jawFaceRatio": 83.42031616871023,
+    "foreheadRatio": 36.06515062221453
+  },
+  "WestBambutid_m": {
+    "facialIndex": 88.05152201308329,
+    "nasalIndex": 144.8474099737909,
+    "mouthFaceRatio": 42.370876789116416,
+    "interocularRatio": 25.721701601029274,
+    "eyeAspectRatio": 0.22763152609538265,
+    "lipFullnessRatio": 0.3043222414606548,
+    "jawFaceRatio": 85.56390006265883,
+    "foreheadRatio": 34.339096560530784
+  },
+  "WestBambutid_f": {
+    "facialIndex": 85.57788309529043,
+    "nasalIndex": 148.73252235372198,
+    "mouthFaceRatio": 43.975231041198526,
+    "interocularRatio": 27.42401439563612,
+    "eyeAspectRatio": 0.2404628284771183,
+    "lipFullnessRatio": 0.29779372098722595,
+    "jawFaceRatio": 82.12602121541485,
+    "foreheadRatio": 35.7865752165125
+  },
+  "TwaCwa_m": {
+    "facialIndex": 89.5706707652068,
+    "nasalIndex": 148.72044803762023,
+    "mouthFaceRatio": 42.81044487718265,
+    "interocularRatio": 26.465064153765777,
+    "eyeAspectRatio": 0.2188946024710586,
+    "lipFullnessRatio": 0.31485848635315056,
+    "jawFaceRatio": 86.44715147777174,
+    "foreheadRatio": 35.18321238126067
+  },
+  "TwaCwa_f": {
+    "facialIndex": 88.74868766734858,
+    "nasalIndex": 139.03948242361392,
+    "mouthFaceRatio": 43.03244696484536,
+    "interocularRatio": 26.804046508395718,
+    "eyeAspectRatio": 0.24580464153433573,
+    "lipFullnessRatio": 0.32278905479101716,
+    "jawFaceRatio": 83.71435872657142,
+    "foreheadRatio": 34.444147297434306
+  },
+  "MountainDama_m": {
+    "facialIndex": 90.02440512529924,
+    "nasalIndex": 145.5173683927828,
+    "mouthFaceRatio": 41.821232661724274,
+    "interocularRatio": 25.627603808204785,
+    "eyeAspectRatio": 0.22641662908256371,
+    "lipFullnessRatio": 0.33044408113621826,
+    "jawFaceRatio": 88.70620944246544,
+    "foreheadRatio": 33.78873736893386
+  },
+  "MountainDama_f": {
+    "facialIndex": 94.48872375963381,
+    "nasalIndex": 139.36367091100988,
+    "mouthFaceRatio": 41.0514748475933,
+    "interocularRatio": 25.593406366049383,
+    "eyeAspectRatio": 0.24663881025850198,
+    "lipFullnessRatio": 0.35704074954781767,
+    "jawFaceRatio": 86.19126467686065,
+    "foreheadRatio": 35.27140892620444
+  },
+  "Congolesid_m": {
+    "facialIndex": 84.14721338450639,
+    "nasalIndex": 153.9538982938729,
+    "mouthFaceRatio": 41.33589128765471,
+    "interocularRatio": 26.360535269481566,
+    "eyeAspectRatio": 0.2260609231768577,
+    "lipFullnessRatio": 0.32838617027906114,
+    "jawFaceRatio": 88.26936664942201,
+    "foreheadRatio": 34.485243736176706
+  },
+  "Congolesid_f": {
+    "facialIndex": 89.81707823564301,
+    "nasalIndex": 139.77356401047513,
+    "mouthFaceRatio": 44.696845830926655,
+    "interocularRatio": 27.649004712847088,
+    "eyeAspectRatio": 0.24706542226046535,
+    "lipFullnessRatio": 0.31574670352487577,
+    "jawFaceRatio": 84.91391780948514,
+    "foreheadRatio": 35.42957847431828
+  },
+  "MunduMangbeto_m": {
+    "facialIndex": 88.8036871253155,
+    "nasalIndex": 152.65668209404308,
+    "mouthFaceRatio": 43.40988799177634,
+    "interocularRatio": 27.789977113924607,
+    "eyeAspectRatio": 0.23095020735545807,
+    "lipFullnessRatio": 0.341712101419174,
+    "jawFaceRatio": 86.40260500899541,
+    "foreheadRatio": 33.683589088333186
+  },
+  "MunduMangbeto_f": {
+    "facialIndex": 88.1587722372774,
+    "nasalIndex": 138.70590803176532,
+    "mouthFaceRatio": 41.103704352608375,
+    "interocularRatio": 26.990929030002942,
+    "eyeAspectRatio": 0.24872957324319628,
+    "lipFullnessRatio": 0.3292336613561777,
+    "jawFaceRatio": 85.05457524162811,
+    "foreheadRatio": 35.800779515340544
+  },
+  "WestCongolesid_m": {
+    "facialIndex": 88.97772155681339,
+    "nasalIndex": 149.49568845546847,
+    "mouthFaceRatio": 43.52903452397977,
+    "interocularRatio": 26.463705647159784,
+    "eyeAspectRatio": 0.24586473979393403,
+    "lipFullnessRatio": 0.34106454399092145,
+    "jawFaceRatio": 87.70373882503488,
+    "foreheadRatio": 33.696411670360845
+  },
+  "WestCongolesid_f": {
+    "facialIndex": 90.43572646294012,
+    "nasalIndex": 138.18005160658663,
+    "mouthFaceRatio": 42.90285695065907,
+    "interocularRatio": 25.982327467850507,
+    "eyeAspectRatio": 0.24177700232290655,
+    "lipFullnessRatio": 0.36093612536716196,
+    "jawFaceRatio": 84.81375980196823,
+    "foreheadRatio": 35.561066566788426
+  },
+  "GuineoCamerunian_m": {
+    "facialIndex": 87.31294809491821,
+    "nasalIndex": 144.47294787709438,
+    "mouthFaceRatio": 41.724358228864325,
+    "interocularRatio": 25.922007968417827,
+    "eyeAspectRatio": 0.24180943398387564,
+    "lipFullnessRatio": 0.33262097610700986,
+    "jawFaceRatio": 87.34430968001294,
+    "foreheadRatio": 33.83602100640879
+  },
+  "GuineoCamerunian_f": {
+    "facialIndex": 89.38842512143619,
+    "nasalIndex": 130.00807794610887,
+    "mouthFaceRatio": 41.10192118954605,
+    "interocularRatio": 25.656569732132482,
+    "eyeAspectRatio": 0.26685128133337704,
+    "lipFullnessRatio": 0.33069850220237756,
+    "jawFaceRatio": 85.31212510767742,
+    "foreheadRatio": 35.19755926990906
+  },
+  "Guinesid_m": {
+    "facialIndex": 85.6964957065802,
+    "nasalIndex": 158.65330664671023,
+    "mouthFaceRatio": 42.219712196563286,
+    "interocularRatio": 26.657683208453996,
+    "eyeAspectRatio": 0.222888543604184,
+    "lipFullnessRatio": 0.3453760576539359,
+    "jawFaceRatio": 87.15303416175729,
+    "foreheadRatio": 33.35818984546788
+  },
+  "Guinesid_f": {
+    "facialIndex": 88.7266276652855,
+    "nasalIndex": 146.2246927629876,
+    "mouthFaceRatio": 42.81462142157947,
+    "interocularRatio": 26.207463592893447,
+    "eyeAspectRatio": 0.22821197754473552,
+    "lipFullnessRatio": 0.31893900119839,
+    "jawFaceRatio": 83.58452151910201,
+    "foreheadRatio": 34.49301043979955
+  },
+  "SudanoGuinesid_m": {
+    "facialIndex": 87.8203281657655,
+    "nasalIndex": 160.69205720513688,
+    "mouthFaceRatio": 43.13633548775603,
+    "interocularRatio": 27.004261300078998,
+    "eyeAspectRatio": 0.2297978129747951,
+    "lipFullnessRatio": 0.3420258517902004,
+    "jawFaceRatio": 86.91588939143105,
+    "foreheadRatio": 32.42853949900829
+  },
+  "SudanoGuinesid_f": {
+    "facialIndex": 89.69532732772028,
+    "nasalIndex": 151.42649524540846,
+    "mouthFaceRatio": 43.83843339876131,
+    "interocularRatio": 25.90883324223665,
+    "eyeAspectRatio": 0.23892210459884666,
+    "lipFullnessRatio": 0.29775403663713773,
+    "jawFaceRatio": 84.4957932885952,
+    "foreheadRatio": 35.17325798319912
+  },
+  "EquatorialSudanid_m": {
+    "facialIndex": 89.27934336862826,
+    "nasalIndex": 146.1458010764851,
+    "mouthFaceRatio": 40.45722306487885,
+    "interocularRatio": 27.399266846291724,
+    "eyeAspectRatio": 0.24604394731449375,
+    "lipFullnessRatio": 0.34423891943588625,
+    "jawFaceRatio": 88.21819429678764,
+    "foreheadRatio": 33.760591230596155
+  },
+  "EquatorialSudanid_f": {
+    "facialIndex": 89.47970917127209,
+    "nasalIndex": 139.2293962329786,
+    "mouthFaceRatio": 41.75185801451349,
+    "interocularRatio": 26.668474460375013,
+    "eyeAspectRatio": 0.23699881317639646,
+    "lipFullnessRatio": 0.33988655189421063,
+    "jawFaceRatio": 84.54484927085898,
+    "foreheadRatio": 35.036873161749874
+  },
+  "Casamance_m": {
+    "facialIndex": 88.12726288224009,
+    "nasalIndex": 151.10150470756244,
+    "mouthFaceRatio": 42.76853230567627,
+    "interocularRatio": 26.944039916542685,
+    "eyeAspectRatio": 0.25556802150891283,
+    "lipFullnessRatio": 0.36557233439630443,
+    "jawFaceRatio": 87.78962901530028,
+    "foreheadRatio": 33.68929257203463
+  },
+  "Casamance_f": {
+    "facialIndex": 92.8870331468275,
+    "nasalIndex": 131.88927684748447,
+    "mouthFaceRatio": 42.85196192795999,
+    "interocularRatio": 25.589722689401018,
+    "eyeAspectRatio": 0.27533350583585475,
+    "lipFullnessRatio": 0.361989690248445,
+    "jawFaceRatio": 84.96945776543161,
+    "foreheadRatio": 35.549581258720686
+  },
+  "Sudanid_m": {
+    "facialIndex": 88.02456410786155,
+    "nasalIndex": 160.2686544711751,
+    "mouthFaceRatio": 45.00661849089992,
+    "interocularRatio": 26.59937830086674,
+    "eyeAspectRatio": 0.21642389450085492,
+    "lipFullnessRatio": 0.32924767373879854,
+    "jawFaceRatio": 88.6842882035442,
+    "foreheadRatio": 32.43600199877517
+  },
+  "Sudanid_f": {
+    "facialIndex": 89.46052464874151,
+    "nasalIndex": 146.81745078142467,
+    "mouthFaceRatio": 42.167984325594794,
+    "interocularRatio": 25.9496370376804,
+    "eyeAspectRatio": 0.23330464028010192,
+    "lipFullnessRatio": 0.3558277979667686,
+    "jawFaceRatio": 85.02402213940384,
+    "foreheadRatio": 34.79591558275646
+  },
+  "EastSudanid_m": {
+    "facialIndex": 89.2352135280757,
+    "nasalIndex": 158.7846479051529,
+    "mouthFaceRatio": 43.89878687639854,
+    "interocularRatio": 27.098440583539517,
+    "eyeAspectRatio": 0.2222626640573476,
+    "lipFullnessRatio": 0.3498848100238082,
+    "jawFaceRatio": 86.83183578641933,
+    "foreheadRatio": 32.903573559366045
+  },
+  "EastSudanid_f": {
+    "facialIndex": 90.78387849068508,
+    "nasalIndex": 166.09595094529,
+    "mouthFaceRatio": 46.418634142388626,
+    "interocularRatio": 26.91627519456383,
+    "eyeAspectRatio": 0.2405596799444613,
+    "lipFullnessRatio": 0.32509765594423506,
+    "jawFaceRatio": 87.10591397268892,
+    "foreheadRatio": 35.99517896760808
+  },
+  "Bobo_m": {
+    "facialIndex": 86.5446669188754,
+    "nasalIndex": 160.326545401255,
+    "mouthFaceRatio": 44.49196050140692,
+    "interocularRatio": 27.184495977257605,
+    "eyeAspectRatio": 0.23284622089385043,
+    "lipFullnessRatio": 0.3297349139190263,
+    "jawFaceRatio": 85.94595757080381,
+    "foreheadRatio": 33.9586949510657
+  },
+  "Bobo_f": {
+    "facialIndex": 87.81468293279076,
+    "nasalIndex": 142.05773072800477,
+    "mouthFaceRatio": 42.368827508377514,
+    "interocularRatio": 26.946866636960053,
+    "eyeAspectRatio": 0.24873992511185358,
+    "lipFullnessRatio": 0.314868743208572,
+    "jawFaceRatio": 83.67881578316837,
+    "foreheadRatio": 34.77287384112472
+  },
+  "Senegalid_m": {
+    "facialIndex": 90.341286615341,
+    "nasalIndex": 149.24882072644488,
+    "mouthFaceRatio": 43.18283429469353,
+    "interocularRatio": 24.278539059459053,
+    "eyeAspectRatio": 0.24815973466883678,
+    "lipFullnessRatio": 0.3124413390677331,
+    "jawFaceRatio": 89.67985092229044,
+    "foreheadRatio": 32.577473780959664
+  },
+  "Senegalid_f": {
+    "facialIndex": 85.17657417721527,
+    "nasalIndex": 151.86979392646967,
+    "mouthFaceRatio": 42.15730339091568,
+    "interocularRatio": 26.126205856332884,
+    "eyeAspectRatio": 0.2549531661155391,
+    "lipFullnessRatio": 0.3394344571068984,
+    "jawFaceRatio": 84.76593631504215,
+    "foreheadRatio": 34.888358809722206
+  },
+  "MiddleNile_m": {
+    "facialIndex": 91.27547374366144,
+    "nasalIndex": 128.1179403721654,
+    "mouthFaceRatio": 38.84679210124852,
+    "interocularRatio": 25.17791616508091,
+    "eyeAspectRatio": 0.2689777105767978,
+    "lipFullnessRatio": 0.3398164519606885,
+    "jawFaceRatio": 89.25312668119422,
+    "foreheadRatio": 34.99922925684179
+  },
+  "MiddleNile_f": {
+    "facialIndex": 89.65975418315489,
+    "nasalIndex": 133.88909298174167,
+    "mouthFaceRatio": 39.89564115943285,
+    "interocularRatio": 27.130187695382237,
+    "eyeAspectRatio": 0.24925083383303784,
+    "lipFullnessRatio": 0.3284250866729909,
+    "jawFaceRatio": 84.71558819104789,
+    "foreheadRatio": 36.076233221382694
+  },
+  "Fezzanid_m": {
+    "facialIndex": 86.50692172068312,
+    "nasalIndex": 139.65591950933873,
+    "mouthFaceRatio": 40.59867668304858,
+    "interocularRatio": 25.65605786656564,
+    "eyeAspectRatio": 0.22166308475618066,
+    "lipFullnessRatio": 0.30523821241876814,
+    "jawFaceRatio": 88.80060802177154,
+    "foreheadRatio": 34.17547114311352
+  },
+  "Fezzanid_f": {
+    "facialIndex": 94.74853960297904,
+    "nasalIndex": 126.26604792948177,
+    "mouthFaceRatio": 40.160903599521134,
+    "interocularRatio": 26.16875357682592,
+    "eyeAspectRatio": 0.23701793674470278,
+    "lipFullnessRatio": 0.3584059171340001,
+    "jawFaceRatio": 85.37704962986918,
+    "foreheadRatio": 34.93350245812501
+  },
+  "Shari_m": {
+    "facialIndex": 89.86633021937838,
+    "nasalIndex": 145.96991371978226,
+    "mouthFaceRatio": 41.04750893220935,
+    "interocularRatio": 26.994836165668413,
+    "eyeAspectRatio": 0.2346793415143111,
+    "lipFullnessRatio": 0.3401999617733482,
+    "jawFaceRatio": 86.19593397589084,
+    "foreheadRatio": 33.582708637970484
+  },
+  "Shari_f": {
+    "facialIndex": 90.77161933016808,
+    "nasalIndex": 140.04847634421182,
+    "mouthFaceRatio": 43.96334136624267,
+    "interocularRatio": 26.31552624014554,
+    "eyeAspectRatio": 0.2617679658407482,
+    "lipFullnessRatio": 0.3064637415585312,
+    "jawFaceRatio": 85.22835461795069,
+    "foreheadRatio": 35.21689689254873
+  },
+  "PreNilotid_m": {
+    "facialIndex": 88.40839135194634,
+    "nasalIndex": 147.07898885047635,
+    "mouthFaceRatio": 42.55089242057877,
+    "interocularRatio": 28.327275025274435,
+    "eyeAspectRatio": 0.21836371960627893,
+    "lipFullnessRatio": 0.31931038523506133,
+    "jawFaceRatio": 86.39710458502844,
+    "foreheadRatio": 34.75817260097966
+  },
+  "PreNilotid_f": {
+    "facialIndex": 83.48239311736123,
+    "nasalIndex": 166.2213464741905,
+    "mouthFaceRatio": 41.616629495954086,
+    "interocularRatio": 26.822857015644452,
+    "eyeAspectRatio": 0.21695101223244193,
+    "lipFullnessRatio": 0.3378593913574237,
+    "jawFaceRatio": 86.88709595335791,
+    "foreheadRatio": 35.64643717840225
+  },
+  "Dinkaid_m": {
+    "facialIndex": 82.2388836395786,
+    "nasalIndex": 159.04094537451024,
+    "mouthFaceRatio": 43.15648896272403,
+    "interocularRatio": 25.956084969887627,
+    "eyeAspectRatio": 0.20277192258934446,
+    "lipFullnessRatio": 0.32839493895428223,
+    "jawFaceRatio": 87.35547424263669,
+    "foreheadRatio": 32.670543757820965
+  },
+  "Dinkaid_f": {
+    "facialIndex": 84.61201795689696,
+    "nasalIndex": 154.39141964078382,
+    "mouthFaceRatio": 44.18067602638337,
+    "interocularRatio": 25.073498679136886,
+    "eyeAspectRatio": 0.22097166460667256,
+    "lipFullnessRatio": 0.3365828079674474,
+    "jawFaceRatio": 85.82417261176587,
+    "foreheadRatio": 32.98210393888167
+  },
+  "Shillukid_m": {
+    "facialIndex": 84.1546191508296,
+    "nasalIndex": 158.97321276547532,
+    "mouthFaceRatio": 44.25916435138264,
+    "interocularRatio": 27.08135533343985,
+    "eyeAspectRatio": 0.23755212468631828,
+    "lipFullnessRatio": 0.3309029693728641,
+    "jawFaceRatio": 88.6270107349876,
+    "foreheadRatio": 34.07056873373186
+  },
+  "Shillukid_f": {
+    "facialIndex": 94.54917045283005,
+    "nasalIndex": 136.9939315916278,
+    "mouthFaceRatio": 40.689910877624655,
+    "interocularRatio": 27.130207635595937,
+    "eyeAspectRatio": 0.25128691648311774,
+    "lipFullnessRatio": 0.348403006349984,
+    "jawFaceRatio": 87.17179624970001,
+    "foreheadRatio": 33.52603827489034
+  },
+  "SouthNilotid_m": {
+    "facialIndex": 98.84547427554136,
+    "nasalIndex": 135.758369039836,
+    "mouthFaceRatio": 45.6253297770841,
+    "interocularRatio": 28.36392929134113,
+    "eyeAspectRatio": 0.27108877097082246,
+    "lipFullnessRatio": 0.3560428369297481,
+    "jawFaceRatio": 86.74877510875632,
+    "foreheadRatio": 33.24749227291045
+  },
+  "SouthNilotid_f": {
+    "facialIndex": 82.03284208384615,
+    "nasalIndex": 153.12680583354862,
+    "mouthFaceRatio": 43.37364339891958,
+    "interocularRatio": 27.71433384594923,
+    "eyeAspectRatio": 0.20064386843626097,
+    "lipFullnessRatio": 0.3407791757743334,
+    "jawFaceRatio": 85.9673872467022,
+    "foreheadRatio": 35.09005590753253
+  },
+  "NiloHamitic_m": {
+    "facialIndex": 87.12053032548096,
+    "nasalIndex": 140.64589226080952,
+    "mouthFaceRatio": 39.723420646615494,
+    "interocularRatio": 25.49740350868086,
+    "eyeAspectRatio": 0.2268303047957569,
+    "lipFullnessRatio": 0.3555194749263031,
+    "jawFaceRatio": 87.34914763177758,
+    "foreheadRatio": 33.62178912913006
+  },
+  "NiloHamitic_f": {
+    "facialIndex": 95.90817389922204,
+    "nasalIndex": 126.13503768355534,
+    "mouthFaceRatio": 42.15666203634274,
+    "interocularRatio": 26.18954684736919,
+    "eyeAspectRatio": 0.25324186200834053,
+    "lipFullnessRatio": 0.3553092225516903,
+    "jawFaceRatio": 85.79781855758704,
+    "foreheadRatio": 34.32348985651708
+  },
+  "ProtoEthiopid_m": {
+    "facialIndex": 93.54919251262962,
+    "nasalIndex": 133.58727795141237,
+    "mouthFaceRatio": 42.32094635683089,
+    "interocularRatio": 25.96517089681889,
+    "eyeAspectRatio": 0.24362611114330665,
+    "lipFullnessRatio": 0.33390574555771696,
+    "jawFaceRatio": 86.6164914215029,
+    "foreheadRatio": 34.11246130728845
+  },
+  "ProtoEthiopid_f": {
+    "facialIndex": 95.84198089209853,
+    "nasalIndex": 129.2202232791463,
+    "mouthFaceRatio": 41.882239991557384,
+    "interocularRatio": 26.656433229590977,
+    "eyeAspectRatio": 0.25928725493971544,
+    "lipFullnessRatio": 0.3022779782049448,
+    "jawFaceRatio": 85.80086854057707,
+    "foreheadRatio": 34.31381823773971
+  },
+  "Omotic_m": {
+    "facialIndex": 93.07983600380014,
+    "nasalIndex": 138.7797835111934,
+    "mouthFaceRatio": 39.38749835396319,
+    "interocularRatio": 26.13469618661005,
+    "eyeAspectRatio": 0.22009053841530293,
+    "lipFullnessRatio": 0.35986163280731176,
+    "jawFaceRatio": 84.86915645316637,
+    "foreheadRatio": 32.91316298896663
+  },
+  "Omotic_f": {
+    "facialIndex": 90.90440682206064,
+    "nasalIndex": 137.37002728893765,
+    "mouthFaceRatio": 41.36351841154506,
+    "interocularRatio": 26.978541038546478,
+    "eyeAspectRatio": 0.24577121907206578,
+    "lipFullnessRatio": 0.3136052401824982,
+    "jawFaceRatio": 84.32606137774499,
+    "foreheadRatio": 34.25782561261868
+  },
+  "EastEthiopid_m": {
+    "facialIndex": 92.05226755991973,
+    "nasalIndex": 124.09559878123746,
+    "mouthFaceRatio": 37.94568621999444,
+    "interocularRatio": 25.04774824785492,
+    "eyeAspectRatio": 0.25631756106883585,
+    "lipFullnessRatio": 0.3611606909021648,
+    "jawFaceRatio": 87.14055739039924,
+    "foreheadRatio": 33.74180856277913
+  },
+  "EastEthiopid_f": {
+    "facialIndex": 94.27269212239597,
+    "nasalIndex": 125.00825403867077,
+    "mouthFaceRatio": 41.04261470286493,
+    "interocularRatio": 26.60738537371538,
+    "eyeAspectRatio": 0.27100188192628305,
+    "lipFullnessRatio": 0.3405969163549786,
+    "jawFaceRatio": 84.03514430958248,
+    "foreheadRatio": 34.98538573133138
+  },
+  "NorthEthiopid_m": {
+    "facialIndex": 92.0599905133185,
+    "nasalIndex": 141.27918089022347,
+    "mouthFaceRatio": 40.311726326637405,
+    "interocularRatio": 26.80897093892832,
+    "eyeAspectRatio": 0.2317119541903015,
+    "lipFullnessRatio": 0.3569606334786578,
+    "jawFaceRatio": 88.14525773967885,
+    "foreheadRatio": 34.26336204223436
+  },
+  "NorthEthiopid_f": {
+    "facialIndex": 87.44831181974074,
+    "nasalIndex": 135.1283504082202,
+    "mouthFaceRatio": 40.750814461285415,
+    "interocularRatio": 25.03478972492369,
+    "eyeAspectRatio": 0.23970223620801925,
+    "lipFullnessRatio": 0.3101765486379559,
+    "jawFaceRatio": 85.6720327955421,
+    "foreheadRatio": 34.62976264860782
+  },
+  "SouthEthiopid_m": {
+    "facialIndex": 92.02441154376548,
+    "nasalIndex": 132.47183322402321,
+    "mouthFaceRatio": 37.948991091263515,
+    "interocularRatio": 26.78708945208228,
+    "eyeAspectRatio": 0.2605048773089436,
+    "lipFullnessRatio": 0.3765842892449525,
+    "jawFaceRatio": 87.6226194753681,
+    "foreheadRatio": 33.68491874433083
+  },
+  "SouthEthiopid_f": {
+    "facialIndex": 88.56160669746322,
+    "nasalIndex": 131.72294251091452,
+    "mouthFaceRatio": 38.543564561863576,
+    "interocularRatio": 25.639067170767373,
+    "eyeAspectRatio": 0.2552855866569715,
+    "lipFullnessRatio": 0.37365434344449,
+    "jawFaceRatio": 84.48856253567865,
+    "foreheadRatio": 34.515432846624336
+  },
+  "Maasai_m": {
+    "facialIndex": 91.5550024282673,
+    "nasalIndex": 137.22534636368997,
+    "mouthFaceRatio": 44.88906768918547,
+    "interocularRatio": 26.0820023834765,
+    "eyeAspectRatio": 0.21546604345614015,
+    "lipFullnessRatio": 0.31212325614023223,
+    "jawFaceRatio": 85.956271295051,
+    "foreheadRatio": 32.92186265359523
+  },
+  "Maasai_f": {
+    "facialIndex": 89.84430368282634,
+    "nasalIndex": 129.08462181055106,
+    "mouthFaceRatio": 41.58407295287548,
+    "interocularRatio": 24.816527210684605,
+    "eyeAspectRatio": 0.25981183035189753,
+    "lipFullnessRatio": 0.3095542827714747,
+    "jawFaceRatio": 86.9206405760022,
+    "foreheadRatio": 33.86513213910088
+  },
+  "CentralEthiopid_m": {
+    "facialIndex": 94.60839126267587,
+    "nasalIndex": 127.58948581059182,
+    "mouthFaceRatio": 40.69011056642238,
+    "interocularRatio": 25.989647375458695,
+    "eyeAspectRatio": 0.2462880989863743,
+    "lipFullnessRatio": 0.3528860917342787,
+    "jawFaceRatio": 87.67676283499001,
+    "foreheadRatio": 34.778922896280065
+  },
+  "CentralEthiopid_f": {
+    "facialIndex": 86.9644812495031,
+    "nasalIndex": 131.40386185804806,
+    "mouthFaceRatio": 38.75410219812726,
+    "interocularRatio": 26.091956292969172,
+    "eyeAspectRatio": 0.24248358707409448,
+    "lipFullnessRatio": 0.3153005054817371,
+    "jawFaceRatio": 84.10440058246998,
+    "foreheadRatio": 35.302342540220174
+  },
+  "SaharanEthiopid_m": {
+    "facialIndex": 91.62504542674077,
+    "nasalIndex": 125.68224339440728,
+    "mouthFaceRatio": 39.219583187994616,
+    "interocularRatio": 24.173132075027652,
+    "eyeAspectRatio": 0.2559789151330576,
+    "lipFullnessRatio": 0.33725095526592175,
+    "jawFaceRatio": 88.77561832021532,
+    "foreheadRatio": 33.65150161076594
+  },
+  "SaharanEthiopid_f": {
+    "facialIndex": 94.55513626383629,
+    "nasalIndex": 120.75092386242135,
+    "mouthFaceRatio": 41.683607486371756,
+    "interocularRatio": 25.223814720894467,
+    "eyeAspectRatio": 0.25137411788424885,
+    "lipFullnessRatio": 0.3411669051543292,
+    "jawFaceRatio": 86.24251950714512,
+    "foreheadRatio": 34.84272426694827
+  },
+  "WestEthiopid_m": {
+    "facialIndex": 95.57061032868846,
+    "nasalIndex": 121.76089500039078,
+    "mouthFaceRatio": 39.33932190471578,
+    "interocularRatio": 24.951731521169293,
+    "eyeAspectRatio": 0.256856924691426,
+    "lipFullnessRatio": 0.3628674780223095,
+    "jawFaceRatio": 86.2888301097449,
+    "foreheadRatio": 33.888755442101896
+  },
+  "WestEthiopid_f": {
+    "facialIndex": 97.60610480042334,
+    "nasalIndex": 121.71470777354314,
+    "mouthFaceRatio": 41.30438997687869,
+    "interocularRatio": 25.70609556130397,
+    "eyeAspectRatio": 0.28781916047455486,
+    "lipFullnessRatio": 0.36110120607526786,
+    "jawFaceRatio": 85.37778057745857,
+    "foreheadRatio": 35.18228956637282
+  },
+  "Danakil_m": {
+    "facialIndex": 100.2664486734474,
+    "nasalIndex": 117.24565576674475,
+    "mouthFaceRatio": 40.55268999782825,
+    "interocularRatio": 24.747764294209574,
+    "eyeAspectRatio": 0.2723198778511622,
+    "lipFullnessRatio": 0.3544093064062459,
+    "jawFaceRatio": 87.17171027734393,
+    "foreheadRatio": 33.78134602066325
+  },
+  "Danakil_f": {
+    "facialIndex": 93.55776559208239,
+    "nasalIndex": 119.98708042956862,
+    "mouthFaceRatio": 38.24066947876244,
+    "interocularRatio": 25.57627422588832,
+    "eyeAspectRatio": 0.2639302380364595,
+    "lipFullnessRatio": 0.3256011683569072,
+    "jawFaceRatio": 86.76678249979683,
+    "foreheadRatio": 34.91612265943643
+  },
+  "Moorish_m": {
+    "facialIndex": 88.739543263031,
+    "nasalIndex": 131.79748088069377,
+    "mouthFaceRatio": 38.62028510753097,
+    "interocularRatio": 25.875911357937557,
+    "eyeAspectRatio": 0.23154963807929335,
+    "lipFullnessRatio": 0.3176865762390587,
+    "jawFaceRatio": 88.45023255956345,
+    "foreheadRatio": 33.79839027927451
+  },
+  "Moorish_f": {
+    "facialIndex": 92.93550866342089,
+    "nasalIndex": 119.54197085404556,
+    "mouthFaceRatio": 38.460997866304616,
+    "interocularRatio": 25.27937812145506,
+    "eyeAspectRatio": 0.2695297330122928,
+    "lipFullnessRatio": 0.33552897565671774,
+    "jawFaceRatio": 84.01824692888104,
+    "foreheadRatio": 35.380274803227266
+  },
+  "Siwa_m": {
+    "facialIndex": 92.1085834065569,
+    "nasalIndex": 133.83340901576108,
+    "mouthFaceRatio": 42.22950773645922,
+    "interocularRatio": 24.415973644026508,
+    "eyeAspectRatio": 0.22762897183719916,
+    "lipFullnessRatio": 0.2976978656302382,
+    "jawFaceRatio": 89.1037673067389,
+    "foreheadRatio": 32.98837071862114
+  },
+  "Siwa_f": {
+    "facialIndex": 86.5342726319912,
+    "nasalIndex": 129.79723364194956,
+    "mouthFaceRatio": 38.11449478260997,
+    "interocularRatio": 24.386196589735874,
+    "eyeAspectRatio": 0.22766486173826,
+    "lipFullnessRatio": 0.3068212193076797,
+    "jawFaceRatio": 85.99244204155525,
+    "foreheadRatio": 34.844438881502995
+  },
+  "Arabid_m": {
+    "facialIndex": 89.97312451420795,
+    "nasalIndex": 123.30564916789409,
+    "mouthFaceRatio": 38.03945900876782,
+    "interocularRatio": 23.71672034803385,
+    "eyeAspectRatio": 0.2537303152793333,
+    "lipFullnessRatio": 0.3051773747332013,
+    "jawFaceRatio": 88.62414726843268,
+    "foreheadRatio": 33.91385211498099
+  },
+  "Arabid_f": {
+    "facialIndex": 92.82854991296273,
+    "nasalIndex": 116.61095780595632,
+    "mouthFaceRatio": 38.95987139316148,
+    "interocularRatio": 23.315411472086,
+    "eyeAspectRatio": 0.2888726963589547,
+    "lipFullnessRatio": 0.307770441169844,
+    "jawFaceRatio": 88.3696948635763,
+    "foreheadRatio": 35.351265071330985
+  },
+  "Iranid_m": {
+    "facialIndex": 99.22023154273766,
+    "nasalIndex": 105.88893285686582,
+    "mouthFaceRatio": 37.117775824448884,
+    "interocularRatio": 23.06911229913243,
+    "eyeAspectRatio": 0.2923755764451981,
+    "lipFullnessRatio": 0.2961533962957822,
+    "jawFaceRatio": 90.85132186133032,
+    "foreheadRatio": 33.886716066614866
+  },
+  "Iranid_f": {
+    "facialIndex": 94.21877125582941,
+    "nasalIndex": 108.94567570264148,
+    "mouthFaceRatio": 35.96843288735244,
+    "interocularRatio": 23.709371411214477,
+    "eyeAspectRatio": 0.28747625072474037,
+    "lipFullnessRatio": 0.33010283612983,
+    "jawFaceRatio": 87.07891915796976,
+    "foreheadRatio": 35.832361229810026
+  },
+  "Libyid_m": {
+    "facialIndex": 89.49797287813877,
+    "nasalIndex": 124.8291446899787,
+    "mouthFaceRatio": 39.75325422919562,
+    "interocularRatio": 23.64611127379573,
+    "eyeAspectRatio": 0.26708651911864784,
+    "lipFullnessRatio": 0.27832006287653716,
+    "jawFaceRatio": 88.80839754118688,
+    "foreheadRatio": 33.25848792905406
+  },
+  "Libyid_f": {
+    "facialIndex": 92.46568258008733,
+    "nasalIndex": 117.844419329202,
+    "mouthFaceRatio": 39.88663105287537,
+    "interocularRatio": 24.180886171754572,
+    "eyeAspectRatio": 0.27051360355628706,
+    "lipFullnessRatio": 0.30995017956286713,
+    "jawFaceRatio": 86.46990923463123,
+    "foreheadRatio": 35.10879468227463
+  },
+  "Targid_m": {
+    "facialIndex": 93.81993862370058,
+    "nasalIndex": 128.48251068069064,
+    "mouthFaceRatio": 39.53252720114065,
+    "interocularRatio": 25.464183326782575,
+    "eyeAspectRatio": 0.2564205892166609,
+    "lipFullnessRatio": 0.3133458767822313,
+    "jawFaceRatio": 88.32342507718417,
+    "foreheadRatio": 33.14302299849086
+  },
+  "Targid_f": {
+    "facialIndex": 91.79798659548398,
+    "nasalIndex": 123.39510013280986,
+    "mouthFaceRatio": 39.01655088187215,
+    "interocularRatio": 24.312214458270766,
+    "eyeAspectRatio": 0.2672484369803658,
+    "lipFullnessRatio": 0.3216817069629949,
+    "jawFaceRatio": 87.97578075912456,
+    "foreheadRatio": 34.453680183431416
+  },
+  "Egyptid_m": {
+    "facialIndex": 88.09866500389703,
+    "nasalIndex": 125.91647309299255,
+    "mouthFaceRatio": 38.306487234901695,
+    "interocularRatio": 23.72985301864833,
+    "eyeAspectRatio": 0.2530390665064696,
+    "lipFullnessRatio": 0.2791308867526551,
+    "jawFaceRatio": 87.71261075028659,
+    "foreheadRatio": 34.206792030519054
+  },
+  "Egyptid_f": {
+    "facialIndex": 90.34212572842122,
+    "nasalIndex": 117.93981320318882,
+    "mouthFaceRatio": 39.47507929643648,
+    "interocularRatio": 24.204596935726915,
+    "eyeAspectRatio": 0.26338300813220916,
+    "lipFullnessRatio": 0.28961585188721445,
+    "jawFaceRatio": 88.52992495712778,
+    "foreheadRatio": 35.70071424087171
+  },
+  "Transcaspian_m": {
+    "facialIndex": 95.90966395561293,
+    "nasalIndex": 113.57305122862743,
+    "mouthFaceRatio": 35.6960517018717,
+    "interocularRatio": 24.123600391273808,
+    "eyeAspectRatio": 0.25717391859753136,
+    "lipFullnessRatio": 0.3176091491313918,
+    "jawFaceRatio": 89.63958262752213,
+    "foreheadRatio": 34.524660285624435
+  },
+  "Transcaspian_f": {
+    "facialIndex": 86.92871630903021,
+    "nasalIndex": 117.97485233079259,
+    "mouthFaceRatio": 37.333341654577765,
+    "interocularRatio": 23.636322148497392,
+    "eyeAspectRatio": 0.25545989766251403,
+    "lipFullnessRatio": 0.28341003303503887,
+    "jawFaceRatio": 88.56096219209351,
+    "foreheadRatio": 35.747943295700246
+  },
+  "Yemenid_m": {
+    "facialIndex": 91.3018434687666,
+    "nasalIndex": 120.72388937023379,
+    "mouthFaceRatio": 39.35918712387615,
+    "interocularRatio": 23.433871955365777,
+    "eyeAspectRatio": 0.27788397576419,
+    "lipFullnessRatio": 0.280940739273003,
+    "jawFaceRatio": 89.25599118135177,
+    "foreheadRatio": 34.24231886208279
+  },
+  "Yemenid_f": {
+    "facialIndex": 102.18346274282743,
+    "nasalIndex": 105.51084430086732,
+    "mouthFaceRatio": 42.378278862342476,
+    "interocularRatio": 24.781598816454935,
+    "eyeAspectRatio": 0.29218593751212296,
+    "lipFullnessRatio": 0.28949777257569015,
+    "jawFaceRatio": 86.11959917351358,
+    "foreheadRatio": 36.30822355244387
+  },
+  "Assyroid_m": {
+    "facialIndex": 96.09197945182622,
+    "nasalIndex": 114.771180167791,
+    "mouthFaceRatio": 38.89574052964901,
+    "interocularRatio": 23.530544236469154,
+    "eyeAspectRatio": 0.28777569635444245,
+    "lipFullnessRatio": 0.2961728479847208,
+    "jawFaceRatio": 87.9567807880416,
+    "foreheadRatio": 34.721073757584925
+  },
+  "Assyroid_f": {
+    "facialIndex": 95.71226311774934,
+    "nasalIndex": 103.54363632417622,
+    "mouthFaceRatio": 37.54111744028086,
+    "interocularRatio": 23.66570284815028,
+    "eyeAspectRatio": 0.2992014162821027,
+    "lipFullnessRatio": 0.3080607731370382,
+    "jawFaceRatio": 86.61972833701431,
+    "foreheadRatio": 36.41949534990809
+  },
+  "IndoIranid_m": {
+    "facialIndex": 93.69519194920825,
+    "nasalIndex": 114.87869502024309,
+    "mouthFaceRatio": 35.96058741258933,
+    "interocularRatio": 23.906772998214795,
+    "eyeAspectRatio": 0.27091465874767157,
+    "lipFullnessRatio": 0.2929395540705457,
+    "jawFaceRatio": 91.4457888506081,
+    "foreheadRatio": 34.32091640216897
+  },
+  "IndoIranid_f": {
+    "facialIndex": 86.9955511779713,
+    "nasalIndex": 114.15440413275904,
+    "mouthFaceRatio": 38.88345012940392,
+    "interocularRatio": 23.00758008830412,
+    "eyeAspectRatio": 0.26336457378741995,
+    "lipFullnessRatio": 0.29581996339257205,
+    "jawFaceRatio": 88.89928912568921,
+    "foreheadRatio": 36.17530254471154
+  },
+  "GracileIndid_m": {
+    "facialIndex": 85.3613392176006,
+    "nasalIndex": 125.22403001978944,
+    "mouthFaceRatio": 36.55347217362595,
+    "interocularRatio": 23.9332832110296,
+    "eyeAspectRatio": 0.25889878634669533,
+    "lipFullnessRatio": 0.29414740188871713,
+    "jawFaceRatio": 88.59376357843773,
+    "foreheadRatio": 34.27598692770509
+  },
+  "GracileIndid_f": {
+    "facialIndex": 84.61265275285591,
+    "nasalIndex": 122.85269482806378,
+    "mouthFaceRatio": 36.684088051940094,
+    "interocularRatio": 23.5009497390925,
+    "eyeAspectRatio": 0.2557570309780367,
+    "lipFullnessRatio": 0.3228854827224594,
+    "jawFaceRatio": 88.3767736692791,
+    "foreheadRatio": 35.256355133154614
+  },
+  "MountainIndid_m": {
+    "facialIndex": 89.6959085221039,
+    "nasalIndex": 126.06414583998725,
+    "mouthFaceRatio": 38.26444287553229,
+    "interocularRatio": 25.14407686092102,
+    "eyeAspectRatio": 0.24717824984696968,
+    "lipFullnessRatio": 0.30171619832511887,
+    "jawFaceRatio": 89.56005787473171,
+    "foreheadRatio": 34.14043764664096
+  },
+  "MountainIndid_f": {
+    "facialIndex": 82.89556159525544,
+    "nasalIndex": 127.76597034932267,
+    "mouthFaceRatio": 38.49680504457265,
+    "interocularRatio": 24.25801802426127,
+    "eyeAspectRatio": 0.24004069086845067,
+    "lipFullnessRatio": 0.28543836887580176,
+    "jawFaceRatio": 88.15260810250204,
+    "foreheadRatio": 35.45855863641859
+  },
+  "Sinhalesid_m": {
+    "facialIndex": 91.65005882297375,
+    "nasalIndex": 115.76769116030839,
+    "mouthFaceRatio": 37.072312200654416,
+    "interocularRatio": 24.51593970075963,
+    "eyeAspectRatio": 0.2838072897417517,
+    "lipFullnessRatio": 0.34214062632263487,
+    "jawFaceRatio": 89.65905196278719,
+    "foreheadRatio": 34.58224363740425
+  },
+  "Sinhalesid_f": {
+    "facialIndex": 89.1130082192437,
+    "nasalIndex": 119.87617267977177,
+    "mouthFaceRatio": 38.021281843687184,
+    "interocularRatio": 24.41005743484369,
+    "eyeAspectRatio": 0.27257522474959067,
+    "lipFullnessRatio": 0.322571727244551,
+    "jawFaceRatio": 87.7836593572623,
+    "foreheadRatio": 34.97197950698117
+  },
+  "Keralid_m": {
+    "facialIndex": 91.33478999004912,
+    "nasalIndex": 117.8959531715499,
+    "mouthFaceRatio": 37.33037087906113,
+    "interocularRatio": 24.242724248978135,
+    "eyeAspectRatio": 0.26677548812798657,
+    "lipFullnessRatio": 0.29906848400314295,
+    "jawFaceRatio": 89.1825159011779,
+    "foreheadRatio": 34.50010729890673
+  },
+  "Keralid_f": {
+    "facialIndex": 89.30907566267237,
+    "nasalIndex": 117.78276246316473,
+    "mouthFaceRatio": 37.78654437335898,
+    "interocularRatio": 24.503422345937615,
+    "eyeAspectRatio": 0.2811970536157026,
+    "lipFullnessRatio": 0.3288120537480454,
+    "jawFaceRatio": 85.97333324688483,
+    "foreheadRatio": 35.27564705044122
+  },
+  "NorthIndid_m": {
+    "facialIndex": 92.66704399962478,
+    "nasalIndex": 118.85398626389454,
+    "mouthFaceRatio": 36.80756087590758,
+    "interocularRatio": 25.433806490057272,
+    "eyeAspectRatio": 0.2675358509440679,
+    "lipFullnessRatio": 0.31672787093218707,
+    "jawFaceRatio": 87.76620084500534,
+    "foreheadRatio": 34.4188485924011
+  },
+  "NorthIndid_f": {
+    "facialIndex": 88.65000550328504,
+    "nasalIndex": 120.51181258034063,
+    "mouthFaceRatio": 39.2322844086328,
+    "interocularRatio": 24.429817398535967,
+    "eyeAspectRatio": 0.2754087627192979,
+    "lipFullnessRatio": 0.29952157316522887,
+    "jawFaceRatio": 88.1088931792964,
+    "foreheadRatio": 35.74988487600722
+  },
+  "Toda_m": {
+    "facialIndex": 93.30250689740956,
+    "nasalIndex": 130.44137669487236,
+    "mouthFaceRatio": 39.355475618408725,
+    "interocularRatio": 23.242851169295818,
+    "eyeAspectRatio": 0.2930739002293796,
+    "lipFullnessRatio": 0.301256687698526,
+    "jawFaceRatio": 90.80609844234611,
+    "foreheadRatio": 32.007102823741526
+  },
+  "Toda_f": {
+    "facialIndex": 94.3650028795061,
+    "nasalIndex": 124.93954025589562,
+    "mouthFaceRatio": 40.7092579565735,
+    "interocularRatio": 24.80611787095565,
+    "eyeAspectRatio": 0.2567171266505198,
+    "lipFullnessRatio": 0.31292057848705807,
+    "jawFaceRatio": 91.2008912654093,
+    "foreheadRatio": 35.13276772406482
+  },
+  "IndoBrachid_m": {
+    "facialIndex": 85.36673837766669,
+    "nasalIndex": 132.5860392796596,
+    "mouthFaceRatio": 38.51084410620346,
+    "interocularRatio": 24.972385261967347,
+    "eyeAspectRatio": 0.24078993529144696,
+    "lipFullnessRatio": 0.24964475678226325,
+    "jawFaceRatio": 88.98213998316209,
+    "foreheadRatio": 35.1312503842306
+  },
+  "IndoBrachid_f": {
+    "facialIndex": 86.25085041900404,
+    "nasalIndex": 121.34624478752573,
+    "mouthFaceRatio": 40.06862999913833,
+    "interocularRatio": 23.653994182841558,
+    "eyeAspectRatio": 0.24954120897353693,
+    "lipFullnessRatio": 0.29623336245506066,
+    "jawFaceRatio": 88.93396421619298,
+    "foreheadRatio": 35.42345616598256
+  },
+  "CentralBrachid_m": {
+    "facialIndex": 86.94586132402654,
+    "nasalIndex": 125.26240225680392,
+    "mouthFaceRatio": 37.41871437039572,
+    "interocularRatio": 25.019293929584197,
+    "eyeAspectRatio": 0.2625257134224021,
+    "lipFullnessRatio": 0.29304114577779805,
+    "jawFaceRatio": 89.91619352213172,
+    "foreheadRatio": 34.873751304950744
+  },
+  "CentralBrachid_f": {
+    "facialIndex": 86.04464668034424,
+    "nasalIndex": 113.5931377724353,
+    "mouthFaceRatio": 36.67035638180353,
+    "interocularRatio": 23.418190956291852,
+    "eyeAspectRatio": 0.2682726679558832,
+    "lipFullnessRatio": 0.28207418732445033,
+    "jawFaceRatio": 88.6352334005725,
+    "foreheadRatio": 35.8435294575394
+  },
+  "EastBrachid_m": {
+    "facialIndex": 85.4163210897101,
+    "nasalIndex": 126.10148005905673,
+    "mouthFaceRatio": 35.92000788945675,
+    "interocularRatio": 23.617411240026996,
+    "eyeAspectRatio": 0.25192048088734537,
+    "lipFullnessRatio": 0.30267150057791764,
+    "jawFaceRatio": 91.26317605739426,
+    "foreheadRatio": 34.230761845912674
+  },
+  "EastBrachid_f": {
+    "facialIndex": 87.99500543237933,
+    "nasalIndex": 117.64343804940019,
+    "mouthFaceRatio": 37.77252322529513,
+    "interocularRatio": 24.42895105795717,
+    "eyeAspectRatio": 0.26965594649106833,
+    "lipFullnessRatio": 0.3241900191282108,
+    "jawFaceRatio": 87.27725199062724,
+    "foreheadRatio": 35.760481889299136
+  },
+  "IndoNordic_m": {
+    "facialIndex": 91.58577708945572,
+    "nasalIndex": 123.43775032617185,
+    "mouthFaceRatio": 37.4782539464529,
+    "interocularRatio": 23.956844905812837,
+    "eyeAspectRatio": 0.2486393897337782,
+    "lipFullnessRatio": 0.31687041826144563,
+    "jawFaceRatio": 92.04201575020812,
+    "foreheadRatio": 33.24078956428101
+  },
+  "IndoNordic_f": {
+    "facialIndex": 95.43546323735985,
+    "nasalIndex": 110.54207967888618,
+    "mouthFaceRatio": 39.48572706860746,
+    "interocularRatio": 24.127650594764443,
+    "eyeAspectRatio": 0.27694265438053606,
+    "lipFullnessRatio": 0.2968815313776734,
+    "jawFaceRatio": 87.6983177461255,
+    "foreheadRatio": 34.99568084376568
+  },
+  "Tibetid_m": {
+    "facialIndex": 92.3159274608089,
+    "nasalIndex": 113.57329203655911,
+    "mouthFaceRatio": 38.4893154655272,
+    "interocularRatio": 24.723271375826318,
+    "eyeAspectRatio": 0.2487361002655974,
+    "lipFullnessRatio": 0.30085742356037415,
+    "jawFaceRatio": 87.60236560320907,
+    "foreheadRatio": 34.79330877118293
+  },
+  "Tibetid_f": {
+    "facialIndex": 96.56742117626462,
+    "nasalIndex": 112.3350951797738,
+    "mouthFaceRatio": 39.39672438830538,
+    "interocularRatio": 24.82889522140668,
+    "eyeAspectRatio": 0.26857222882935833,
+    "lipFullnessRatio": 0.30194221343567973,
+    "jawFaceRatio": 87.35533413014687,
+    "foreheadRatio": 36.138133778506706
+  },
+  "Malabarese_m": {
+    "facialIndex": 92.74056376238573,
+    "nasalIndex": 129.83796561098382,
+    "mouthFaceRatio": 41.0023402390045,
+    "interocularRatio": 25.194016991231578,
+    "eyeAspectRatio": 0.2518112682399623,
+    "lipFullnessRatio": 0.3421169900290421,
+    "jawFaceRatio": 89.31846724912708,
+    "foreheadRatio": 33.992451684998116
+  },
+  "Malabarese_f": {
+    "facialIndex": 91.91835464158665,
+    "nasalIndex": 117.61135268678117,
+    "mouthFaceRatio": 38.15344659682286,
+    "interocularRatio": 26.22574690226881,
+    "eyeAspectRatio": 0.2801952935521667,
+    "lipFullnessRatio": 0.32848046453809565,
+    "jawFaceRatio": 86.78614097214933,
+    "foreheadRatio": 35.70314910986515
+  },
+  "Karnatid_m": {
+    "facialIndex": 84.1666917500103,
+    "nasalIndex": 136.58757992976518,
+    "mouthFaceRatio": 38.72472876711003,
+    "interocularRatio": 24.363018848979483,
+    "eyeAspectRatio": 0.24720388141996485,
+    "lipFullnessRatio": 0.30582938048555425,
+    "jawFaceRatio": 89.9130056148971,
+    "foreheadRatio": 34.010072330311516
+  },
+  "Karnatid_f": {
+    "facialIndex": 81.8254605568658,
+    "nasalIndex": 136.65710861621997,
+    "mouthFaceRatio": 38.79046050030489,
+    "interocularRatio": 23.95661496001629,
+    "eyeAspectRatio": 0.25437479038285155,
+    "lipFullnessRatio": 0.29352709841150904,
+    "jawFaceRatio": 88.56198899702689,
+    "foreheadRatio": 34.89932084107182
+  },
+  "Kolid_m": {
+    "facialIndex": 88.06930290175144,
+    "nasalIndex": 127.78241501324182,
+    "mouthFaceRatio": 39.845707461509825,
+    "interocularRatio": 24.557825002509794,
+    "eyeAspectRatio": 0.26365598934443446,
+    "lipFullnessRatio": 0.3050449967594959,
+    "jawFaceRatio": 89.027549379637,
+    "foreheadRatio": 33.80109827513149
+  },
+  "Kolid_f": {
+    "facialIndex": 85.01812319982392,
+    "nasalIndex": 138.55850267986742,
+    "mouthFaceRatio": 40.70867800116736,
+    "interocularRatio": 25.437403912538446,
+    "eyeAspectRatio": 0.24988962855755834,
+    "lipFullnessRatio": 0.3248651712833895,
+    "jawFaceRatio": 86.03206417069651,
+    "foreheadRatio": 34.63538206999133
+  },
+  "PaleoSardinian_m": {
+    "facialIndex": 90.63033388057688,
+    "nasalIndex": 131.6425833174446,
+    "mouthFaceRatio": 37.85138165327133,
+    "interocularRatio": 25.754052540473637,
+    "eyeAspectRatio": 0.24250136914989429,
+    "lipFullnessRatio": 0.30685924054496183,
+    "jawFaceRatio": 89.3089320593451,
+    "foreheadRatio": 33.007232193645336
+  },
+  "PaleoSardinian_f": {
+    "facialIndex": 88.85816839509954,
+    "nasalIndex": 130.86013415034193,
+    "mouthFaceRatio": 40.62273565693202,
+    "interocularRatio": 24.49658459716164,
+    "eyeAspectRatio": 0.2521795777440717,
+    "lipFullnessRatio": 0.2766236969529513,
+    "jawFaceRatio": 89.41901856999634,
+    "foreheadRatio": 35.40294776743648
+  },
+  "Canarid_m": {
+    "facialIndex": 85.70673103278571,
+    "nasalIndex": 130.30722746296274,
+    "mouthFaceRatio": 36.828501887736124,
+    "interocularRatio": 23.08233532074957,
+    "eyeAspectRatio": 0.22938258824114238,
+    "lipFullnessRatio": 0.2733048786462075,
+    "jawFaceRatio": 89.4852181791866,
+    "foreheadRatio": 33.60852140448949
+  },
+  "Canarid_f": {
+    "facialIndex": 91.21857030735444,
+    "nasalIndex": 112.40648169265927,
+    "mouthFaceRatio": 38.23164318915785,
+    "interocularRatio": 24.182831363590445,
+    "eyeAspectRatio": 0.2658289804021372,
+    "lipFullnessRatio": 0.29582920038110383,
+    "jawFaceRatio": 86.41813029490287,
+    "foreheadRatio": 35.83656797065012
+  },
+  "Berberid_m": {
+    "facialIndex": 82.64551830269015,
+    "nasalIndex": 141.40694141670554,
+    "mouthFaceRatio": 37.965557748516744,
+    "interocularRatio": 24.860093420165246,
+    "eyeAspectRatio": 0.20440334908826163,
+    "lipFullnessRatio": 0.2835251396173478,
+    "jawFaceRatio": 89.73556271382968,
+    "foreheadRatio": 33.442158824827075
+  },
+  "Berberid_f": {
+    "facialIndex": 100.59592728592096,
+    "nasalIndex": 119.01918890780594,
+    "mouthFaceRatio": 40.27184379654798,
+    "interocularRatio": 25.533537295307806,
+    "eyeAspectRatio": 0.27245928926400165,
+    "lipFullnessRatio": 0.32170819816443147,
+    "jawFaceRatio": 87.80890376492741,
+    "foreheadRatio": 34.88810435844028
+  },
+  "Eurafricanid_m": {
+    "facialIndex": 90.0557910927335,
+    "nasalIndex": 127.00859514112798,
+    "mouthFaceRatio": 37.857304692506624,
+    "interocularRatio": 23.410074641111265,
+    "eyeAspectRatio": 0.2581649268249772,
+    "lipFullnessRatio": 0.30274811616538433,
+    "jawFaceRatio": 90.91044855815467,
+    "foreheadRatio": 32.93855502106109
+  },
+  "Eurafricanid_f": {
+    "facialIndex": 90.83343005040845,
+    "nasalIndex": 121.25477909838476,
+    "mouthFaceRatio": 39.675023290759775,
+    "interocularRatio": 24.497629036463046,
+    "eyeAspectRatio": 0.26116247561830297,
+    "lipFullnessRatio": 0.30025101131504095,
+    "jawFaceRatio": 89.45082631217808,
+    "foreheadRatio": 35.09228581190011
+  },
+  "ProtoIranid_m": {
+    "facialIndex": 88.3856902689726,
+    "nasalIndex": 130.1628546470304,
+    "mouthFaceRatio": 39.723787728131235,
+    "interocularRatio": 23.30461166859939,
+    "eyeAspectRatio": 0.24758363408888864,
+    "lipFullnessRatio": 0.26619334613437556,
+    "jawFaceRatio": 93.44307768964069,
+    "foreheadRatio": 33.66699437745881
+  },
+  "ProtoIranid_f": {
+    "facialIndex": 94.39581195188063,
+    "nasalIndex": 112.64317041626859,
+    "mouthFaceRatio": 38.22412039604778,
+    "interocularRatio": 24.21987851000403,
+    "eyeAspectRatio": 0.27255785188962284,
+    "lipFullnessRatio": 0.31133748603288897,
+    "jawFaceRatio": 89.54372706604883,
+    "foreheadRatio": 35.9594961415753
+  },
+  "TransMediterranid_m": {
+    "facialIndex": 89.92192995622678,
+    "nasalIndex": 118.04179404537693,
+    "mouthFaceRatio": 37.484222677255865,
+    "interocularRatio": 23.50625919272414,
+    "eyeAspectRatio": 0.2617131099317244,
+    "lipFullnessRatio": 0.29553014440958836,
+    "jawFaceRatio": 88.31856368380176,
+    "foreheadRatio": 34.26807460329675
+  },
+  "TransMediterranid_f": {
+    "facialIndex": 93.78095415122768,
+    "nasalIndex": 112.14929391636926,
+    "mouthFaceRatio": 36.928112173115736,
+    "interocularRatio": 24.386378309370407,
+    "eyeAspectRatio": 0.26452917317527336,
+    "lipFullnessRatio": 0.33591938642259717,
+    "jawFaceRatio": 86.86840287641576,
+    "foreheadRatio": 35.00213423285983
+  },
+  "GracileMediterranid_m": {
+    "facialIndex": 89.36577775835258,
+    "nasalIndex": 125.32768411742028,
+    "mouthFaceRatio": 39.47754272584451,
+    "interocularRatio": 24.19468936122086,
+    "eyeAspectRatio": 0.2577480686876188,
+    "lipFullnessRatio": 0.2742482594339168,
+    "jawFaceRatio": 88.7879836992959,
+    "foreheadRatio": 33.87355110819032
+  },
+  "GracileMediterranid_f": {
+    "facialIndex": 92.67242996193315,
+    "nasalIndex": 112.94164366047856,
+    "mouthFaceRatio": 37.652038553884914,
+    "interocularRatio": 23.895011183440428,
+    "eyeAspectRatio": 0.2770454272312082,
+    "lipFullnessRatio": 0.3135101540131377,
+    "jawFaceRatio": 87.04756728387731,
+    "foreheadRatio": 35.184838699138254
+  },
+  "Pontid_m": {
+    "facialIndex": 87.50865780233177,
+    "nasalIndex": 118.80157932158511,
+    "mouthFaceRatio": 36.86611190671842,
+    "interocularRatio": 22.623446848112522,
+    "eyeAspectRatio": 0.2494839991782835,
+    "lipFullnessRatio": 0.2889249845170464,
+    "jawFaceRatio": 89.75370740991235,
+    "foreheadRatio": 33.97904453974434
+  },
+  "Pontid_f": {
+    "facialIndex": 88.46539958593428,
+    "nasalIndex": 116.3188124482767,
+    "mouthFaceRatio": 38.38516759381271,
+    "interocularRatio": 23.176299809894125,
+    "eyeAspectRatio": 0.26863788360563906,
+    "lipFullnessRatio": 0.30580795752252865,
+    "jawFaceRatio": 87.5089676971642,
+    "foreheadRatio": 35.33192981268228
+  },
+  "NorthPontid_m": {
+    "facialIndex": 90.32764811268179,
+    "nasalIndex": 115.38878158921541,
+    "mouthFaceRatio": 36.356249869950844,
+    "interocularRatio": 24.177891445970772,
+    "eyeAspectRatio": 0.27630124736179934,
+    "lipFullnessRatio": 0.28450453275572357,
+    "jawFaceRatio": 89.21249944326199,
+    "foreheadRatio": 34.2689257339155
+  },
+  "NorthPontid_f": {
+    "facialIndex": 91.3282496232176,
+    "nasalIndex": 114.96106291776024,
+    "mouthFaceRatio": 37.29175788164381,
+    "interocularRatio": 24.152816920312272,
+    "eyeAspectRatio": 0.2893674892946857,
+    "lipFullnessRatio": 0.3098549285505303,
+    "jawFaceRatio": 89.75996432996604,
+    "foreheadRatio": 35.53698635346193
+  },
+  "PaleoAtlantid_m": {
+    "facialIndex": 87.16498797588234,
+    "nasalIndex": 125.12793243573883,
+    "mouthFaceRatio": 38.42535381193705,
+    "interocularRatio": 22.890328608392267,
+    "eyeAspectRatio": 0.24471462665590812,
+    "lipFullnessRatio": 0.25946042609125036,
+    "jawFaceRatio": 91.01542531316244,
+    "foreheadRatio": 33.88359965691211
+  },
+  "PaleoAtlantid_f": {
+    "facialIndex": 88.18787442247542,
+    "nasalIndex": 125.7724138789111,
+    "mouthFaceRatio": 39.22499792046986,
+    "interocularRatio": 23.892275624233502,
+    "eyeAspectRatio": 0.27466798363564765,
+    "lipFullnessRatio": 0.24613648306220545,
+    "jawFaceRatio": 90.90560619913298,
+    "foreheadRatio": 35.4958074694583
+  },
+  "NorthAtlantid_m": {
+    "facialIndex": 90.35906847653747,
+    "nasalIndex": 116.3297602998248,
+    "mouthFaceRatio": 36.71359561199427,
+    "interocularRatio": 23.916463593165954,
+    "eyeAspectRatio": 0.25209467808628083,
+    "lipFullnessRatio": 0.2850701112287828,
+    "jawFaceRatio": 88.83791259093907,
+    "foreheadRatio": 33.99271212214154
+  },
+  "NorthAtlantid_f": {
+    "facialIndex": 92.61935590810008,
+    "nasalIndex": 122.63295360787593,
+    "mouthFaceRatio": 38.80608174376274,
+    "interocularRatio": 24.244122046650883,
+    "eyeAspectRatio": 0.2844469127814729,
+    "lipFullnessRatio": 0.30206810268700174,
+    "jawFaceRatio": 88.57802070272213,
+    "foreheadRatio": 35.161265797223066
+  },
+  "ProtoNordid_m": {
+    "facialIndex": 89.68782371213833,
+    "nasalIndex": 123.71995903430873,
+    "mouthFaceRatio": 37.59859829929787,
+    "interocularRatio": 22.78453250108932,
+    "eyeAspectRatio": 0.2677938534812646,
+    "lipFullnessRatio": 0.28222597246620956,
+    "jawFaceRatio": 91.53385439207683,
+    "foreheadRatio": 33.83223461974116
+  },
+  "ProtoNordid_f": {
+    "facialIndex": 93.75041232407628,
+    "nasalIndex": 121.09553530394174,
+    "mouthFaceRatio": 37.78656298958217,
+    "interocularRatio": 24.372141196386988,
+    "eyeAspectRatio": 0.29910252809469967,
+    "lipFullnessRatio": 0.31649891225661847,
+    "jawFaceRatio": 90.20866010248211,
+    "foreheadRatio": 35.8521979785429
+  },
+  "AistoNordid_m": {
+    "facialIndex": 90.32985348342845,
+    "nasalIndex": 118.54705305383963,
+    "mouthFaceRatio": 37.14358553241073,
+    "interocularRatio": 23.568985148935173,
+    "eyeAspectRatio": 0.27138605624727724,
+    "lipFullnessRatio": 0.2674886802434681,
+    "jawFaceRatio": 89.40092624968858,
+    "foreheadRatio": 34.19973143954174
+  },
+  "AistoNordid_f": {
+    "facialIndex": 95.44462245673839,
+    "nasalIndex": 110.1433798071179,
+    "mouthFaceRatio": 37.469211828229895,
+    "interocularRatio": 24.700881701176392,
+    "eyeAspectRatio": 0.2976281281269996,
+    "lipFullnessRatio": 0.32831640328268646,
+    "jawFaceRatio": 87.9557310897195,
+    "foreheadRatio": 35.884153289180595
+  },
+  "Hallstatt_m": {
+    "facialIndex": 80.83490592733004,
+    "nasalIndex": 128.05103025216772,
+    "mouthFaceRatio": 38.135323437878675,
+    "interocularRatio": 23.177295083655117,
+    "eyeAspectRatio": 0.24700023394757892,
+    "lipFullnessRatio": 0.27181433325987486,
+    "jawFaceRatio": 90.56210149342452,
+    "foreheadRatio": 34.07537005378959
+  },
+  "Hallstatt_f": {
+    "facialIndex": 89.6805286247938,
+    "nasalIndex": 123.33913719273559,
+    "mouthFaceRatio": 37.89024588885594,
+    "interocularRatio": 23.63078484642265,
+    "eyeAspectRatio": 0.28192618349067916,
+    "lipFullnessRatio": 0.2878531794655418,
+    "jawFaceRatio": 89.40651713506783,
+    "foreheadRatio": 35.4347766512564
+  },
+  "AngloSaxon_m": {
+    "facialIndex": 88.85438964619364,
+    "nasalIndex": 120.40354760654026,
+    "mouthFaceRatio": 36.629772453847025,
+    "interocularRatio": 23.015836306688133,
+    "eyeAspectRatio": 0.24624302930786468,
+    "lipFullnessRatio": 0.28095344457012417,
+    "jawFaceRatio": 90.90190659104304,
+    "foreheadRatio": 33.839116192470264
+  },
+  "AngloSaxon_f": {
+    "facialIndex": 96.25940518794302,
+    "nasalIndex": 109.0168104279194,
+    "mouthFaceRatio": 37.46290297450531,
+    "interocularRatio": 24.02751387905282,
+    "eyeAspectRatio": 0.26652287109447187,
+    "lipFullnessRatio": 0.31209979982399016,
+    "jawFaceRatio": 87.02450850776891,
+    "foreheadRatio": 35.159045117603824
+  },
+  "Tronder_m": {
+    "facialIndex": 88.87607243351252,
+    "nasalIndex": 122.80745095756578,
+    "mouthFaceRatio": 38.191526270856805,
+    "interocularRatio": 23.542258843712418,
+    "eyeAspectRatio": 0.25559561217227134,
+    "lipFullnessRatio": 0.2711630304360654,
+    "jawFaceRatio": 90.47756623142985,
+    "foreheadRatio": 33.63050495611218
+  },
+  "Tronder_f": {
+    "facialIndex": 96.09828726076455,
+    "nasalIndex": 120.12210007613184,
+    "mouthFaceRatio": 40.131850553139984,
+    "interocularRatio": 23.546381249736744,
+    "eyeAspectRatio": 0.28696167565368824,
+    "lipFullnessRatio": 0.28926952983984594,
+    "jawFaceRatio": 89.71026062656489,
+    "foreheadRatio": 35.20240004513458
+  },
+  "Dalofaelid_m": {
+    "facialIndex": 81.33575581362076,
+    "nasalIndex": 130.70471540110015,
+    "mouthFaceRatio": 37.55789887038619,
+    "interocularRatio": 23.069951922880776,
+    "eyeAspectRatio": 0.21551770387285052,
+    "lipFullnessRatio": 0.23619257913129307,
+    "jawFaceRatio": 92.8059891065888,
+    "foreheadRatio": 33.96164977735502
+  },
+  "Dalofaelid_f": {
+    "facialIndex": 90.25304133353829,
+    "nasalIndex": 115.92157217841495,
+    "mouthFaceRatio": 38.28404662367665,
+    "interocularRatio": 24.659081584775375,
+    "eyeAspectRatio": 0.2659453594405023,
+    "lipFullnessRatio": 0.274157756709165,
+    "jawFaceRatio": 90.08556784675446,
+    "foreheadRatio": 36.21660861402311
+  },
+  "FennoNordid_m": {
+    "facialIndex": 89.67918900453493,
+    "nasalIndex": 123.63554855869813,
+    "mouthFaceRatio": 36.86681637887441,
+    "interocularRatio": 24.225894608643,
+    "eyeAspectRatio": 0.24147590264475918,
+    "lipFullnessRatio": 0.29812081332593,
+    "jawFaceRatio": 90.42277295591099,
+    "foreheadRatio": 33.760492343687666
+  },
+  "FennoNordid_f": {
+    "facialIndex": 88.2177829589572,
+    "nasalIndex": 118.38189889870574,
+    "mouthFaceRatio": 37.943384087433344,
+    "interocularRatio": 25.652377194271526,
+    "eyeAspectRatio": 0.26890241794233577,
+    "lipFullnessRatio": 0.30960379678682715,
+    "jawFaceRatio": 88.60942004894912,
+    "foreheadRatio": 35.927668583416796
+  },
+  "Borreby_m": {
+    "facialIndex": 82.02988530496212,
+    "nasalIndex": 133.87951841215678,
+    "mouthFaceRatio": 39.171107647116806,
+    "interocularRatio": 24.4227444590149,
+    "eyeAspectRatio": 0.21426991662805986,
+    "lipFullnessRatio": 0.2409194618653099,
+    "jawFaceRatio": 89.86519420108972,
+    "foreheadRatio": 33.91581979739919
+  },
+  "Borreby_f": {
+    "facialIndex": 90.70760868876673,
+    "nasalIndex": 128.1075984399179,
+    "mouthFaceRatio": 40.014811522195956,
+    "interocularRatio": 25.643898229279355,
+    "eyeAspectRatio": 0.2599585886032819,
+    "lipFullnessRatio": 0.2737031569113053,
+    "jawFaceRatio": 88.4070178250568,
+    "foreheadRatio": 35.88892113079005
+  },
+  "Tavastid_m": {
+    "facialIndex": 90.1588361834897,
+    "nasalIndex": 119.02868701212338,
+    "mouthFaceRatio": 36.83334089238523,
+    "interocularRatio": 23.747210774177223,
+    "eyeAspectRatio": 0.25864495534701526,
+    "lipFullnessRatio": 0.2865409159417821,
+    "jawFaceRatio": 89.2558571050695,
+    "foreheadRatio": 34.03584405721259
+  },
+  "Tavastid_f": {
+    "facialIndex": 89.70218393905934,
+    "nasalIndex": 111.20787961159127,
+    "mouthFaceRatio": 35.60011040108554,
+    "interocularRatio": 24.16772029564867,
+    "eyeAspectRatio": 0.27570707537303474,
+    "lipFullnessRatio": 0.29659216833207175,
+    "jawFaceRatio": 88.92552621132772,
+    "foreheadRatio": 35.5149350491142
+  },
+  "Savolaxid_m": {
+    "facialIndex": 88.21056835702629,
+    "nasalIndex": 117.95487820119736,
+    "mouthFaceRatio": 34.91414992557708,
+    "interocularRatio": 24.331381245259063,
+    "eyeAspectRatio": 0.24689602911747893,
+    "lipFullnessRatio": 0.32925299969160216,
+    "jawFaceRatio": 90.19503549672194,
+    "foreheadRatio": 34.04404368255131
+  },
+  "Savolaxid_f": {
+    "facialIndex": 90.42114511534646,
+    "nasalIndex": 115.56737491758795,
+    "mouthFaceRatio": 39.81359097562216,
+    "interocularRatio": 24.562116736105494,
+    "eyeAspectRatio": 0.27019826124681284,
+    "lipFullnessRatio": 0.282327446152942,
+    "jawFaceRatio": 89.98131985020207,
+    "foreheadRatio": 35.74063748381966
+  },
+  "NeoDanubian_m": {
+    "facialIndex": 85.26332633809851,
+    "nasalIndex": 120.76210216933076,
+    "mouthFaceRatio": 34.870783327619634,
+    "interocularRatio": 22.98944776781593,
+    "eyeAspectRatio": 0.25673196208966326,
+    "lipFullnessRatio": 0.2943860422655441,
+    "jawFaceRatio": 90.00224595777404,
+    "foreheadRatio": 33.806741160965196
+  },
+  "NeoDanubian_f": {
+    "facialIndex": 94.31053236960284,
+    "nasalIndex": 103.4320089027692,
+    "mouthFaceRatio": 35.71802997232923,
+    "interocularRatio": 23.857876395168304,
+    "eyeAspectRatio": 0.29199221213890514,
+    "lipFullnessRatio": 0.32860954082514965,
+    "jawFaceRatio": 88.83679075578502,
+    "foreheadRatio": 35.92299873179993
+  },
+  "PreSlavic_m": {
+    "facialIndex": 87.51169977209939,
+    "nasalIndex": 123.80359431427705,
+    "mouthFaceRatio": 38.35091223662743,
+    "interocularRatio": 22.85739182918311,
+    "eyeAspectRatio": 0.23914642071342992,
+    "lipFullnessRatio": 0.26564120805407937,
+    "jawFaceRatio": 89.91231389314378,
+    "foreheadRatio": 33.57924653696343
+  },
+  "PreSlavic_f": {
+    "facialIndex": 91.78909050012471,
+    "nasalIndex": 114.74975522558361,
+    "mouthFaceRatio": 37.3120330330928,
+    "interocularRatio": 23.728188290593824,
+    "eyeAspectRatio": 0.27029095981187706,
+    "lipFullnessRatio": 0.3096290099907021,
+    "jawFaceRatio": 88.7768901361828,
+    "foreheadRatio": 35.02360597352947
+  },
+  "Volgid_m": {
+    "facialIndex": 87.54343767690735,
+    "nasalIndex": 120.92066797236949,
+    "mouthFaceRatio": 37.22900115199177,
+    "interocularRatio": 25.96040118767227,
+    "eyeAspectRatio": 0.23325120750329106,
+    "lipFullnessRatio": 0.2950566118836965,
+    "jawFaceRatio": 89.35058522925041,
+    "foreheadRatio": 34.59859568887892
+  },
+  "Volgid_f": {
+    "facialIndex": 89.99679742899444,
+    "nasalIndex": 115.27269722296074,
+    "mouthFaceRatio": 35.747249186448464,
+    "interocularRatio": 26.131629987333792,
+    "eyeAspectRatio": 0.2790431982823342,
+    "lipFullnessRatio": 0.32481507745798377,
+    "jawFaceRatio": 88.57655094366767,
+    "foreheadRatio": 36.17215741790772
+  },
+  "Ladogan_m": {
+    "facialIndex": 84.87745446359854,
+    "nasalIndex": 124.30677986986298,
+    "mouthFaceRatio": 36.22599882703974,
+    "interocularRatio": 24.69632544741664,
+    "eyeAspectRatio": 0.2542256022231547,
+    "lipFullnessRatio": 0.27932367030667477,
+    "jawFaceRatio": 90.89498896486549,
+    "foreheadRatio": 33.65609572296104
+  },
+  "Ladogan_f": {
+    "facialIndex": 90.37199919098681,
+    "nasalIndex": 116.2489134712419,
+    "mouthFaceRatio": 37.257143954054186,
+    "interocularRatio": 25.321166697524216,
+    "eyeAspectRatio": 0.2871163498508276,
+    "lipFullnessRatio": 0.30302158842857657,
+    "jawFaceRatio": 89.76302835056653,
+    "foreheadRatio": 35.37605235172999
+  },
+  "ScandoLappid_m": {
+    "facialIndex": 86.84260365939458,
+    "nasalIndex": 125.25213386241715,
+    "mouthFaceRatio": 35.58781449508173,
+    "interocularRatio": 24.663969770705354,
+    "eyeAspectRatio": 0.22883314573297076,
+    "lipFullnessRatio": 0.2906991064957547,
+    "jawFaceRatio": 88.58916722356052,
+    "foreheadRatio": 34.825352601107014
+  },
+  "ScandoLappid_f": {
+    "facialIndex": 91.50580377114787,
+    "nasalIndex": 105.36184002102064,
+    "mouthFaceRatio": 38.47512337339117,
+    "interocularRatio": 23.250048856733656,
+    "eyeAspectRatio": 0.27831946233803123,
+    "lipFullnessRatio": 0.25929660949608435,
+    "jawFaceRatio": 90.00785803337801,
+    "foreheadRatio": 35.81254672446406
+  },
+  "NorthLappid_m": {
+    "facialIndex": 86.70573930821982,
+    "nasalIndex": 117.57087803957754,
+    "mouthFaceRatio": 36.39083733773046,
+    "interocularRatio": 23.74572588657285,
+    "eyeAspectRatio": 0.23889376877282334,
+    "lipFullnessRatio": 0.2772709190139224,
+    "jawFaceRatio": 91.56081426392714,
+    "foreheadRatio": 34.488281991984536
+  },
+  "NorthLappid_f": {
+    "facialIndex": 94.1141150641186,
+    "nasalIndex": 110.21401040829457,
+    "mouthFaceRatio": 38.62193490999647,
+    "interocularRatio": 24.619287927610955,
+    "eyeAspectRatio": 0.26711538347622854,
+    "lipFullnessRatio": 0.28401375403925255,
+    "jawFaceRatio": 88.68073433883107,
+    "foreheadRatio": 36.32524706544967
+  },
+  "WestAlpinid_m": {
+    "facialIndex": 83.46293298658131,
+    "nasalIndex": 125.78022340900579,
+    "mouthFaceRatio": 36.39354220298067,
+    "interocularRatio": 24.00404463829444,
+    "eyeAspectRatio": 0.24026711770374468,
+    "lipFullnessRatio": 0.2669761543963573,
+    "jawFaceRatio": 90.31701015683502,
+    "foreheadRatio": 34.86129009208342
+  },
+  "WestAlpinid_f": {
+    "facialIndex": 93.67285737200017,
+    "nasalIndex": 107.2815929186849,
+    "mouthFaceRatio": 38.04945638260558,
+    "interocularRatio": 23.824494304680698,
+    "eyeAspectRatio": 0.29235941067917903,
+    "lipFullnessRatio": 0.2988349747358131,
+    "jawFaceRatio": 89.29944863675408,
+    "foreheadRatio": 35.19464519241558
+  },
+  "Strandid_m": {
+    "facialIndex": 86.46973788776903,
+    "nasalIndex": 130.07635694627845,
+    "mouthFaceRatio": 35.76122966197024,
+    "interocularRatio": 25.41976187444788,
+    "eyeAspectRatio": 0.24594561088871889,
+    "lipFullnessRatio": 0.27348709610035904,
+    "jawFaceRatio": 87.9348187147171,
+    "foreheadRatio": 34.619568223649026
+  },
+  "Strandid_f": {
+    "facialIndex": 87.23605553113303,
+    "nasalIndex": 127.08657019119667,
+    "mouthFaceRatio": 38.78688182610536,
+    "interocularRatio": 24.44549366749459,
+    "eyeAspectRatio": 0.2624187361918179,
+    "lipFullnessRatio": 0.28710546895759326,
+    "jawFaceRatio": 87.32209211054082,
+    "foreheadRatio": 35.706183341207165
+  },
+  "EastAlpinid_m": {
+    "facialIndex": 85.23671052095965,
+    "nasalIndex": 121.18990008228143,
+    "mouthFaceRatio": 35.04749897416918,
+    "interocularRatio": 22.694474063285135,
+    "eyeAspectRatio": 0.24702045815096746,
+    "lipFullnessRatio": 0.28477188119534474,
+    "jawFaceRatio": 91.57353076803325,
+    "foreheadRatio": 34.62092999179386
+  },
+  "EastAlpinid_f": {
+    "facialIndex": 90.8141726029687,
+    "nasalIndex": 107.42329121044693,
+    "mouthFaceRatio": 36.16299084330677,
+    "interocularRatio": 23.544880890204016,
+    "eyeAspectRatio": 0.279541118125416,
+    "lipFullnessRatio": 0.3071641963606654,
+    "jawFaceRatio": 88.66884363861969,
+    "foreheadRatio": 35.880688808980004
+  },
+  "Gorid_m": {
+    "facialIndex": 86.55034266353144,
+    "nasalIndex": 113.46732081456136,
+    "mouthFaceRatio": 33.9066286397763,
+    "interocularRatio": 23.06585177927754,
+    "eyeAspectRatio": 0.257781858683514,
+    "lipFullnessRatio": 0.2997884176472275,
+    "jawFaceRatio": 90.61926692837052,
+    "foreheadRatio": 34.519266916061454
+  },
+  "Gorid_f": {
+    "facialIndex": 94.80281166950513,
+    "nasalIndex": 105.43791164196014,
+    "mouthFaceRatio": 36.67154730692464,
+    "interocularRatio": 24.508011798898835,
+    "eyeAspectRatio": 0.29050465118617486,
+    "lipFullnessRatio": 0.3000281438143325,
+    "jawFaceRatio": 89.29056619353601,
+    "foreheadRatio": 35.86161519806696
+  },
+  "AfricanAlpinoid_m": {
+    "facialIndex": 87.68969073983122,
+    "nasalIndex": 114.65239094805202,
+    "mouthFaceRatio": 36.129907421672534,
+    "interocularRatio": 23.499108672921217,
+    "eyeAspectRatio": 0.24050042032804447,
+    "lipFullnessRatio": 0.29769655824190533,
+    "jawFaceRatio": 90.73803144072582,
+    "foreheadRatio": 34.85344049414184
+  },
+  "AfricanAlpinoid_f": {
+    "facialIndex": 90.29660658593693,
+    "nasalIndex": 115.66571289507999,
+    "mouthFaceRatio": 39.1673982572884,
+    "interocularRatio": 23.24530846387788,
+    "eyeAspectRatio": 0.28058436869219305,
+    "lipFullnessRatio": 0.296351185866997,
+    "jawFaceRatio": 88.45735364811395,
+    "foreheadRatio": 36.302420884370534
+  },
+  "Baskid_m": {
+    "facialIndex": 91.59077854712223,
+    "nasalIndex": 119.43170221450731,
+    "mouthFaceRatio": 38.323247638431866,
+    "interocularRatio": 23.85677611173136,
+    "eyeAspectRatio": 0.257292237487804,
+    "lipFullnessRatio": 0.25773144489216654,
+    "jawFaceRatio": 88.61532132354833,
+    "foreheadRatio": 34.412970774319604
+  },
+  "Baskid_f": {
+    "facialIndex": 94.02454314433768,
+    "nasalIndex": 109.09951842054059,
+    "mouthFaceRatio": 39.55285616568807,
+    "interocularRatio": 24.147865664410098,
+    "eyeAspectRatio": 0.28089364548763457,
+    "lipFullnessRatio": 0.2560594915939133,
+    "jawFaceRatio": 89.32403292821513,
+    "foreheadRatio": 35.80003388741543
+  },
+  "Dinarid_m": {
+    "facialIndex": 96.64431014326844,
+    "nasalIndex": 113.91683876064134,
+    "mouthFaceRatio": 38.32529925705786,
+    "interocularRatio": 24.096039995789113,
+    "eyeAspectRatio": 0.27216816961257584,
+    "lipFullnessRatio": 0.2858688673128381,
+    "jawFaceRatio": 88.34936805727828,
+    "foreheadRatio": 34.28366728964674
+  },
+  "Dinarid_f": {
+    "facialIndex": 91.98749539028313,
+    "nasalIndex": 108.94713199167153,
+    "mouthFaceRatio": 39.02870861254351,
+    "interocularRatio": 23.36910269318542,
+    "eyeAspectRatio": 0.27660210346187314,
+    "lipFullnessRatio": 0.2799525098112198,
+    "jawFaceRatio": 88.63760605387965,
+    "foreheadRatio": 34.69254148930567
+  },
+  "Norid_m": {
+    "facialIndex": 86.83288974378,
+    "nasalIndex": 119.28242802743047,
+    "mouthFaceRatio": 37.80495973730101,
+    "interocularRatio": 22.634188353080916,
+    "eyeAspectRatio": 0.2645762414180286,
+    "lipFullnessRatio": 0.26676584948733295,
+    "jawFaceRatio": 90.40590138602141,
+    "foreheadRatio": 33.706964831924964
+  },
+  "Norid_f": {
+    "facialIndex": 92.49132332667351,
+    "nasalIndex": 117.66723648425241,
+    "mouthFaceRatio": 39.968824039090784,
+    "interocularRatio": 24.419672796888115,
+    "eyeAspectRatio": 0.27784901946342605,
+    "lipFullnessRatio": 0.28037569048463795,
+    "jawFaceRatio": 88.74224694278455,
+    "foreheadRatio": 36.016106121083276
+  },
+  "Litorid_m": {
+    "facialIndex": 95.504676270127,
+    "nasalIndex": 114.5100464791921,
+    "mouthFaceRatio": 37.19670402402082,
+    "interocularRatio": 24.463712721634753,
+    "eyeAspectRatio": 0.2761731292129305,
+    "lipFullnessRatio": 0.30055125152541773,
+    "jawFaceRatio": 88.76847810720125,
+    "foreheadRatio": 34.320116401224105
+  },
+  "Litorid_f": {
+    "facialIndex": 93.12519538830571,
+    "nasalIndex": 114.3585762815766,
+    "mouthFaceRatio": 39.48982798083798,
+    "interocularRatio": 24.413579831706166,
+    "eyeAspectRatio": 0.27636633494852886,
+    "lipFullnessRatio": 0.29040853870151073,
+    "jawFaceRatio": 88.06961814590922,
+    "foreheadRatio": 36.032908568930786
+  },
+  "Mtebid_m": {
+    "facialIndex": 90.78770185676339,
+    "nasalIndex": 116.94879601841623,
+    "mouthFaceRatio": 35.59007002125972,
+    "interocularRatio": 24.0589074719169,
+    "eyeAspectRatio": 0.2697003483412036,
+    "lipFullnessRatio": 0.30867191466066024,
+    "jawFaceRatio": 90.90073817128282,
+    "foreheadRatio": 34.27581569338434
+  },
+  "Mtebid_f": {
+    "facialIndex": 91.02278126375542,
+    "nasalIndex": 105.47510179891763,
+    "mouthFaceRatio": 36.04081466433744,
+    "interocularRatio": 22.917533006923588,
+    "eyeAspectRatio": 0.28398690415134453,
+    "lipFullnessRatio": 0.30505055043458035,
+    "jawFaceRatio": 88.04313550514489,
+    "foreheadRatio": 35.22179963214872
+  },
+  "Carpathid_m": {
+    "facialIndex": 86.9366145499682,
+    "nasalIndex": 125.87393144505793,
+    "mouthFaceRatio": 38.56752576893104,
+    "interocularRatio": 24.404433270251317,
+    "eyeAspectRatio": 0.25993198927900013,
+    "lipFullnessRatio": 0.27032575800494624,
+    "jawFaceRatio": 88.89485714432863,
+    "foreheadRatio": 34.1274155260618
+  },
+  "Carpathid_f": {
+    "facialIndex": 96.28515245950979,
+    "nasalIndex": 106.35323756196885,
+    "mouthFaceRatio": 38.833707511919926,
+    "interocularRatio": 23.45044853265918,
+    "eyeAspectRatio": 0.29228098917695783,
+    "lipFullnessRatio": 0.29096681815035613,
+    "jawFaceRatio": 89.0316365090532,
+    "foreheadRatio": 35.74891211600408
+  },
+  "Armenid_m": {
+    "facialIndex": 96.81954140868677,
+    "nasalIndex": 109.14899204416213,
+    "mouthFaceRatio": 38.7429603590905,
+    "interocularRatio": 22.701874395033524,
+    "eyeAspectRatio": 0.27489728096321314,
+    "lipFullnessRatio": 0.28779195783116496,
+    "jawFaceRatio": 90.04299017596776,
+    "foreheadRatio": 33.99210518638232
+  },
+  "Armenid_f": {
+    "facialIndex": 93.48563091040958,
+    "nasalIndex": 114.7198639846712,
+    "mouthFaceRatio": 41.00928061831986,
+    "interocularRatio": 22.75423414091705,
+    "eyeAspectRatio": 0.2709395581096908,
+    "lipFullnessRatio": 0.2920050556326364,
+    "jawFaceRatio": 88.48744700213959,
+    "foreheadRatio": 34.854600486465536
+  },
+  "Anatolid_m": {
+    "facialIndex": 89.04882375020685,
+    "nasalIndex": 123.97724085968112,
+    "mouthFaceRatio": 37.63728375660029,
+    "interocularRatio": 24.32489439186416,
+    "eyeAspectRatio": 0.24985378234895045,
+    "lipFullnessRatio": 0.26182669785090085,
+    "jawFaceRatio": 88.3069491937097,
+    "foreheadRatio": 34.640075528466774
+  },
+  "Anatolid_f": {
+    "facialIndex": 94.23813617552018,
+    "nasalIndex": 111.4569620568213,
+    "mouthFaceRatio": 38.98993384917245,
+    "interocularRatio": 23.617904719019293,
+    "eyeAspectRatio": 0.2976145912990279,
+    "lipFullnessRatio": 0.3054762968307345,
+    "jawFaceRatio": 88.64386132683518,
+    "foreheadRatio": 35.85588942751427
+  },
+  "EastPamirid_m": {
+    "facialIndex": 96.81216955794312,
+    "nasalIndex": 115.41065973278472,
+    "mouthFaceRatio": 40.5107938930923,
+    "interocularRatio": 24.292868835310813,
+    "eyeAspectRatio": 0.25250128052077686,
+    "lipFullnessRatio": 0.28096940194401904,
+    "jawFaceRatio": 88.27897806746805,
+    "foreheadRatio": 34.431231981926736
+  },
+  "EastPamirid_f": {
+    "facialIndex": 95.48648249534396,
+    "nasalIndex": 106.74271869700596,
+    "mouthFaceRatio": 39.616408410287775,
+    "interocularRatio": 22.81322302830646,
+    "eyeAspectRatio": 0.2750931494006492,
+    "lipFullnessRatio": 0.2947612881134759,
+    "jawFaceRatio": 86.46701634340266,
+    "foreheadRatio": 35.384639598616744
+  },
+  "CentralPamirid_m": {
+    "facialIndex": 92.29959954450548,
+    "nasalIndex": 116.16233668488549,
+    "mouthFaceRatio": 35.70793158057837,
+    "interocularRatio": 24.800312897316157,
+    "eyeAspectRatio": 0.25151785618297595,
+    "lipFullnessRatio": 0.30917024923938896,
+    "jawFaceRatio": 90.43762873456032,
+    "foreheadRatio": 33.804066296072484
+  },
+  "CentralPamirid_f": {
+    "facialIndex": 92.22889099407902,
+    "nasalIndex": 99.53511671271721,
+    "mouthFaceRatio": 34.86382227119048,
+    "interocularRatio": 23.40910297588743,
+    "eyeAspectRatio": 0.27860216838116725,
+    "lipFullnessRatio": 0.3299793254713814,
+    "jawFaceRatio": 88.5854183395067,
+    "foreheadRatio": 35.92676866981042
+  },
+  "PlainsPamirid_m": {
+    "facialIndex": 90.40438507432891,
+    "nasalIndex": 118.89160154933276,
+    "mouthFaceRatio": 36.24656348007647,
+    "interocularRatio": 24.85980816486802,
+    "eyeAspectRatio": 0.24581437517845225,
+    "lipFullnessRatio": 0.27817558189674374,
+    "jawFaceRatio": 89.81053571453884,
+    "foreheadRatio": 34.63721172010481
+  },
+  "PlainsPamirid_f": {
+    "facialIndex": 90.6785950632513,
+    "nasalIndex": 110.04503259287095,
+    "mouthFaceRatio": 36.87429631693513,
+    "interocularRatio": 24.169775610113195,
+    "eyeAspectRatio": 0.2652220635468149,
+    "lipFullnessRatio": 0.30469949412909025,
+    "jawFaceRatio": 87.94061699399937,
+    "foreheadRatio": 35.788790290447345
+  },
+  "AndronovoTuranid_m": {
+    "facialIndex": 87.43561170475542,
+    "nasalIndex": 114.93281301108465,
+    "mouthFaceRatio": 36.08268269527548,
+    "interocularRatio": 22.959267578555792,
+    "eyeAspectRatio": 0.25434955916826807,
+    "lipFullnessRatio": 0.2645410690635132,
+    "jawFaceRatio": 90.81164444229778,
+    "foreheadRatio": 35.48452656618664
+  },
+  "AndronovoTuranid_f": {
+    "facialIndex": 90.1246636272038,
+    "nasalIndex": 106.31622809046857,
+    "mouthFaceRatio": 36.12342469801536,
+    "interocularRatio": 23.455713334701827,
+    "eyeAspectRatio": 0.2844297792285947,
+    "lipFullnessRatio": 0.31450060986232214,
+    "jawFaceRatio": 89.49316707678328,
+    "foreheadRatio": 35.962438695007215
+  },
+  "Alfoeld_m": {
+    "facialIndex": 85.4597520386577,
+    "nasalIndex": 119.29853481438002,
+    "mouthFaceRatio": 36.01594301640568,
+    "interocularRatio": 23.759956892853985,
+    "eyeAspectRatio": 0.2361485067785547,
+    "lipFullnessRatio": 0.27868683484231055,
+    "jawFaceRatio": 89.80689606589617,
+    "foreheadRatio": 34.24672955545316
+  },
+  "Alfoeld_f": {
+    "facialIndex": 89.45452678547362,
+    "nasalIndex": 115.91803974840163,
+    "mouthFaceRatio": 39.01771894933111,
+    "interocularRatio": 24.177174808387942,
+    "eyeAspectRatio": 0.23859686052795723,
+    "lipFullnessRatio": 0.2706095771255529,
+    "jawFaceRatio": 88.05909254478847,
+    "foreheadRatio": 35.06375630534516
+  },
+  "Malid_m": {
+    "facialIndex": 83.61905311775661,
+    "nasalIndex": 151.10683005637517,
+    "mouthFaceRatio": 41.153783933681595,
+    "interocularRatio": 26.742151921903734,
+    "eyeAspectRatio": 0.24867053234667774,
+    "lipFullnessRatio": 0.328333244794098,
+    "jawFaceRatio": 88.77778903151086,
+    "foreheadRatio": 33.0407324297907
+  },
+  "Malid_f": {
+    "facialIndex": 85.859112098549,
+    "nasalIndex": 127.93638505080283,
+    "mouthFaceRatio": 37.292604773255746,
+    "interocularRatio": 23.25247390060298,
+    "eyeAspectRatio": 0.2682873721885241,
+    "lipFullnessRatio": 0.3409538106187245,
+    "jawFaceRatio": 89.12642364028439,
+    "foreheadRatio": 34.681360575845666
+  },
+  "Vedda_m": {
+    "facialIndex": 93.30488819875474,
+    "nasalIndex": 121.894769133039,
+    "mouthFaceRatio": 37.64122033710626,
+    "interocularRatio": 23.67633727542959,
+    "eyeAspectRatio": 0.25889916025881815,
+    "lipFullnessRatio": 0.3689422003415862,
+    "jawFaceRatio": 90.90844124482373,
+    "foreheadRatio": 33.37151540038982
+  },
+  "Vedda_f": {
+    "facialIndex": 83.73188585628861,
+    "nasalIndex": 136.109076964684,
+    "mouthFaceRatio": 36.87763694179289,
+    "interocularRatio": 24.072083919416404,
+    "eyeAspectRatio": 0.25136467193291817,
+    "lipFullnessRatio": 0.2984528633760843,
+    "jawFaceRatio": 87.07361249750971,
+    "foreheadRatio": 35.31264569969835
+  },
+  "NorthGondid_m": {
+    "facialIndex": 90.75508122932973,
+    "nasalIndex": 138.28561972638704,
+    "mouthFaceRatio": 41.65283120475955,
+    "interocularRatio": 25.164935816814925,
+    "eyeAspectRatio": 0.24776079237663054,
+    "lipFullnessRatio": 0.3410098558499949,
+    "jawFaceRatio": 88.66867979609054,
+    "foreheadRatio": 33.33690024013199
+  },
+  "NorthGondid_f": {
+    "facialIndex": 88.69267383601557,
+    "nasalIndex": 123.17868741557155,
+    "mouthFaceRatio": 38.47470306671894,
+    "interocularRatio": 25.365020589895558,
+    "eyeAspectRatio": 0.2648203468970474,
+    "lipFullnessRatio": 0.32886224268065595,
+    "jawFaceRatio": 86.42347066932375,
+    "foreheadRatio": 35.61776616214258
+  },
+  "SouthGondid_m": {
+    "facialIndex": 89.47026236745381,
+    "nasalIndex": 130.81906601704304,
+    "mouthFaceRatio": 41.00421245925558,
+    "interocularRatio": 24.931151779017114,
+    "eyeAspectRatio": 0.243078991078469,
+    "lipFullnessRatio": 0.29822218622575214,
+    "jawFaceRatio": 89.9818659063676,
+    "foreheadRatio": 33.20362306195631
+  },
+  "SouthGondid_f": {
+    "facialIndex": 91.3319721423126,
+    "nasalIndex": 122.50392889783308,
+    "mouthFaceRatio": 38.341227574307794,
+    "interocularRatio": 24.925662867121616,
+    "eyeAspectRatio": 0.2554745464303493,
+    "lipFullnessRatio": 0.3273560247772748,
+    "jawFaceRatio": 86.94271798914728,
+    "foreheadRatio": 34.57400922672528
+  },
+  "Toalid_m": {
+    "facialIndex": 88.89618411281195,
+    "nasalIndex": 134.4126003198067,
+    "mouthFaceRatio": 39.09928669700173,
+    "interocularRatio": 25.34505028657251,
+    "eyeAspectRatio": 0.22264995163329496,
+    "lipFullnessRatio": 0.2999834807489998,
+    "jawFaceRatio": 87.68317284362988,
+    "foreheadRatio": 34.00370868692571
+  },
+  "Toalid_f": {
+    "facialIndex": 84.26727360239482,
+    "nasalIndex": 134.36992778762323,
+    "mouthFaceRatio": 40.14004590047403,
+    "interocularRatio": 23.634818792444722,
+    "eyeAspectRatio": 0.2730070658079252,
+    "lipFullnessRatio": 0.33790390678883514,
+    "jawFaceRatio": 87.66961843280792,
+    "foreheadRatio": 34.85145556023196
+  },
+  "Senoid_m": {
+    "facialIndex": 85.73873178160069,
+    "nasalIndex": 139.1847314917265,
+    "mouthFaceRatio": 38.367490222927515,
+    "interocularRatio": 24.419082507222704,
+    "eyeAspectRatio": 0.2603029031673227,
+    "lipFullnessRatio": 0.32965900538285875,
+    "jawFaceRatio": 88.3145960795655,
+    "foreheadRatio": 33.83451445023728
+  },
+  "Senoid_f": {
+    "facialIndex": 88.71275988891857,
+    "nasalIndex": 120.8681043790049,
+    "mouthFaceRatio": 37.7361576134502,
+    "interocularRatio": 24.63479584707735,
+    "eyeAspectRatio": 0.2733085806230765,
+    "lipFullnessRatio": 0.3448740794291256,
+    "jawFaceRatio": 88.03353834777307,
+    "foreheadRatio": 34.9629170867474
+  },
+  "ArabianVeddoid_m": {
+    "facialIndex": 91.02628597372838,
+    "nasalIndex": 132.58963326746098,
+    "mouthFaceRatio": 37.61708483397585,
+    "interocularRatio": 24.19025286273059,
+    "eyeAspectRatio": 0.2619178535426148,
+    "lipFullnessRatio": 0.31704010982238195,
+    "jawFaceRatio": 89.52713544077857,
+    "foreheadRatio": 34.273770936138895
+  },
+  "ArabianVeddoid_f": {
+    "facialIndex": 92.45992460733619,
+    "nasalIndex": 129.97596594369585,
+    "mouthFaceRatio": 43.414627808853105,
+    "interocularRatio": 25.350811054173462,
+    "eyeAspectRatio": 0.2529183640093917,
+    "lipFullnessRatio": 0.26249556130017165,
+    "jawFaceRatio": 86.14448422330679,
+    "foreheadRatio": 34.59832335045018
+  },
+  "Khmerid_m": {
+    "facialIndex": 94.21803040388468,
+    "nasalIndex": 127.388603051098,
+    "mouthFaceRatio": 37.80849676376336,
+    "interocularRatio": 26.374960816148068,
+    "eyeAspectRatio": 0.25293893158642256,
+    "lipFullnessRatio": 0.35966830819879725,
+    "jawFaceRatio": 88.68135463435726,
+    "foreheadRatio": 34.16866006676868
+  },
+  "Khmerid_f": {
+    "facialIndex": 91.51802591657885,
+    "nasalIndex": 116.56489914743986,
+    "mouthFaceRatio": 39.70117626748603,
+    "interocularRatio": 24.692690084199693,
+    "eyeAspectRatio": 0.26277477618915773,
+    "lipFullnessRatio": 0.33710974148922823,
+    "jawFaceRatio": 87.32545836718063,
+    "foreheadRatio": 35.24159775109037
+  },
+  "NorthAndamanid_m": {
+    "facialIndex": 83.66257341950089,
+    "nasalIndex": 130.71391037663216,
+    "mouthFaceRatio": 39.33761417495917,
+    "interocularRatio": 24.634894793244673,
+    "eyeAspectRatio": 0.24905728510156583,
+    "lipFullnessRatio": 0.3013336699518529,
+    "jawFaceRatio": 87.98348697189695,
+    "foreheadRatio": 34.69980868040839
+  },
+  "NorthAndamanid_f": {
+    "facialIndex": 85.43895992216444,
+    "nasalIndex": 120.72522739350975,
+    "mouthFaceRatio": 36.168636794486716,
+    "interocularRatio": 25.36517211003958,
+    "eyeAspectRatio": 0.2734965962870269,
+    "lipFullnessRatio": 0.30832824377529616,
+    "jawFaceRatio": 88.59638599331065,
+    "foreheadRatio": 34.38372253422701
+  },
+  "SouthAndamanid_m": {
+    "facialIndex": 83.10781165278591,
+    "nasalIndex": 131.50576728628764,
+    "mouthFaceRatio": 37.439889175070284,
+    "interocularRatio": 24.379820164473173,
+    "eyeAspectRatio": 0.24240250560157214,
+    "lipFullnessRatio": 0.31154861188810806,
+    "jawFaceRatio": 87.88370234278113,
+    "foreheadRatio": 34.524500561571124
+  },
+  "SouthAndamanid_f": {
+    "facialIndex": 82.68185293419754,
+    "nasalIndex": 134.69870240476192,
+    "mouthFaceRatio": 38.38572133701585,
+    "interocularRatio": 23.4534948885336,
+    "eyeAspectRatio": 0.2335405355414217,
+    "lipFullnessRatio": 0.3272913924830153,
+    "jawFaceRatio": 87.70819310636247,
+    "foreheadRatio": 34.04746481311695
+  },
+  "Aetid_m": {
+    "facialIndex": 80.88438413252938,
+    "nasalIndex": 144.59491658059287,
+    "mouthFaceRatio": 37.36505044878047,
+    "interocularRatio": 25.43911936880608,
+    "eyeAspectRatio": 0.23150061092288,
+    "lipFullnessRatio": 0.3158431634530527,
+    "jawFaceRatio": 86.47192387453494,
+    "foreheadRatio": 33.80292950239727
+  },
+  "Aetid_f": {
+    "facialIndex": 83.95688813623897,
+    "nasalIndex": 135.88256058096658,
+    "mouthFaceRatio": 38.146551876215206,
+    "interocularRatio": 25.474296585324367,
+    "eyeAspectRatio": 0.2746897880078353,
+    "lipFullnessRatio": 0.314856479809245,
+    "jawFaceRatio": 85.4824726940655,
+    "foreheadRatio": 35.2136419399468
+  },
+  "Semangid_m": {
+    "facialIndex": 88.03195133912018,
+    "nasalIndex": 137.2303193771862,
+    "mouthFaceRatio": 38.95310421329635,
+    "interocularRatio": 25.76838418401613,
+    "eyeAspectRatio": 0.24624908458059142,
+    "lipFullnessRatio": 0.3140486831363645,
+    "jawFaceRatio": 84.97958110911628,
+    "foreheadRatio": 34.490460379094344
+  },
+  "Semangid_f": {
+    "facialIndex": 88.78635718992572,
+    "nasalIndex": 122.49678540222968,
+    "mouthFaceRatio": 37.74667006553063,
+    "interocularRatio": 24.838109958374346,
+    "eyeAspectRatio": 0.27516815648125736,
+    "lipFullnessRatio": 0.32208344277831596,
+    "jawFaceRatio": 86.2148411944326,
+    "foreheadRatio": 35.354120226082046
+  },
+  "JahaiSemangid_m": {
+    "facialIndex": 87.93054742858602,
+    "nasalIndex": 136.66107522414364,
+    "mouthFaceRatio": 36.41331401796394,
+    "interocularRatio": 26.237740816866413,
+    "eyeAspectRatio": 0.23644784898934323,
+    "lipFullnessRatio": 0.35094483703390095,
+    "jawFaceRatio": 86.89808876341431,
+    "foreheadRatio": 34.154658835003886
+  },
+  "JahaiSemangid_f": {
+    "facialIndex": 89.63463934484024,
+    "nasalIndex": 123.50022558297478,
+    "mouthFaceRatio": 35.860749289047675,
+    "interocularRatio": 23.919339690362754,
+    "eyeAspectRatio": 0.26314278499231336,
+    "lipFullnessRatio": 0.3481751922029316,
+    "jawFaceRatio": 87.65233421647453,
+    "foreheadRatio": 34.56161580012254
+  },
+  "Barrinean_m": {
+    "facialIndex": 86.48226243219086,
+    "nasalIndex": 139.96040465896502,
+    "mouthFaceRatio": 38.44636136146621,
+    "interocularRatio": 24.87207190439489,
+    "eyeAspectRatio": 0.27444870831958745,
+    "lipFullnessRatio": 0.29918146930235073,
+    "jawFaceRatio": 85.99505501128877,
+    "foreheadRatio": 35.10013575284906
+  },
+  "Barrinean_f": {
+    "facialIndex": 76.94306775645119,
+    "nasalIndex": 158.45825055265672,
+    "mouthFaceRatio": 37.03189622803518,
+    "interocularRatio": 25.496864283786604,
+    "eyeAspectRatio": 0.2394450072490084,
+    "lipFullnessRatio": 0.33628934765482216,
+    "jawFaceRatio": 86.41443903767333,
+    "foreheadRatio": 34.96523245255584
+  },
+  "NorthAustralid_m": {
+    "facialIndex": 82.59836004762317,
+    "nasalIndex": 164.37445695285348,
+    "mouthFaceRatio": 41.70636013870179,
+    "interocularRatio": 24.962009795332126,
+    "eyeAspectRatio": 0.2617933288264694,
+    "lipFullnessRatio": 0.26337604441835283,
+    "jawFaceRatio": 91.35130540244042,
+    "foreheadRatio": 34.80025382867629
+  },
+  "NorthAustralid_f": {
+    "facialIndex": 92.31066542376063,
+    "nasalIndex": 144.87910666675492,
+    "mouthFaceRatio": 42.828741348277944,
+    "interocularRatio": 26.532748319771088,
+    "eyeAspectRatio": 0.2601278504296525,
+    "lipFullnessRatio": 0.30143660890678914,
+    "jawFaceRatio": 86.45351081692078,
+    "foreheadRatio": 33.45669950485369
+  },
+  "DesertAustralid_m": {
+    "facialIndex": 91.75909176013025,
+    "nasalIndex": 151.00645527354345,
+    "mouthFaceRatio": 41.571270988596126,
+    "interocularRatio": 25.733533386687533,
+    "eyeAspectRatio": 0.243734361754317,
+    "lipFullnessRatio": 0.31524968247585694,
+    "jawFaceRatio": 90.0689847202266,
+    "foreheadRatio": 33.09824439586544
+  },
+  "DesertAustralid_f": {
+    "facialIndex": 90.66013215012869,
+    "nasalIndex": 137.150975620117,
+    "mouthFaceRatio": 39.446048100292415,
+    "interocularRatio": 25.021180889586898,
+    "eyeAspectRatio": 0.24792402432836763,
+    "lipFullnessRatio": 0.3116296771312008,
+    "jawFaceRatio": 86.441352713735,
+    "foreheadRatio": 34.82300265419308
+  },
+  "SouthAustralid_m": {
+    "facialIndex": 86.18573178223001,
+    "nasalIndex": 140.45883599628453,
+    "mouthFaceRatio": 41.61853944337436,
+    "interocularRatio": 24.050998169943462,
+    "eyeAspectRatio": 0.2537153792409848,
+    "lipFullnessRatio": 0.28007638520031086,
+    "jawFaceRatio": 89.6206221387663,
+    "foreheadRatio": 33.058756017205674
+  },
+  "SouthAustralid_f": {
+    "facialIndex": 90.94062080000464,
+    "nasalIndex": 126.69550967227934,
+    "mouthFaceRatio": 39.12685556031922,
+    "interocularRatio": 24.279220930668618,
+    "eyeAspectRatio": 0.2649254827759796,
+    "lipFullnessRatio": 0.32539799428169747,
+    "jawFaceRatio": 89.37772500419103,
+    "foreheadRatio": 34.39609756537704
+  },
+  "Tasmanid_m": {
+    "facialIndex": 74.58751932787823,
+    "nasalIndex": 152.7284653114315,
+    "mouthFaceRatio": 36.38992040666491,
+    "interocularRatio": 21.719127861165376,
+    "eyeAspectRatio": 0.23558169638985518,
+    "lipFullnessRatio": 0.2595762136156069,
+    "jawFaceRatio": 92.90132326252547,
+    "foreheadRatio": 33.42379871948166
+  },
+  "Tasmanid_f": {
+    "facialIndex": 75.37138436811576,
+    "nasalIndex": 179.74292409563412,
+    "mouthFaceRatio": 39.90825051792122,
+    "interocularRatio": 25.30543222201263,
+    "eyeAspectRatio": 0.2230441978447701,
+    "lipFullnessRatio": 0.2468189813222593,
+    "jawFaceRatio": 90.28253061187009,
+    "foreheadRatio": 36.28295507982457
+  },
+  "PaleoMelanesid_m": {
+    "facialIndex": 86.70697700116025,
+    "nasalIndex": 146.94704894619002,
+    "mouthFaceRatio": 43.205715813171764,
+    "interocularRatio": 24.399321370777308,
+    "eyeAspectRatio": 0.24164789200231288,
+    "lipFullnessRatio": 0.29697793115333054,
+    "jawFaceRatio": 89.94620909484513,
+    "foreheadRatio": 33.17113300777311
+  },
+  "PaleoMelanesid_f": {
+    "facialIndex": 83.67523910861657,
+    "nasalIndex": 151.49576456611038,
+    "mouthFaceRatio": 43.611986218705376,
+    "interocularRatio": 26.70914814792852,
+    "eyeAspectRatio": 0.2300703614257455,
+    "lipFullnessRatio": 0.2902298854408976,
+    "jawFaceRatio": 86.17801308051357,
+    "foreheadRatio": 35.1896678625103
+  },
+  "InsularMelanesid_m": {
+    "facialIndex": 88.2743285170283,
+    "nasalIndex": 141.26676907205612,
+    "mouthFaceRatio": 41.30978551216023,
+    "interocularRatio": 24.467953071039435,
+    "eyeAspectRatio": 0.23890540506285968,
+    "lipFullnessRatio": 0.29978105289108503,
+    "jawFaceRatio": 90.10584542468784,
+    "foreheadRatio": 33.06780857261262
+  },
+  "InsularMelanesid_f": {
+    "facialIndex": 87.72185395088454,
+    "nasalIndex": 132.6327428526661,
+    "mouthFaceRatio": 41.93826061791649,
+    "interocularRatio": 24.2952315796252,
+    "eyeAspectRatio": 0.24657996043453548,
+    "lipFullnessRatio": 0.3005965658956757,
+    "jawFaceRatio": 85.72699002187053,
+    "foreheadRatio": 35.47474808838401
+  },
+  "NeoMelanesid_m": {
+    "facialIndex": 96.54147101306202,
+    "nasalIndex": 139.0701821771954,
+    "mouthFaceRatio": 44.71307273716736,
+    "interocularRatio": 26.158780897229345,
+    "eyeAspectRatio": 0.2716372597606203,
+    "lipFullnessRatio": 0.29672185227266035,
+    "jawFaceRatio": 86.59011620589926,
+    "foreheadRatio": 33.046526351390014
+  },
+  "NeoMelanesid_f": {
+    "facialIndex": 97.90187164890709,
+    "nasalIndex": 125.91369416417109,
+    "mouthFaceRatio": 42.44798329509031,
+    "interocularRatio": 24.664569091524562,
+    "eyeAspectRatio": 0.2783516496886231,
+    "lipFullnessRatio": 0.30539687902545853,
+    "jawFaceRatio": 87.28426642613589,
+    "foreheadRatio": 34.893342586763865
+  },
+  "MountainMelanesid_m": {
+    "facialIndex": 99.89934152705058,
+    "nasalIndex": 138.9067555058494,
+    "mouthFaceRatio": 44.24572378927012,
+    "interocularRatio": 25.088043156451196,
+    "eyeAspectRatio": 0.24170556717138966,
+    "lipFullnessRatio": 0.29877658756532866,
+    "jawFaceRatio": 89.3678222668262,
+    "foreheadRatio": 32.4267279612698
+  },
+  "MountainMelanesid_f": {
+    "facialIndex": 95.80383495534106,
+    "nasalIndex": 131.7173659240987,
+    "mouthFaceRatio": 44.847524306393105,
+    "interocularRatio": 25.79094966752537,
+    "eyeAspectRatio": 0.26572590730666945,
+    "lipFullnessRatio": 0.3016116422084026,
+    "jawFaceRatio": 85.3521212126807,
+    "foreheadRatio": 34.93196905790837
+  },
+  "Tapirid_m": {
+    "facialIndex": 86.80745770226245,
+    "nasalIndex": 141.72357404607902,
+    "mouthFaceRatio": 42.59034182498384,
+    "interocularRatio": 23.863049832570518,
+    "eyeAspectRatio": 0.234188176162289,
+    "lipFullnessRatio": 0.30726102015397494,
+    "jawFaceRatio": 89.61641521433874,
+    "foreheadRatio": 33.27766987815118
+  },
+  "Tapirid_f": {
+    "facialIndex": 87.76258113626449,
+    "nasalIndex": 129.4307924523936,
+    "mouthFaceRatio": 38.98021387893594,
+    "interocularRatio": 25.445270417429228,
+    "eyeAspectRatio": 0.28071072003019676,
+    "lipFullnessRatio": 0.32756219995796515,
+    "jawFaceRatio": 87.76411014394225,
+    "foreheadRatio": 35.08455483900883
+  },
+  "Bukaid_m": {
+    "facialIndex": 83.87541773537636,
+    "nasalIndex": 138.29817998384286,
+    "mouthFaceRatio": 38.56797691394403,
+    "interocularRatio": 22.883215384959694,
+    "eyeAspectRatio": 0.24614974743191523,
+    "lipFullnessRatio": 0.31563526279311926,
+    "jawFaceRatio": 90.6578878479577,
+    "foreheadRatio": 33.931110184008716
+  },
+  "Bukaid_f": {
+    "facialIndex": 94.64122176748756,
+    "nasalIndex": 127.75722590121872,
+    "mouthFaceRatio": 41.62204900972904,
+    "interocularRatio": 24.32764275835744,
+    "eyeAspectRatio": 0.2846972808736145,
+    "lipFullnessRatio": 0.32573472035498063,
+    "jawFaceRatio": 88.15541790875055,
+    "foreheadRatio": 33.92804606479393
+  },
+  "BrachioMelanesid_m": {
+    "facialIndex": 94.06915207025706,
+    "nasalIndex": 127.73557728066538,
+    "mouthFaceRatio": 42.16637079545734,
+    "interocularRatio": 23.229852041056994,
+    "eyeAspectRatio": 0.27247070073135793,
+    "lipFullnessRatio": 0.30567411308979053,
+    "jawFaceRatio": 89.42797705658269,
+    "foreheadRatio": 33.671761008861424
+  },
+  "BrachioMelanesid_f": {
+    "facialIndex": 95.62656063246902,
+    "nasalIndex": 121.2128077361144,
+    "mouthFaceRatio": 41.09502434993521,
+    "interocularRatio": 24.277157463496557,
+    "eyeAspectRatio": 0.28868623549103306,
+    "lipFullnessRatio": 0.30485766629422334,
+    "jawFaceRatio": 87.10986387686044,
+    "foreheadRatio": 34.59857243637769
+  },
+  "Fijid_m": {
+    "facialIndex": 93.17897729078699,
+    "nasalIndex": 130.39855289179587,
+    "mouthFaceRatio": 41.02249762346622,
+    "interocularRatio": 24.604415496060312,
+    "eyeAspectRatio": 0.24188259128229414,
+    "lipFullnessRatio": 0.3155095202161989,
+    "jawFaceRatio": 89.01404303465856,
+    "foreheadRatio": 33.27550705126833
+  },
+  "Fijid_f": {
+    "facialIndex": 87.32196779829566,
+    "nasalIndex": 132.67556757528408,
+    "mouthFaceRatio": 40.1258032284593,
+    "interocularRatio": 23.94554540793153,
+    "eyeAspectRatio": 0.26208805059181833,
+    "lipFullnessRatio": 0.31075065574348604,
+    "jawFaceRatio": 86.14225026611597,
+    "foreheadRatio": 34.974703666153154
+  },
+  "SouthPolynesid_m": {
+    "facialIndex": 82.86650165387599,
+    "nasalIndex": 141.24206980330035,
+    "mouthFaceRatio": 40.34466213471794,
+    "interocularRatio": 25.66212075479631,
+    "eyeAspectRatio": 0.24673889373066663,
+    "lipFullnessRatio": 0.2860696478699228,
+    "jawFaceRatio": 88.00500665731754,
+    "foreheadRatio": 34.88187787859044
+  },
+  "SouthPolynesid_f": {
+    "facialIndex": 98.23579160664447,
+    "nasalIndex": 108.79306388877947,
+    "mouthFaceRatio": 37.311687985984435,
+    "interocularRatio": 24.55260671419159,
+    "eyeAspectRatio": 0.28191372789831126,
+    "lipFullnessRatio": 0.3259110489779517,
+    "jawFaceRatio": 88.08410031635194,
+    "foreheadRatio": 35.18684081611131
+  },
+  "Nesiotid_m": {
+    "facialIndex": 89.83730440508546,
+    "nasalIndex": 131.7060511343142,
+    "mouthFaceRatio": 38.704044864158206,
+    "interocularRatio": 24.14423193790573,
+    "eyeAspectRatio": 0.25191464413003867,
+    "lipFullnessRatio": 0.29434596329716584,
+    "jawFaceRatio": 89.03971335611652,
+    "foreheadRatio": 33.94013332343973
+  },
+  "Nesiotid_f": {
+    "facialIndex": 90.02154512557927,
+    "nasalIndex": 119.97880687065738,
+    "mouthFaceRatio": 40.35819614061567,
+    "interocularRatio": 24.11083424209538,
+    "eyeAspectRatio": 0.2573783041826908,
+    "lipFullnessRatio": 0.31736543591216515,
+    "jawFaceRatio": 87.74510543510672,
+    "foreheadRatio": 36.06444516364489
+  },
+  "Micronesid_m": {
+    "facialIndex": 85.07658139180661,
+    "nasalIndex": 130.92695985961691,
+    "mouthFaceRatio": 38.09852723051499,
+    "interocularRatio": 23.358108573228325,
+    "eyeAspectRatio": 0.2359606038169372,
+    "lipFullnessRatio": 0.29620451725517416,
+    "jawFaceRatio": 90.15660237668314,
+    "foreheadRatio": 34.27307387602957
+  },
+  "Micronesid_f": {
+    "facialIndex": 92.41488067222939,
+    "nasalIndex": 119.38396020925819,
+    "mouthFaceRatio": 38.35385309377007,
+    "interocularRatio": 25.6469913079265,
+    "eyeAspectRatio": 0.27274064830466327,
+    "lipFullnessRatio": 0.31378650194551116,
+    "jawFaceRatio": 87.63516334861325,
+    "foreheadRatio": 35.227581211252115
+  },
+  "RobustPolynesid_m": {
+    "facialIndex": 88.48034059172876,
+    "nasalIndex": 129.88047702628074,
+    "mouthFaceRatio": 39.306326914200426,
+    "interocularRatio": 23.40694236828845,
+    "eyeAspectRatio": 0.22765422573560187,
+    "lipFullnessRatio": 0.29795533441868827,
+    "jawFaceRatio": 90.8505687721764,
+    "foreheadRatio": 34.51028883997508
+  },
+  "RobustPolynesid_f": {
+    "facialIndex": 86.71866118482805,
+    "nasalIndex": 123.16686365064913,
+    "mouthFaceRatio": 40.152190172661506,
+    "interocularRatio": 23.521371269195505,
+    "eyeAspectRatio": 0.23658061529701607,
+    "lipFullnessRatio": 0.2785447417420916,
+    "jawFaceRatio": 89.29900440453362,
+    "foreheadRatio": 34.77803156861918
+  },
+  "Aoshima_m": {
+    "facialIndex": 82.74890435399573,
+    "nasalIndex": 135.22246456266805,
+    "mouthFaceRatio": 38.519184414752836,
+    "interocularRatio": 24.543548002243217,
+    "eyeAspectRatio": 0.23938125609717284,
+    "lipFullnessRatio": 0.28310977144729554,
+    "jawFaceRatio": 91.146610940011,
+    "foreheadRatio": 33.55895113484668
+  },
+  "Aoshima_f": {
+    "facialIndex": 91.34363144552047,
+    "nasalIndex": 117.56426798230962,
+    "mouthFaceRatio": 37.20313219679653,
+    "interocularRatio": 24.62542334584765,
+    "eyeAspectRatio": 0.254596891800771,
+    "lipFullnessRatio": 0.3344258653550387,
+    "jawFaceRatio": 88.65265028106847,
+    "foreheadRatio": 33.84579544955778
+  },
+  "Chikuzen_m": {
+    "facialIndex": 90.76279257253748,
+    "nasalIndex": 119.910551681499,
+    "mouthFaceRatio": 38.752828615918055,
+    "interocularRatio": 25.970608062179963,
+    "eyeAspectRatio": 0.2571293492380218,
+    "lipFullnessRatio": 0.285130204231313,
+    "jawFaceRatio": 87.37399572732735,
+    "foreheadRatio": 36.19359588903619
+  },
+  "Chikuzen_f": {
+    "facialIndex": 89.8973520299364,
+    "nasalIndex": 121.24994142408347,
+    "mouthFaceRatio": 40.5260228933359,
+    "interocularRatio": 26.858229552227307,
+    "eyeAspectRatio": 0.27813747196626454,
+    "lipFullnessRatio": 0.2810417406192452,
+    "jawFaceRatio": 88.12562602060102,
+    "foreheadRatio": 36.69885279320736
+  },
+  "Ishikawa_m": {
+    "facialIndex": 84.62946850510866,
+    "nasalIndex": 127.00133561170128,
+    "mouthFaceRatio": 36.31546834112904,
+    "interocularRatio": 24.937342162280743,
+    "eyeAspectRatio": 0.2521306368799952,
+    "lipFullnessRatio": 0.2778958658681767,
+    "jawFaceRatio": 87.83355669068816,
+    "foreheadRatio": 35.41290121513198
+  },
+  "Ishikawa_f": {
+    "facialIndex": 90.23777586324489,
+    "nasalIndex": 121.18173101670462,
+    "mouthFaceRatio": 39.07654851921959,
+    "interocularRatio": 27.19854424025625,
+    "eyeAspectRatio": 0.27824545248926297,
+    "lipFullnessRatio": 0.28371637712718795,
+    "jawFaceRatio": 84.96970959617236,
+    "foreheadRatio": 36.172483293018345
+  },
+  "Palaungid_m": {
+    "facialIndex": 89.93625367666863,
+    "nasalIndex": 115.09457757583186,
+    "mouthFaceRatio": 34.30115233469763,
+    "interocularRatio": 25.31938805530864,
+    "eyeAspectRatio": 0.24727367218058183,
+    "lipFullnessRatio": 0.33955241903983774,
+    "jawFaceRatio": 87.41149437250469,
+    "foreheadRatio": 34.75347397451271
+  },
+  "Palaungid_f": {
+    "facialIndex": 85.18983909088553,
+    "nasalIndex": 125.02801798874381,
+    "mouthFaceRatio": 35.920747820151924,
+    "interocularRatio": 25.6740493882936,
+    "eyeAspectRatio": 0.25921746242115734,
+    "lipFullnessRatio": 0.3378655021180786,
+    "jawFaceRatio": 87.70821109032649,
+    "foreheadRatio": 35.588384075742155
+  },
+  "SouthPalaungid_m": {
+    "facialIndex": 84.32629819511183,
+    "nasalIndex": 133.60516001547936,
+    "mouthFaceRatio": 36.6630676874055,
+    "interocularRatio": 26.22006473529795,
+    "eyeAspectRatio": 0.23270132273068742,
+    "lipFullnessRatio": 0.3209405644396154,
+    "jawFaceRatio": 87.9864747968914,
+    "foreheadRatio": 35.51134740512267
+  },
+  "SouthPalaungid_f": {
+    "facialIndex": 84.6202954001264,
+    "nasalIndex": 129.66264680301916,
+    "mouthFaceRatio": 37.15247364636266,
+    "interocularRatio": 25.119912435916635,
+    "eyeAspectRatio": 0.26997912195840756,
+    "lipFullnessRatio": 0.30594294722039245,
+    "jawFaceRatio": 87.50603631384242,
+    "foreheadRatio": 36.39493377334529
+  },
+  "EastPalaungid_m": {
+    "facialIndex": 90.31054420137306,
+    "nasalIndex": 119.1634512028664,
+    "mouthFaceRatio": 36.66513274791905,
+    "interocularRatio": 24.61995883540974,
+    "eyeAspectRatio": 0.25329573131342725,
+    "lipFullnessRatio": 0.30789555560422777,
+    "jawFaceRatio": 88.74403717362175,
+    "foreheadRatio": 35.14386327484155
+  },
+  "EastPalaungid_f": {
+    "facialIndex": 89.1408513124737,
+    "nasalIndex": 113.99610138937936,
+    "mouthFaceRatio": 36.55568648494252,
+    "interocularRatio": 25.35190169835058,
+    "eyeAspectRatio": 0.27905146816508836,
+    "lipFullnessRatio": 0.2999521615777823,
+    "jawFaceRatio": 89.1816050385062,
+    "foreheadRatio": 35.81521049248128
+  },
+  "ProtoMalayid_m": {
+    "facialIndex": 87.11154565808883,
+    "nasalIndex": 135.76103991222,
+    "mouthFaceRatio": 39.384454357364405,
+    "interocularRatio": 25.553410976538643,
+    "eyeAspectRatio": 0.23751556924278378,
+    "lipFullnessRatio": 0.29178423493559497,
+    "jawFaceRatio": 87.43375591395389,
+    "foreheadRatio": 33.726852711681275
+  },
+  "ProtoMalayid_f": {
+    "facialIndex": 87.15344949072774,
+    "nasalIndex": 130.88088134771988,
+    "mouthFaceRatio": 41.60539390688323,
+    "interocularRatio": 25.81518366542114,
+    "eyeAspectRatio": 0.2536040066843778,
+    "lipFullnessRatio": 0.2852486457375748,
+    "jawFaceRatio": 86.19774453436791,
+    "foreheadRatio": 35.32714866274363
+  },
+  "Dayakid_m": {
+    "facialIndex": 89.25745133921946,
+    "nasalIndex": 129.04281673430685,
+    "mouthFaceRatio": 38.25723119533477,
+    "interocularRatio": 26.40325743756954,
+    "eyeAspectRatio": 0.2400519834711538,
+    "lipFullnessRatio": 0.3058041862562422,
+    "jawFaceRatio": 87.90984042854629,
+    "foreheadRatio": 34.32934329010348
+  },
+  "Dayakid_f": {
+    "facialIndex": 86.71531087270102,
+    "nasalIndex": 120.54162013410361,
+    "mouthFaceRatio": 35.91008107341156,
+    "interocularRatio": 24.899396879862724,
+    "eyeAspectRatio": 0.2591827498494917,
+    "lipFullnessRatio": 0.3398603674344598,
+    "jawFaceRatio": 88.21016662538763,
+    "foreheadRatio": 35.51971345036495
+  },
+  "Kachinid_m": {
+    "facialIndex": 85.35456379457887,
+    "nasalIndex": 121.8395010870988,
+    "mouthFaceRatio": 37.05746665308395,
+    "interocularRatio": 25.273539529916643,
+    "eyeAspectRatio": 0.23106751102565598,
+    "lipFullnessRatio": 0.30843811523331915,
+    "jawFaceRatio": 90.50280556692134,
+    "foreheadRatio": 34.79749698401047
+  },
+  "Kachinid_f": {
+    "facialIndex": 84.14563023324027,
+    "nasalIndex": 123.86903850167663,
+    "mouthFaceRatio": 37.21788900487073,
+    "interocularRatio": 25.607423880652814,
+    "eyeAspectRatio": 0.2358120356817373,
+    "lipFullnessRatio": 0.2959673510742011,
+    "jawFaceRatio": 92.51736833068716,
+    "foreheadRatio": 35.96379515924741
+  },
+  "Shanid_m": {
+    "facialIndex": 91.19331059029949,
+    "nasalIndex": 121.94025907609804,
+    "mouthFaceRatio": 37.71792210881382,
+    "interocularRatio": 25.72572896849553,
+    "eyeAspectRatio": 0.2512859746583365,
+    "lipFullnessRatio": 0.31162751171101394,
+    "jawFaceRatio": 87.73533469975618,
+    "foreheadRatio": 35.21838708734378
+  },
+  "Shanid_f": {
+    "facialIndex": 87.98555788080503,
+    "nasalIndex": 121.46174980640134,
+    "mouthFaceRatio": 36.13184204344178,
+    "interocularRatio": 24.34832941403305,
+    "eyeAspectRatio": 0.2435619609547499,
+    "lipFullnessRatio": 0.3184920769187501,
+    "jawFaceRatio": 86.95377107614382,
+    "foreheadRatio": 35.410150364777174
+  },
+  "EastShanid_m": {
+    "facialIndex": 93.7499072986981,
+    "nasalIndex": 110.57764577296314,
+    "mouthFaceRatio": 37.14093447833057,
+    "interocularRatio": 24.77400541207942,
+    "eyeAspectRatio": 0.27473935356551327,
+    "lipFullnessRatio": 0.3362288667342814,
+    "jawFaceRatio": 88.2364541856034,
+    "foreheadRatio": 35.775737807282844
+  },
+  "EastShanid_f": {
+    "facialIndex": 91.34046005229536,
+    "nasalIndex": 110.08300214413462,
+    "mouthFaceRatio": 37.10053073591506,
+    "interocularRatio": 24.681541187091074,
+    "eyeAspectRatio": 0.27554018729594026,
+    "lipFullnessRatio": 0.31549089666021046,
+    "jawFaceRatio": 86.8680489553307,
+    "foreheadRatio": 36.03475207058974
+  },
+  "DeuteroMalayid_m": {
+    "facialIndex": 86.40615013646703,
+    "nasalIndex": 121.36044720086929,
+    "mouthFaceRatio": 36.86161721349706,
+    "interocularRatio": 24.345058622263743,
+    "eyeAspectRatio": 0.2523553800641624,
+    "lipFullnessRatio": 0.3217871293877927,
+    "jawFaceRatio": 89.02362992439089,
+    "foreheadRatio": 35.075541584664364
+  },
+  "DeuteroMalayid_f": {
+    "facialIndex": 84.4020988171346,
+    "nasalIndex": 121.52833129238276,
+    "mouthFaceRatio": 37.24121036173781,
+    "interocularRatio": 24.87324571335715,
+    "eyeAspectRatio": 0.26691763605684965,
+    "lipFullnessRatio": 0.3102497149008041,
+    "jawFaceRatio": 86.40807080005813,
+    "foreheadRatio": 35.793723857540996
+  },
+  "Satsuma_m": {
+    "facialIndex": 85.02804151302563,
+    "nasalIndex": 118.49650714075904,
+    "mouthFaceRatio": 34.84240232049475,
+    "interocularRatio": 25.099999149072787,
+    "eyeAspectRatio": 0.2374774623135846,
+    "lipFullnessRatio": 0.2990711036080238,
+    "jawFaceRatio": 87.59284147363354,
+    "foreheadRatio": 35.8786228822406
+  },
+  "Satsuma_f": {
+    "facialIndex": 88.53875225026619,
+    "nasalIndex": 112.02782512339245,
+    "mouthFaceRatio": 36.83979232882,
+    "interocularRatio": 25.74053600384846,
+    "eyeAspectRatio": 0.2544710430592939,
+    "lipFullnessRatio": 0.30415895285507943,
+    "jawFaceRatio": 87.92483513235524,
+    "foreheadRatio": 36.196134811097735
+  },
+  "Huanghoid_m": {
+    "facialIndex": 89.06581041856745,
+    "nasalIndex": 114.22693216643123,
+    "mouthFaceRatio": 35.80619725715943,
+    "interocularRatio": 25.123859167771627,
+    "eyeAspectRatio": 0.24986795068677084,
+    "lipFullnessRatio": 0.3224960134109329,
+    "jawFaceRatio": 91.44670340982732,
+    "foreheadRatio": 35.42335724379219
+  },
+  "Huanghoid_f": {
+    "facialIndex": 85.37530177405286,
+    "nasalIndex": 122.39091643016052,
+    "mouthFaceRatio": 36.128748774785755,
+    "interocularRatio": 25.962929183185047,
+    "eyeAspectRatio": 0.25777145940267904,
+    "lipFullnessRatio": 0.31263146634299216,
+    "jawFaceRatio": 88.02468326707745,
+    "foreheadRatio": 36.0900832335848
+  },
+  "ManchuKorean_m": {
+    "facialIndex": 84.47072309961213,
+    "nasalIndex": 115.99261775640906,
+    "mouthFaceRatio": 34.94603296948105,
+    "interocularRatio": 24.066875543448703,
+    "eyeAspectRatio": 0.24650553842269377,
+    "lipFullnessRatio": 0.2923203652598814,
+    "jawFaceRatio": 90.66932151355125,
+    "foreheadRatio": 36.1363325332571
+  },
+  "ManchuKorean_f": {
+    "facialIndex": 88.73263192928937,
+    "nasalIndex": 111.90301970757363,
+    "mouthFaceRatio": 34.97581374059937,
+    "interocularRatio": 25.417012016177328,
+    "eyeAspectRatio": 0.27072675742224667,
+    "lipFullnessRatio": 0.3267143907879085,
+    "jawFaceRatio": 88.68632414013014,
+    "foreheadRatio": 35.73983174180109
+  },
+  "Changkiangid_m": {
+    "facialIndex": 83.45347271762712,
+    "nasalIndex": 129.33271256090387,
+    "mouthFaceRatio": 35.183790816390314,
+    "interocularRatio": 25.45922323316507,
+    "eyeAspectRatio": 0.24846386434908954,
+    "lipFullnessRatio": 0.3174510660054355,
+    "jawFaceRatio": 90.08282308356394,
+    "foreheadRatio": 35.288986818163956
+  },
+  "Changkiangid_f": {
+    "facialIndex": 86.23482820638891,
+    "nasalIndex": 118.86691143987491,
+    "mouthFaceRatio": 35.23864607919045,
+    "interocularRatio": 25.863518157484876,
+    "eyeAspectRatio": 0.2689907782243903,
+    "lipFullnessRatio": 0.32378832476118447,
+    "jawFaceRatio": 88.29934931319954,
+    "foreheadRatio": 36.10614670823496
+  },
+  "Chukiangid_m": {
+    "facialIndex": 83.3650723209176,
+    "nasalIndex": 128.09271110071737,
+    "mouthFaceRatio": 38.26754146280876,
+    "interocularRatio": 24.963613698376,
+    "eyeAspectRatio": 0.23368952306272725,
+    "lipFullnessRatio": 0.2990839365452117,
+    "jawFaceRatio": 89.31923697546308,
+    "foreheadRatio": 35.18230149105743
+  },
+  "Chukiangid_f": {
+    "facialIndex": 84.45606715763884,
+    "nasalIndex": 127.75275792159995,
+    "mouthFaceRatio": 37.777971139634744,
+    "interocularRatio": 25.534971957896317,
+    "eyeAspectRatio": 0.2633121517220588,
+    "lipFullnessRatio": 0.30126341765322584,
+    "jawFaceRatio": 89.397500541075,
+    "foreheadRatio": 35.66383804183466
+  },
+  "Tonkinesid_m": {
+    "facialIndex": 85.26107313155904,
+    "nasalIndex": 124.95638848102067,
+    "mouthFaceRatio": 37.277171153639834,
+    "interocularRatio": 26.082528483283205,
+    "eyeAspectRatio": 0.24376091199006547,
+    "lipFullnessRatio": 0.30379955881900694,
+    "jawFaceRatio": 87.54626414052233,
+    "foreheadRatio": 35.984721052561966
+  },
+  "Tonkinesid_f": {
+    "facialIndex": 88.1405031388532,
+    "nasalIndex": 120.08236580746066,
+    "mouthFaceRatio": 36.56539438836178,
+    "interocularRatio": 26.432991499661274,
+    "eyeAspectRatio": 0.26417550203002904,
+    "lipFullnessRatio": 0.32292870206216034,
+    "jawFaceRatio": 86.93362245558303,
+    "foreheadRatio": 36.14012298621529
+  },
+  "Annamid_m": {
+    "facialIndex": 89.54147121971104,
+    "nasalIndex": 116.21157188587199,
+    "mouthFaceRatio": 36.552217300983905,
+    "interocularRatio": 24.850809273140555,
+    "eyeAspectRatio": 0.2633571719300969,
+    "lipFullnessRatio": 0.2981633520929536,
+    "jawFaceRatio": 88.51687339924274,
+    "foreheadRatio": 35.38747996701477
+  },
+  "Annamid_f": {
+    "facialIndex": 90.47470292741372,
+    "nasalIndex": 115.62429401882189,
+    "mouthFaceRatio": 37.34011583684328,
+    "interocularRatio": 24.93232797779635,
+    "eyeAspectRatio": 0.28140934020510705,
+    "lipFullnessRatio": 0.31348322355857117,
+    "jawFaceRatio": 87.46806305802413,
+    "foreheadRatio": 36.308570156923366
+  },
+  "Kham_m": {
+    "facialIndex": 90.80970520138024,
+    "nasalIndex": 117.15424282856677,
+    "mouthFaceRatio": 36.72369090550089,
+    "interocularRatio": 24.53281161846063,
+    "eyeAspectRatio": 0.23796547265130258,
+    "lipFullnessRatio": 0.3172113835182542,
+    "jawFaceRatio": 87.5578002423467,
+    "foreheadRatio": 35.15041792113565
+  },
+  "Kham_f": {
+    "facialIndex": 93.37821348869019,
+    "nasalIndex": 119.07245522577459,
+    "mouthFaceRatio": 39.76442537041194,
+    "interocularRatio": 26.772764525084185,
+    "eyeAspectRatio": 0.24044418892732475,
+    "lipFullnessRatio": 0.3056031159591824,
+    "jawFaceRatio": 86.64867351250305,
+    "foreheadRatio": 35.14874288601367
+  },
+  "Choshiu_m": {
+    "facialIndex": 92.9926024085128,
+    "nasalIndex": 111.16261870140403,
+    "mouthFaceRatio": 36.4880437367452,
+    "interocularRatio": 25.323304666371026,
+    "eyeAspectRatio": 0.2612853463832801,
+    "lipFullnessRatio": 0.3219816858570161,
+    "jawFaceRatio": 89.1696681024073,
+    "foreheadRatio": 35.746518395720926
+  },
+  "Choshiu_f": {
+    "facialIndex": 93.27063276048062,
+    "nasalIndex": 112.79094472741431,
+    "mouthFaceRatio": 36.958965530303026,
+    "interocularRatio": 25.50200499525308,
+    "eyeAspectRatio": 0.2971436756685947,
+    "lipFullnessRatio": 0.3230750818686133,
+    "jawFaceRatio": 88.28877123609679,
+    "foreheadRatio": 36.349236017588495
+  },
+  "Yakonin_m": {
+    "facialIndex": 96.50775903219288,
+    "nasalIndex": 113.53238921364299,
+    "mouthFaceRatio": 39.690321896357695,
+    "interocularRatio": 26.038562074832377,
+    "eyeAspectRatio": 0.2619970196653588,
+    "lipFullnessRatio": 0.28104220215863135,
+    "jawFaceRatio": 85.68786257539563,
+    "foreheadRatio": 35.54545771172633
+  },
+  "Yakonin_f": {
+    "facialIndex": 93.08182587875682,
+    "nasalIndex": 111.45601042454567,
+    "mouthFaceRatio": 39.96372362249472,
+    "interocularRatio": 25.719073597181268,
+    "eyeAspectRatio": 0.272165360802402,
+    "lipFullnessRatio": 0.2774981069655139,
+    "jawFaceRatio": 86.82148933958148,
+    "foreheadRatio": 37.16472348478539
+  },
+  "Gobid_m": {
+    "facialIndex": 85.96558877601113,
+    "nasalIndex": 116.84817286126521,
+    "mouthFaceRatio": 35.12622268648176,
+    "interocularRatio": 25.116355219638827,
+    "eyeAspectRatio": 0.22604893169825732,
+    "lipFullnessRatio": 0.2993952352275769,
+    "jawFaceRatio": 90.15437073374754,
+    "foreheadRatio": 35.52979205283364
+  },
+  "Gobid_f": {
+    "facialIndex": 96.05579882738016,
+    "nasalIndex": 98.58360756579636,
+    "mouthFaceRatio": 35.01968595586396,
+    "interocularRatio": 25.148537995768038,
+    "eyeAspectRatio": 0.27285796830191217,
+    "lipFullnessRatio": 0.35902411230723164,
+    "jawFaceRatio": 88.45685631444046,
+    "foreheadRatio": 36.297981012584486
+  },
+  "Baykal_m": {
+    "facialIndex": 88.86787624914459,
+    "nasalIndex": 107.0787960431701,
+    "mouthFaceRatio": 34.06738801791102,
+    "interocularRatio": 24.617617018405962,
+    "eyeAspectRatio": 0.24915631330613794,
+    "lipFullnessRatio": 0.31498561409273385,
+    "jawFaceRatio": 89.55057871809042,
+    "foreheadRatio": 34.832687967895076
+  },
+  "Baykal_f": {
+    "facialIndex": 92.62121525854981,
+    "nasalIndex": 100.7829775337989,
+    "mouthFaceRatio": 35.51732735309565,
+    "interocularRatio": 25.997958923123043,
+    "eyeAspectRatio": 0.24204631193615772,
+    "lipFullnessRatio": 0.3268211999368175,
+    "jawFaceRatio": 88.21593381481223,
+    "foreheadRatio": 35.656210113513374
+  },
+  "AmurSakhalin_m": {
+    "facialIndex": 89.06248060519822,
+    "nasalIndex": 108.5916884163814,
+    "mouthFaceRatio": 31.761683265829078,
+    "interocularRatio": 24.81155673680777,
+    "eyeAspectRatio": 0.23266714576687825,
+    "lipFullnessRatio": 0.3673296978767092,
+    "jawFaceRatio": 89.60476066001522,
+    "foreheadRatio": 34.88465832309821
+  },
+  "AmurSakhalin_f": {
+    "facialIndex": 94.97813123636075,
+    "nasalIndex": 95.27225669958608,
+    "mouthFaceRatio": 32.58133943596484,
+    "interocularRatio": 24.527727722347723,
+    "eyeAspectRatio": 0.26987727290575303,
+    "lipFullnessRatio": 0.3940587929443373,
+    "jawFaceRatio": 87.0938859107286,
+    "foreheadRatio": 35.485892939753995
+  },
+  "Katanga_m": {
+    "facialIndex": 87.81395460515702,
+    "nasalIndex": 112.78824885321887,
+    "mouthFaceRatio": 35.146036651654796,
+    "interocularRatio": 22.854385890723787,
+    "eyeAspectRatio": 0.24489712822050452,
+    "lipFullnessRatio": 0.2969214537510419,
+    "jawFaceRatio": 89.98566641541876,
+    "foreheadRatio": 35.07384602235347
+  },
+  "Katanga_f": {
+    "facialIndex": 88.22429086722778,
+    "nasalIndex": 112.80555012728217,
+    "mouthFaceRatio": 34.468137483860154,
+    "interocularRatio": 25.010000910405882,
+    "eyeAspectRatio": 0.25657337271374575,
+    "lipFullnessRatio": 0.30177010054966535,
+    "jawFaceRatio": 87.10519458729763,
+    "foreheadRatio": 35.31434296221224
+  },
+  "MountainAralid_m": {
+    "facialIndex": 91.67868244467229,
+    "nasalIndex": 114.19927837485207,
+    "mouthFaceRatio": 36.04285915564772,
+    "interocularRatio": 24.548921269851256,
+    "eyeAspectRatio": 0.2571864314147344,
+    "lipFullnessRatio": 0.31493501109734384,
+    "jawFaceRatio": 89.28714676787258,
+    "foreheadRatio": 34.286542476796555
+  },
+  "MountainAralid_f": {
+    "facialIndex": 95.36662920912613,
+    "nasalIndex": 106.55225494041092,
+    "mouthFaceRatio": 37.72074905856871,
+    "interocularRatio": 24.932924381345835,
+    "eyeAspectRatio": 0.27242566502721977,
+    "lipFullnessRatio": 0.3471650481385246,
+    "jawFaceRatio": 87.01778560362999,
+    "foreheadRatio": 35.93158502698802
+  },
+  "Aralid_m": {
+    "facialIndex": 84.66133603925111,
+    "nasalIndex": 114.88961639774375,
+    "mouthFaceRatio": 32.99650704459353,
+    "interocularRatio": 24.780959430834677,
+    "eyeAspectRatio": 0.2462939089340872,
+    "lipFullnessRatio": 0.30267534678391866,
+    "jawFaceRatio": 90.9458358890065,
+    "foreheadRatio": 35.44524220000886
+  },
+  "Aralid_f": {
+    "facialIndex": 88.51006102063768,
+    "nasalIndex": 109.50173256360362,
+    "mouthFaceRatio": 34.481109181727675,
+    "interocularRatio": 24.542077510538128,
+    "eyeAspectRatio": 0.271576798135638,
+    "lipFullnessRatio": 0.3153719477958681,
+    "jawFaceRatio": 87.65062812713852,
+    "foreheadRatio": 35.93758563690797
+  },
+  "Uralid_m": {
+    "facialIndex": 86.5347170508882,
+    "nasalIndex": 120.9461825576378,
+    "mouthFaceRatio": 34.489136911869736,
+    "interocularRatio": 23.61790484785626,
+    "eyeAspectRatio": 0.25859609140450346,
+    "lipFullnessRatio": 0.3056619022938867,
+    "jawFaceRatio": 89.57905064512659,
+    "foreheadRatio": 34.372991176827085
+  },
+  "Uralid_f": {
+    "facialIndex": 86.04772378537695,
+    "nasalIndex": 111.97209464409659,
+    "mouthFaceRatio": 35.64540395404177,
+    "interocularRatio": 25.338775953442006,
+    "eyeAspectRatio": 0.27338680020714057,
+    "lipFullnessRatio": 0.2887894468343374,
+    "jawFaceRatio": 88.20200623092856,
+    "foreheadRatio": 36.414213369106655
+  },
+  "Yenisey_m": {
+    "facialIndex": 89.9077867642954,
+    "nasalIndex": 113.63385697842719,
+    "mouthFaceRatio": 35.8238250741425,
+    "interocularRatio": 23.67054117028834,
+    "eyeAspectRatio": 0.24997310641380566,
+    "lipFullnessRatio": 0.2989645996671235,
+    "jawFaceRatio": 89.77480282574531,
+    "foreheadRatio": 33.915924516012765
+  },
+  "Yenisey_f": {
+    "facialIndex": 91.12636714453448,
+    "nasalIndex": 102.88556072817224,
+    "mouthFaceRatio": 34.81546749464989,
+    "interocularRatio": 24.12092663787395,
+    "eyeAspectRatio": 0.2782559808419933,
+    "lipFullnessRatio": 0.3002010972768933,
+    "jawFaceRatio": 89.59731524201582,
+    "foreheadRatio": 35.610954284666995
+  },
+  "Samoyedic_m": {
+    "facialIndex": 86.2512549508104,
+    "nasalIndex": 118.76459434851039,
+    "mouthFaceRatio": 34.426672278056934,
+    "interocularRatio": 24.97775873089845,
+    "eyeAspectRatio": 0.22899882540165337,
+    "lipFullnessRatio": 0.30559149061597984,
+    "jawFaceRatio": 87.78452367167625,
+    "foreheadRatio": 34.51507461343357
+  },
+  "Samoyedic_f": {
+    "facialIndex": 89.6488298485107,
+    "nasalIndex": 107.5089506333522,
+    "mouthFaceRatio": 34.832782188992546,
+    "interocularRatio": 24.949744267758273,
+    "eyeAspectRatio": 0.24956962317485093,
+    "lipFullnessRatio": 0.3223855721288303,
+    "jawFaceRatio": 87.55477313934485,
+    "foreheadRatio": 36.016491377676964
+  },
+  "Chukchid_m": {
+    "facialIndex": 85.18044891766145,
+    "nasalIndex": 127.68728289503275,
+    "mouthFaceRatio": 39.173343865813024,
+    "interocularRatio": 23.381533412410484,
+    "eyeAspectRatio": 0.20977624948349446,
+    "lipFullnessRatio": 0.28265636777085934,
+    "jawFaceRatio": 89.92538747050854,
+    "foreheadRatio": 33.181244044371354
+  },
+  "Chukchid_f": {
+    "facialIndex": 85.41501327810509,
+    "nasalIndex": 120.08556044601377,
+    "mouthFaceRatio": 37.131199449383615,
+    "interocularRatio": 24.566503782760048,
+    "eyeAspectRatio": 0.2132973623574725,
+    "lipFullnessRatio": 0.29219700178553837,
+    "jawFaceRatio": 87.34400084294685,
+    "foreheadRatio": 35.48000966854234
+  },
+  "Inuid_m": {
+    "facialIndex": 83.1585770946666,
+    "nasalIndex": 125.68638209013636,
+    "mouthFaceRatio": 38.71909525398035,
+    "interocularRatio": 24.916004998188086,
+    "eyeAspectRatio": 0.2222322126963436,
+    "lipFullnessRatio": 0.2756922379379038,
+    "jawFaceRatio": 91.08775042026363,
+    "foreheadRatio": 35.09907404370622
+  },
+  "Inuid_f": {
+    "facialIndex": 87.47856501872701,
+    "nasalIndex": 115.86141023453848,
+    "mouthFaceRatio": 37.044695321816235,
+    "interocularRatio": 24.259624169319867,
+    "eyeAspectRatio": 0.23572379249001554,
+    "lipFullnessRatio": 0.28332673281256265,
+    "jawFaceRatio": 90.16972529842738,
+    "foreheadRatio": 35.63512656600234
+  },
+  "BeringSea_m": {
+    "facialIndex": 86.98234946853614,
+    "nasalIndex": 126.93261933282534,
+    "mouthFaceRatio": 37.07507260632842,
+    "interocularRatio": 24.898605885393323,
+    "eyeAspectRatio": 0.22715468090375313,
+    "lipFullnessRatio": 0.30616572901456746,
+    "jawFaceRatio": 88.74202821105699,
+    "foreheadRatio": 34.91682005226684
+  },
+  "BeringSea_f": {
+    "facialIndex": 93.1998227328132,
+    "nasalIndex": 106.71308364435038,
+    "mouthFaceRatio": 38.43298649785174,
+    "interocularRatio": 24.816595055033115,
+    "eyeAspectRatio": 0.2548668803935238,
+    "lipFullnessRatio": 0.28522055846449995,
+    "jawFaceRatio": 88.56573846786408,
+    "foreheadRatio": 36.21700884262096
+  },
+  "Pacifid_m": {
+    "facialIndex": 87.81233390353212,
+    "nasalIndex": 123.14586066473501,
+    "mouthFaceRatio": 39.66779143501992,
+    "interocularRatio": 23.94130934641409,
+    "eyeAspectRatio": 0.23183227468988174,
+    "lipFullnessRatio": 0.2862332114217271,
+    "jawFaceRatio": 90.39893862680842,
+    "foreheadRatio": 33.80241981376818
+  },
+  "Pacifid_f": {
+    "facialIndex": 86.97373358468553,
+    "nasalIndex": 114.71888534386443,
+    "mouthFaceRatio": 39.5888002345065,
+    "interocularRatio": 24.10371090361377,
+    "eyeAspectRatio": 0.23544178268869645,
+    "lipFullnessRatio": 0.2936582257712742,
+    "jawFaceRatio": 90.570375400542,
+    "foreheadRatio": 34.84484478733375
+  },
+  "CaliforniaPacifid_m": {
+    "facialIndex": 96.01120928673167,
+    "nasalIndex": 115.72085602955535,
+    "mouthFaceRatio": 39.02531797809393,
+    "interocularRatio": 23.780647356342204,
+    "eyeAspectRatio": 0.25472989420492825,
+    "lipFullnessRatio": 0.3214058350617743,
+    "jawFaceRatio": 89.98043181343688,
+    "foreheadRatio": 33.7039871159135
+  },
+  "CaliforniaPacifid_f": {
+    "facialIndex": 88.10139739814832,
+    "nasalIndex": 119.4621853907869,
+    "mouthFaceRatio": 40.336338809860514,
+    "interocularRatio": 23.492918191838232,
+    "eyeAspectRatio": 0.2585506745820474,
+    "lipFullnessRatio": 0.26891768952878425,
+    "jawFaceRatio": 88.82981066450819,
+    "foreheadRatio": 34.39749304538092
+  },
+  "Athabaskid_m": {
+    "facialIndex": 91.68382496486151,
+    "nasalIndex": 118.7326854715033,
+    "mouthFaceRatio": 37.3075130689053,
+    "interocularRatio": 24.259519704438244,
+    "eyeAspectRatio": 0.23647705174732142,
+    "lipFullnessRatio": 0.3006774005684857,
+    "jawFaceRatio": 90.4755800796139,
+    "foreheadRatio": 34.0975310819118
+  },
+  "Athabaskid_f": {
+    "facialIndex": 91.06195495294365,
+    "nasalIndex": 123.68085386165077,
+    "mouthFaceRatio": 39.175918754560946,
+    "interocularRatio": 25.642195908305908,
+    "eyeAspectRatio": 0.23942821663181155,
+    "lipFullnessRatio": 0.3057076102818351,
+    "jawFaceRatio": 90.39961891823799,
+    "foreheadRatio": 35.70580407122522
+  },
+  "Arizonid_m": {
+    "facialIndex": 88.5001327685576,
+    "nasalIndex": 110.08391756038148,
+    "mouthFaceRatio": 37.26868264958173,
+    "interocularRatio": 23.84343510538205,
+    "eyeAspectRatio": 0.25668261781007085,
+    "lipFullnessRatio": 0.28153129476145644,
+    "jawFaceRatio": 89.15977169407621,
+    "foreheadRatio": 34.754492343295226
+  },
+  "Arizonid_f": {
+    "facialIndex": 89.23125947804401,
+    "nasalIndex": 111.29903646679236,
+    "mouthFaceRatio": 38.006804036074776,
+    "interocularRatio": 23.82630210608704,
+    "eyeAspectRatio": 0.2687498871960079,
+    "lipFullnessRatio": 0.29052736721662387,
+    "jawFaceRatio": 89.40430201761266,
+    "foreheadRatio": 35.534007805647924
+  },
+  "Planid_m": {
+    "facialIndex": 92.08903006007758,
+    "nasalIndex": 108.18938615675225,
+    "mouthFaceRatio": 39.38282638621013,
+    "interocularRatio": 23.451202595193703,
+    "eyeAspectRatio": 0.25212133287828,
+    "lipFullnessRatio": 0.28793511558603546,
+    "jawFaceRatio": 91.255536421856,
+    "foreheadRatio": 34.9623296121947
+  },
+  "Planid_f": {
+    "facialIndex": 90.97162850341272,
+    "nasalIndex": 106.53681879907771,
+    "mouthFaceRatio": 37.237865741829594,
+    "interocularRatio": 23.299520065050682,
+    "eyeAspectRatio": 0.24000445691558436,
+    "lipFullnessRatio": 0.29006532428953746,
+    "jawFaceRatio": 88.5614152054824,
+    "foreheadRatio": 35.077335201910294
+  },
+  "Appalacid_m": {
+    "facialIndex": 89.20726172271908,
+    "nasalIndex": 121.08924024438177,
+    "mouthFaceRatio": 38.57013138870619,
+    "interocularRatio": 23.837991217576114,
+    "eyeAspectRatio": 0.22443707123575,
+    "lipFullnessRatio": 0.2973060893094451,
+    "jawFaceRatio": 89.47778256967503,
+    "foreheadRatio": 33.817137427257975
+  },
+  "Appalacid_f": {
+    "facialIndex": 89.3223012747096,
+    "nasalIndex": 116.45592882109494,
+    "mouthFaceRatio": 37.87760442421898,
+    "interocularRatio": 24.718135301535398,
+    "eyeAspectRatio": 0.25091870235066466,
+    "lipFullnessRatio": 0.2918463297068942,
+    "jawFaceRatio": 88.92019236915154,
+    "foreheadRatio": 35.6223835883356
+  },
+  "Mexicid_m": {
+    "facialIndex": 85.6877156561557,
+    "nasalIndex": 133.1130188794759,
+    "mouthFaceRatio": 39.127803122330725,
+    "interocularRatio": 25.75875888796614,
+    "eyeAspectRatio": 0.23487423194377766,
+    "lipFullnessRatio": 0.28362677930126684,
+    "jawFaceRatio": 89.04184196619724,
+    "foreheadRatio": 34.720465099714446
+  },
+  "Mexicid_f": {
+    "facialIndex": 87.16093675377962,
+    "nasalIndex": 128.38155588601273,
+    "mouthFaceRatio": 38.78754230814198,
+    "interocularRatio": 25.871747042131858,
+    "eyeAspectRatio": 0.2537188735648644,
+    "lipFullnessRatio": 0.2927999222932684,
+    "jawFaceRatio": 88.3542750878203,
+    "foreheadRatio": 36.11027671733714
+  },
+  "Sonorid_m": {
+    "facialIndex": 93.12682265716033,
+    "nasalIndex": 115.19329124999453,
+    "mouthFaceRatio": 36.067335729940915,
+    "interocularRatio": 24.43727885173617,
+    "eyeAspectRatio": 0.25635937373362294,
+    "lipFullnessRatio": 0.3093875613127201,
+    "jawFaceRatio": 90.18041181102141,
+    "foreheadRatio": 34.748080495483556
+  },
+  "Sonorid_f": {
+    "facialIndex": 89.31630828941557,
+    "nasalIndex": 113.07036397045054,
+    "mouthFaceRatio": 38.447004964195806,
+    "interocularRatio": 25.9202497324046,
+    "eyeAspectRatio": 0.2543182798033868,
+    "lipFullnessRatio": 0.2819335784759282,
+    "jawFaceRatio": 89.6064480923995,
+    "foreheadRatio": 35.479776430141655
+  },
+  "Californid_m": {
+    "facialIndex": 93.21970849667703,
+    "nasalIndex": 124.77386187829399,
+    "mouthFaceRatio": 38.41332954279285,
+    "interocularRatio": 24.826677100680193,
+    "eyeAspectRatio": 0.2374659251625137,
+    "lipFullnessRatio": 0.2805516567428795,
+    "jawFaceRatio": 89.45880630637545,
+    "foreheadRatio": 34.49006522274648
+  },
+  "Californid_f": {
+    "facialIndex": 98.1098912073471,
+    "nasalIndex": 122.24024322243736,
+    "mouthFaceRatio": 39.32300170535209,
+    "interocularRatio": 25.713880339650867,
+    "eyeAspectRatio": 0.23338156235784546,
+    "lipFullnessRatio": 0.28799035992012034,
+    "jawFaceRatio": 90.20892923533121,
+    "foreheadRatio": 35.19794681597251
+  },
+  "Isthmid_m": {
+    "facialIndex": 89.39002220930017,
+    "nasalIndex": 122.91151498298373,
+    "mouthFaceRatio": 37.87992365333949,
+    "interocularRatio": 25.29680059374692,
+    "eyeAspectRatio": 0.23830951944252393,
+    "lipFullnessRatio": 0.32790686738709207,
+    "jawFaceRatio": 89.89393653634933,
+    "foreheadRatio": 34.841486831759305
+  },
+  "Isthmid_f": {
+    "facialIndex": 88.54766659653708,
+    "nasalIndex": 124.3993737286536,
+    "mouthFaceRatio": 38.69973124084735,
+    "interocularRatio": 25.364636012470754,
+    "eyeAspectRatio": 0.2643749593822064,
+    "lipFullnessRatio": 0.3047512900552278,
+    "jawFaceRatio": 89.23877661592707,
+    "foreheadRatio": 35.399771759917805
+  },
+  "Maya_m": {
+    "facialIndex": 90.69704135478429,
+    "nasalIndex": 118.23226957601428,
+    "mouthFaceRatio": 39.892505029063166,
+    "interocularRatio": 23.906877466723728,
+    "eyeAspectRatio": 0.2520091246415831,
+    "lipFullnessRatio": 0.2851859314292435,
+    "jawFaceRatio": 88.07586900664205,
+    "foreheadRatio": 34.69419973481316
+  },
+  "Maya_f": {
+    "facialIndex": 93.93745497754524,
+    "nasalIndex": 112.3581503584117,
+    "mouthFaceRatio": 40.76030105078074,
+    "interocularRatio": 25.17887623556092,
+    "eyeAspectRatio": 0.25396304452238866,
+    "lipFullnessRatio": 0.30004382532465,
+    "jawFaceRatio": 89.24733627396216,
+    "foreheadRatio": 34.87513196112182
+  },
+  "Pueblid_m": {
+    "facialIndex": 82.36141594240281,
+    "nasalIndex": 125.18780954305055,
+    "mouthFaceRatio": 38.144650812175584,
+    "interocularRatio": 22.969707910103537,
+    "eyeAspectRatio": 0.23420777221752587,
+    "lipFullnessRatio": 0.2695028227392387,
+    "jawFaceRatio": 91.49022401844971,
+    "foreheadRatio": 34.25411531220333
+  },
+  "Pueblid_f": {
+    "facialIndex": 92.96193504981329,
+    "nasalIndex": 114.08956722614751,
+    "mouthFaceRatio": 38.63170279880677,
+    "interocularRatio": 24.786882783881005,
+    "eyeAspectRatio": 0.25595427101216545,
+    "lipFullnessRatio": 0.2884767839339864,
+    "jawFaceRatio": 88.45560201959682,
+    "foreheadRatio": 35.20538359315945
+  },
+  "NorthAmazonid_m": {
+    "facialIndex": 87.77922251338983,
+    "nasalIndex": 128.42724408437266,
+    "mouthFaceRatio": 40.348239645039605,
+    "interocularRatio": 24.836097967076398,
+    "eyeAspectRatio": 0.25171857191358993,
+    "lipFullnessRatio": 0.2952407908932949,
+    "jawFaceRatio": 87.98865778417638,
+    "foreheadRatio": 34.27289526751316
+  },
+  "NorthAmazonid_f": {
+    "facialIndex": 88.65638508869976,
+    "nasalIndex": 116.2001923163112,
+    "mouthFaceRatio": 37.01881815681746,
+    "interocularRatio": 24.18520557635241,
+    "eyeAspectRatio": 0.2568426363368117,
+    "lipFullnessRatio": 0.3026760427201661,
+    "jawFaceRatio": 87.46027268476581,
+    "foreheadRatio": 35.18564272870932
+  },
+  "SouthAmazonid_m": {
+    "facialIndex": 92.83072044092418,
+    "nasalIndex": 130.257773009326,
+    "mouthFaceRatio": 40.57331438558808,
+    "interocularRatio": 26.442846111083433,
+    "eyeAspectRatio": 0.24303908008767963,
+    "lipFullnessRatio": 0.29999656510577455,
+    "jawFaceRatio": 89.96313084935905,
+    "foreheadRatio": 34.311102038190164
+  },
+  "SouthAmazonid_f": {
+    "facialIndex": 91.20210448150806,
+    "nasalIndex": 114.15511967688188,
+    "mouthFaceRatio": 38.242304323896654,
+    "interocularRatio": 24.50549400916083,
+    "eyeAspectRatio": 0.2730577344565766,
+    "lipFullnessRatio": 0.31683323770717436,
+    "jawFaceRatio": 88.12062356108689,
+    "foreheadRatio": 35.39403256986215
+  },
+  "WestAmazonid_m": {
+    "facialIndex": 92.92174494217656,
+    "nasalIndex": 130.21992563545135,
+    "mouthFaceRatio": 40.99167294708011,
+    "interocularRatio": 26.57893217234112,
+    "eyeAspectRatio": 0.22816013566544505,
+    "lipFullnessRatio": 0.2872487431354105,
+    "jawFaceRatio": 87.06034233310267,
+    "foreheadRatio": 34.75844804458356
+  },
+  "WestAmazonid_f": {
+    "facialIndex": 85.00724918984382,
+    "nasalIndex": 129.8287997497232,
+    "mouthFaceRatio": 38.39174943759453,
+    "interocularRatio": 25.196566514690204,
+    "eyeAspectRatio": 0.2382396657689901,
+    "lipFullnessRatio": 0.29438586728796534,
+    "jawFaceRatio": 88.77355853306887,
+    "foreheadRatio": 35.17843458306858
+  },
+  "ChocoMotilon_m": {
+    "facialIndex": 91.52139677230964,
+    "nasalIndex": 126.31827182779432,
+    "mouthFaceRatio": 39.45849118453579,
+    "interocularRatio": 25.686835819625074,
+    "eyeAspectRatio": 0.24338104865317714,
+    "lipFullnessRatio": 0.28477573134531736,
+    "jawFaceRatio": 88.33269185582795,
+    "foreheadRatio": 34.060990058938806
+  },
+  "ChocoMotilon_f": {
+    "facialIndex": 91.86174300683729,
+    "nasalIndex": 116.8322621096215,
+    "mouthFaceRatio": 38.43234579350231,
+    "interocularRatio": 24.207778932696,
+    "eyeAspectRatio": 0.24723690283689198,
+    "lipFullnessRatio": 0.31928164716725504,
+    "jawFaceRatio": 88.85575398255476,
+    "foreheadRatio": 34.555228409062096
+  },
+  "LagoaSanta_m": {
+    "facialIndex": 82.8571823186658,
+    "nasalIndex": 141.46029979446183,
+    "mouthFaceRatio": 38.55538443265129,
+    "interocularRatio": 23.65476059585399,
+    "eyeAspectRatio": 0.21249731970906782,
+    "lipFullnessRatio": 0.3127673872275399,
+    "jawFaceRatio": 90.22039141590076,
+    "foreheadRatio": 33.2017156575513
+  },
+  "LagoaSanta_f": {
+    "facialIndex": 89.84000918307886,
+    "nasalIndex": 110.38168313158312,
+    "mouthFaceRatio": 37.12611875191133,
+    "interocularRatio": 23.963544704090314,
+    "eyeAspectRatio": 0.23328479276576583,
+    "lipFullnessRatio": 0.2878064529381607,
+    "jawFaceRatio": 89.79647708405754,
+    "foreheadRatio": 35.08076514018533
+  },
+  "SouthFuegid_m": {
+    "facialIndex": 81.7491726760601,
+    "nasalIndex": 137.37484151314655,
+    "mouthFaceRatio": 40.2501402422845,
+    "interocularRatio": 24.284436692255017,
+    "eyeAspectRatio": 0.2116937179631282,
+    "lipFullnessRatio": 0.28966124142055366,
+    "jawFaceRatio": 89.16227559737035,
+    "foreheadRatio": 33.71018592076047
+  },
+  "SouthFuegid_f": {
+    "facialIndex": 90.31605136152096,
+    "nasalIndex": 121.06358044869481,
+    "mouthFaceRatio": 39.99614896241222,
+    "interocularRatio": 24.654018164680725,
+    "eyeAspectRatio": 0.23407223617736034,
+    "lipFullnessRatio": 0.3073516484066759,
+    "jawFaceRatio": 89.06070683519246,
+    "foreheadRatio": 33.81079653895571
+  },
+  "Huarpid_m": {
+    "facialIndex": 84.06631859985568,
+    "nasalIndex": 143.64485546063324,
+    "mouthFaceRatio": 40.39179107914087,
+    "interocularRatio": 24.843640729050477,
+    "eyeAspectRatio": 0.19631045123795696,
+    "lipFullnessRatio": 0.27722587892317746,
+    "jawFaceRatio": 88.8085226813663,
+    "foreheadRatio": 33.188558150870975
+  },
+  "Huarpid_f": {
+    "facialIndex": 86.5698994021196,
+    "nasalIndex": 119.89984200667516,
+    "mouthFaceRatio": 38.351080336851496,
+    "interocularRatio": 24.127103798334446,
+    "eyeAspectRatio": 0.20520158405173144,
+    "lipFullnessRatio": 0.27966612258080603,
+    "jawFaceRatio": 90.7860432195414,
+    "foreheadRatio": 35.04383060770481
+  },
+  "Botocudo_m": {
+    "facialIndex": 88.62545886324453,
+    "nasalIndex": 119.38762790805042,
+    "mouthFaceRatio": 38.718434280654414,
+    "interocularRatio": 24.68794171487142,
+    "eyeAspectRatio": 0.2529740175546227,
+    "lipFullnessRatio": 0.3133816734661416,
+    "jawFaceRatio": 89.82400166674532,
+    "foreheadRatio": 33.94948976249248
+  },
+  "Botocudo_f": {
+    "facialIndex": 86.72159857899463,
+    "nasalIndex": 122.27810015618633,
+    "mouthFaceRatio": 37.33309020229335,
+    "interocularRatio": 24.028836551947556,
+    "eyeAspectRatio": 0.254881566200895,
+    "lipFullnessRatio": 0.3324953188338104,
+    "jawFaceRatio": 88.9332284636298,
+    "foreheadRatio": 34.00120574890405
+  },
+  "Patagonid_m": {
+    "facialIndex": 89.18744648151659,
+    "nasalIndex": 118.95135681314383,
+    "mouthFaceRatio": 38.18510969486878,
+    "interocularRatio": 23.650485241990708,
+    "eyeAspectRatio": 0.2267607498251481,
+    "lipFullnessRatio": 0.2953881372941794,
+    "jawFaceRatio": 91.7456419517967,
+    "foreheadRatio": 34.048392622900806
+  },
+  "Patagonid_f": {
+    "facialIndex": 88.33238004018438,
+    "nasalIndex": 112.95495098170676,
+    "mouthFaceRatio": 35.5870120420661,
+    "interocularRatio": 24.665491374967278,
+    "eyeAspectRatio": 0.2141816950172209,
+    "lipFullnessRatio": 0.2774765867535705,
+    "jawFaceRatio": 91.88085597846433,
+    "foreheadRatio": 34.43765132189383
+  },
+  "Bororo_m": {
+    "facialIndex": 85.57079934182391,
+    "nasalIndex": 130.60362695850364,
+    "mouthFaceRatio": 39.36319127409839,
+    "interocularRatio": 25.104547893800927,
+    "eyeAspectRatio": 0.23734041080858076,
+    "lipFullnessRatio": 0.3220350290467876,
+    "jawFaceRatio": 90.29943007255477,
+    "foreheadRatio": 33.29173028066121
+  },
+  "Bororo_f": {
+    "facialIndex": 82.95299273062109,
+    "nasalIndex": 125.43476037302351,
+    "mouthFaceRatio": 37.899912620588296,
+    "interocularRatio": 24.655199971478794,
+    "eyeAspectRatio": 0.21881925618802925,
+    "lipFullnessRatio": 0.28532164055851106,
+    "jawFaceRatio": 89.6600165185097,
+    "foreheadRatio": 34.64499088818327
+  },
+  "Pampid_m": {
+    "facialIndex": 91.93022102252644,
+    "nasalIndex": 115.47243987522869,
+    "mouthFaceRatio": 37.90348440831938,
+    "interocularRatio": 22.609189505729645,
+    "eyeAspectRatio": 0.2504856962683749,
+    "lipFullnessRatio": 0.3501431347041942,
+    "jawFaceRatio": 92.1896755635243,
+    "foreheadRatio": 33.27611081020823
+  },
+  "Pampid_f": {
+    "facialIndex": 86.0570576499878,
+    "nasalIndex": 120.65928161195434,
+    "mouthFaceRatio": 38.36586844675291,
+    "interocularRatio": 23.913436049670207,
+    "eyeAspectRatio": 0.22814237626713163,
+    "lipFullnessRatio": 0.29516787562233676,
+    "jawFaceRatio": 90.98469154012331,
+    "foreheadRatio": 34.30936194114443
+  },
+  "NorthAndid_m": {
+    "facialIndex": 86.58048544964366,
+    "nasalIndex": 128.03656179370728,
+    "mouthFaceRatio": 38.70078078407631,
+    "interocularRatio": 24.171995794565397,
+    "eyeAspectRatio": 0.24838400318367734,
+    "lipFullnessRatio": 0.29175002373368353,
+    "jawFaceRatio": 90.18347389245343,
+    "foreheadRatio": 33.79127253287235
+  },
+  "NorthAndid_f": {
+    "facialIndex": 87.16497789017032,
+    "nasalIndex": 124.5058010635878,
+    "mouthFaceRatio": 40.15747102489098,
+    "interocularRatio": 24.825975737567,
+    "eyeAspectRatio": 0.2503708602937777,
+    "lipFullnessRatio": 0.2823454328739896,
+    "jawFaceRatio": 87.5636750368137,
+    "foreheadRatio": 35.24338985791473
+  },
+  "CentralAndid_m": {
+    "facialIndex": 92.42975050995551,
+    "nasalIndex": 114.74547933183823,
+    "mouthFaceRatio": 39.55090839140495,
+    "interocularRatio": 23.606131143665618,
+    "eyeAspectRatio": 0.2616759896101459,
+    "lipFullnessRatio": 0.30168169000666917,
+    "jawFaceRatio": 90.21218033725901,
+    "foreheadRatio": 34.375364482437234
+  },
+  "CentralAndid_f": {
+    "facialIndex": 93.76299175751859,
+    "nasalIndex": 111.19646690764095,
+    "mouthFaceRatio": 38.071031576451134,
+    "interocularRatio": 24.833978823268982,
+    "eyeAspectRatio": 0.2858357216569884,
+    "lipFullnessRatio": 0.31133615291906763,
+    "jawFaceRatio": 89.08612345429661,
+    "foreheadRatio": 35.38524512530808
+  },
+  "SouthAndid_m": {
+    "facialIndex": 87.37917155288838,
+    "nasalIndex": 126.46094672694264,
+    "mouthFaceRatio": 38.24479406893207,
+    "interocularRatio": 23.417019460310424,
+    "eyeAspectRatio": 0.23880953487330575,
+    "lipFullnessRatio": 0.26995316062191177,
+    "jawFaceRatio": 90.20753334094753,
+    "foreheadRatio": 34.18258201577092
+  },
+  "SouthAndid_f": {
+    "facialIndex": 90.63003982477518,
+    "nasalIndex": 111.89699259598012,
+    "mouthFaceRatio": 36.724445494806616,
+    "interocularRatio": 24.1523989437296,
+    "eyeAspectRatio": 0.26233550424674856,
+    "lipFullnessRatio": 0.3063150898576333,
+    "jawFaceRatio": 88.92382328036095,
+    "foreheadRatio": 35.298852261910646
+  }
+}

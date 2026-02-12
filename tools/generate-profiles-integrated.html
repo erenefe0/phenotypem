@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PhenoType Morphology Profile Generator (Integrated)</title>
+    <style>
+        body {
+            font-family: monospace;
+            background: #111;
+            color: #ccc;
+            padding: 20px;
+        }
+
+        #log {
+            white-space: pre-wrap;
+            margin-top: 20px;
+        }
+
+        .success {
+            color: #4f4;
+        }
+
+        .error {
+            color: #f44;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #333;
+            margin: 10px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #4f4;
+            width: 0%;
+            transition: width 0.1s;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Morphology Profile Generator (Integrated)</h1>
+    <p>This tool generates the phenotype profile data needed for hybrid matching.</p>
+    <button id="startBtn">Start Generation</button>
+    <button id="downloadBtn" disabled>Download JSON</button>
+    <div class="progress-bar">
+        <div id="progressFill" class="progress-fill"></div>
+    </div>
+    <div id="status">Ready</div>
+    <div id="log"></div>
+
+    <!-- Embedded Morphology Logic to avoid loading issues -->
+    <script>
+        const Morphology = (() => {
+            function dist(landmarks, i, j) {
+                const a = landmarks[i], b = landmarks[j];
+                return Math.sqrt((a.x - b.x) ** 2 + (a.y - b.y) ** 2 + ((a.z || 0) - (b.z || 0)) ** 2);
+            }
+
+            function analyze(landmarks) {
+                if (!landmarks || landmarks.length < 468) return null;
+
+                const faceWidth = dist(landmarks, 234, 454);
+                const faceHeight = dist(landmarks, 10, 152);
+                const jawWidth = dist(landmarks, 172, 397);
+                const cheekboneWidth = dist(landmarks, 123, 352);
+                const foreheadWidth = dist(landmarks, 71, 301);
+                const noseWidth = dist(landmarks, 48, 278);
+                const noseLength = dist(landmarks, 6, 2);
+                const noseBridgeWidth = dist(landmarks, 193, 417);
+                const eyeWidthL = dist(landmarks, 33, 133);
+                const eyeWidthR = dist(landmarks, 362, 263);
+                const avgEyeWidth = (eyeWidthL + eyeWidthR) / 2;
+                const avgEyeHeight = (dist(landmarks, 159, 145) + dist(landmarks, 386, 374)) / 2;
+                const interocularDist = dist(landmarks, 133, 362);
+                const lipWidth = dist(landmarks, 61, 291);
+                const totalLipHeight = dist(landmarks, 0, 13) + dist(landmarks, 14, 17);
+                const foreheadHeight = dist(landmarks, 10, 6);
+
+                const facialIndex = (faceHeight / faceWidth) * 100;
+                const nasalIndex = (noseWidth / noseLength) * 100;
+                const mouthFaceRatio = (lipWidth / faceWidth) * 100;
+                const interocularRatio = (interocularDist / faceWidth) * 100;
+                const eyeAspectRatio = avgEyeHeight / avgEyeWidth;
+                const lipFullnessRatio = totalLipHeight / lipWidth;
+                const jawFaceRatio = (jawWidth / cheekboneWidth) * 100;
+                const foreheadRatio = (foreheadHeight / faceHeight) * 100;
+
+                const faceShape = determineFaceShape(facialIndex, jawFaceRatio, cheekboneWidth, foreheadWidth, jawWidth);
+                const noseType = determineNoseType(nasalIndex, noseBridgeWidth, noseWidth);
+                const eyeShape = determineEyeShape(eyeAspectRatio, landmarks);
+                const lipType = determineLipType(lipFullnessRatio, dist(landmarks, 0, 13), dist(landmarks, 14, 17));
+                const jawType = determineJawType(jawFaceRatio, jawWidth, faceWidth);
+                const foreheadType = determineForeheadType(foreheadRatio);
+                const cheekboneType = determineCheekboneType(cheekboneWidth, faceWidth, jawWidth);
+
+                return {
+                    rawIndices: {
+                        facialIndex, nasalIndex, mouthFaceRatio, interocularRatio,
+                        eyeAspectRatio, lipFullnessRatio, jawFaceRatio, foreheadRatio
+                    },
+                    features: {
+                        faceShape, noseType, eyeShape, lipType, jawType, foreheadType, cheekboneType
+                    }
+                };
+            }
+
+            function determineFaceShape(facialIndex, jawFaceRatio, cheekW, foreheadW, jawW) {
+                if (facialIndex > 100 && jawFaceRatio < 85) return { type: 'Oblong (Uzun)' };
+                if (facialIndex > 93 && jawFaceRatio > 90) return { type: 'Kare' };
+                if (facialIndex < 90 && jawFaceRatio > 88) return { type: 'Yuvarlak' };
+                if (cheekW > foreheadW * 1.05 && cheekW > jawW * 1.1) return { type: 'Elmas' };
+                if (foreheadW > jawW * 1.15) return { type: 'Kalp' };
+                return { type: 'Oval' };
+            }
+
+            function determineNoseType(nasalIndex, bridgeW, noseW) {
+                if (nasalIndex < 55) return { type: 'Leptorhin (Dar)' };
+                if (nasalIndex < 70) return { type: 'Mesorrhin (Orta)' };
+                if (nasalIndex < 85) return { type: 'Platyrrhin (Geniş)' };
+                return { type: 'Hyperplatyrrhin (Çok Geniş)' };
+            }
+
+            function determineEyeShape(ear, landmarks) {
+                const innerCornerDepthL = Math.abs(landmarks[133].y - landmarks[155].y);
+                const innerCornerDepthR = Math.abs(landmarks[362].y - landmarks[382].y);
+                const hasEpicanthicFold = ((innerCornerDepthL + innerCornerDepthR) / 2) < 0.005;
+                if (ear < 0.22) return hasEpicanthicFold ? { type: 'Çekik (Monolid)' } : { type: 'Dar / Derin' };
+                if (ear < 0.30) return { type: 'Badem' };
+                return { type: 'Yuvarlak' };
+            }
+
+            function determineLipType(ratio, upper, lower) {
+                if (ratio < 0.15) return { type: 'İnce' };
+                if (ratio < 0.25) return { type: 'Orta' };
+                return { type: 'Dolgun / Kalın' };
+            }
+
+            function determineJawType(ratio, jawW, faceW) {
+                if (ratio > 92) return { type: 'Kare / Geniş' };
+                if (ratio > 82) return { type: 'Orta' };
+                return { type: 'Sivri / Dar' };
+            }
+
+            function determineForeheadType(ratio) {
+                if (ratio > 38) return { type: 'Yüksek' };
+                if (ratio > 30) return { type: 'Orta' };
+                return { type: 'Düşük' };
+            }
+
+            function determineCheekboneType(cheekW, faceW, jawW) {
+                const aboveJaw = cheekW / jawW;
+                if (aboveJaw > 1.2) return { type: 'Çok Belirgin' };
+                if (aboveJaw > 1.08) return { type: 'Belirgin' };
+                return { type: 'Düz / Normal' };
+            }
+
+            return { analyze };
+        })();
+
+        window.Morphology = Morphology;
+    </script>
+
+
+    <script type="module">
+        import { FaceLandmarker, FilesetResolver } from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.18/vision_bundle.mjs";
+
+
+        let faceMesh;
+        let profiles = {};
+        const logEl = document.getElementById('log');
+        const statusEl = document.getElementById('status');
+        const progressFill = document.getElementById('progressFill');
+
+        // Global Error Handler
+        window.onerror = function (msg, url, line, col, error) {
+            log(`[FATAL ERROR] ${msg}\n${url}:${line}:${col}\n${error?.stack || ''}`, 'error');
+            return false;
+        };
+
+        function log(msg, type = '') {
+            const div = document.createElement('div');
+            div.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+            if (type) div.className = type;
+            logEl.prepend(div);
+            // console.log(msg);
+        }
+
+        async function init() {
+            try {
+                log('Loading MediaPipe Face Mesh fileset...');
+                const filesetResolver = await FilesetResolver.forVisionTasks(
+                    'https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.18/wasm'
+                );
+                log('Creating FaceLandmarker...');
+                faceMesh = await FaceLandmarker.createFromOptions(filesetResolver, {
+                    baseOptions: {
+                        modelAssetPath: 'https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task',
+                        delegate: 'GPU'
+                    },
+                    runningMode: 'IMAGE',
+                    numFaces: 1
+                });
+                log('Model loaded successfully! Ready to start.', 'success');
+                document.getElementById('startBtn').textContent = 'Start Generation (Ready)';
+            } catch (err) {
+                log(`Init failed: ${err.message}`, 'error');
+                console.error(err);
+            }
+        }
+
+        async function loadPhenotypeList() {
+            const res = await fetch('../list.json');
+            const data = await res.json();
+            const names = [];
+            data.forEach(group => {
+                const sub = group[group.length - 1];
+                sub.forEach(s => names.push(s[0]));
+            });
+            return names;
+        }
+
+        async function processImage(name, sex) {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.crossOrigin = 'anonymous';
+                const path = `../faces_lowres/${name.toLowerCase()}${sex}.jpg`;
+                const basicPath = `../faces_lowres/basic/${name.toLowerCase()}${sex}.jpg`;
+
+                img.onload = () => {
+                    try {
+                        const result = faceMesh.detect(img);
+                        if (result.faceLandmarks && result.faceLandmarks.length > 0) {
+                            const analysis = window.Morphology.analyze(result.faceLandmarks[0]);
+                            resolve(analysis);
+                        } else {
+                            resolve(null);
+                        }
+                    } catch (e) {
+                        console.error(e);
+                        resolve(null);
+                    }
+                };
+
+                img.onerror = () => {
+                    img.src = basicPath;
+                    img.onerror = () => resolve(null);
+                };
+
+                img.src = path;
+            });
+        }
+
+        document.getElementById('startBtn').addEventListener('click', async () => {
+            try {
+                if (!faceMesh) {
+                    log('Initializing model...');
+                    await init();
+                    if (!faceMesh) {
+                        log('❌ Failed to initialize FaceMesh. Cannot proceed.', 'error');
+                        return;
+                    }
+                }
+
+                document.getElementById('startBtn').disabled = true;
+                profiles = {};
+
+                log('Loading phenotype list from ../list.json...');
+                const names = await loadPhenotypeList();
+                log(`Loaded list.json. Found ${names.length} phenotypes.`);
+
+                const sexes = ['m', 'f'];
+                const total = names.length * 2;
+                let current = 0;
+
+                log(`Processing ${total} images... (Please do not close this tab)`);
+
+                for (const name of names) {
+                    for (const sex of sexes) {
+                        const id = `${name}_${sex}`;
+                        statusEl.textContent = `Processing ${id}...`;
+
+                        // Give UI time to update
+                        await new Promise(r => requestAnimationFrame(r));
+
+                        const analysis = await processImage(name, sex);
+
+                        if (analysis) {
+                            profiles[id] = {
+                                ...analysis.rawIndices,
+                                faceShape: analysis.features.faceShape.value,
+                                noseType: analysis.features.noseType.value,
+                                eyeShape: analysis.features.eyeShape.value,
+                                lipType: analysis.features.lipType.value,
+                                jawType: analysis.features.jawType.value,
+                                foreheadType: analysis.features.foreheadType.value,
+                                cheekboneType: analysis.features.cheekboneType.value
+                            };
+                        } else {
+                            log(`Skipped ${id}`, 'error');
+                        }
+
+                        current++;
+                        progressFill.style.width = `${(current / total) * 100}%`;
+                    }
+                }
+
+                statusEl.textContent = 'Done!';
+                log(`✨ Generation complete! ${Object.keys(profiles).length} profiles generated.`, 'success');
+
+                const blob = new Blob([JSON.stringify(profiles, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const dlBtn = document.getElementById('downloadBtn');
+
+                dlBtn.disabled = false;
+                dlBtn.onclick = () => {
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'morphology-profiles.json';
+                    a.click();
+                };
+
+                log('⬇️ Downloading morphology-profiles.json...');
+                dlBtn.click(); // Auto download
+
+            } catch (err) {
+                log(`❌ Error: ${err.message}`, 'error');
+                console.error(err);
+                document.getElementById('startBtn').disabled = false;
+            }
+        });
+
+        init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,388 @@
+window.Translations = {
+    tr: {
+        pageTitle: "PhenoType AI — Detaylı Fenotip Analizi",
+        subtitle: "Detaylı Yüz Fenotip Analizi",
+        privacy: "🔒 Tüm analiz tarayıcınızda yapılır — fotoğrafınız sunucuya gönderilmez",
+        loadingModel: "AI modelleri yükleniyor...",
+        uploadTitle: "Fotoğrafınızı yükleyin",
+        uploadDesc: "Sürükleyip bırakın, tıklayarak seçin veya <strong>Ctrl+V</strong> ile yapıştırın",
+        uploadFormats: "Desteklenen formatlar: JPG, PNG, WebP",
+        faceSelectHint: "Birden fazla yüz algılandı. Lütfen analiz edilecek yüzü seçin.",
+        morphologyToggle: "Morfoloji Analizini Dahil Et",
+        morphologyBeta: "(Beta - Hatalar olabilir)",
+        analyzeBtn: "Analiz Et",
+        changePhotoBtn: "Fotoğraf Değiştir",
+        analyzing_face: "Yüz algılanıyor...",
+        analyzing_morph: "Yüz morfolojisi analiz ediliyor...",
+        analyzing_match: "Fenotiplerle karşılaştırılıyor...",
+        analyzing_done: "Tamamlandı! ✨",
+        step1: "Yüz algılama",
+        step2: "Morfoloji ölçümleri",
+        step3: "Fenotip eşleştirme",
+        resultsTitle: "📊 Analiz Sonuçları",
+        cardMap: "🗺️ Yüz Haritası",
+        cardBasic: "👤 Temel Bilgiler",
+        cardMorph: "📐 Yüz Morfolojisi",
+        cardIndices: "📏 Antropometrik İndeksler",
+        cardMatch: "🧬 Fenotip Eşleşmeleri",
+        matchDisclaimer: "En benzer fenotiplerin gösterilmektedir. Yüksek yüzdeler yüz vektörü benzerliğini ifade eder.",
+        newAnalysisBtn: "Yeni Analiz",
+        genderMale: "Erkek",
+        genderFemale: "Kadın",
+        confidence: "Doğruluk Payı",
+        estAge: "Tahmini Yaş",
+
+        // --- Morphology Labels ---
+        label_facialIndex: "Facial Index",
+        label_nasalIndex: "Nasal Index",
+        label_mouthFaceRatio: "Ağız-Yüz Oranı",
+        label_interocularRatio: "Göz Arası Oran",
+        label_faceShape: "Yüz Şekli",
+        label_noseType: "Burun Tipi",
+        label_eyeShape: "Göz Şekli",
+        label_lipType: "Dudak Tipi",
+        label_jawType: "Çene Yapısı",
+        label_foreheadType: "Alın",
+        label_cheekboneType: "Elmacık Kemikleri",
+
+        // --- Değerler ve Detaylar (TR) ---
+        desc_percent: "{val}%",
+
+        // Yüz Şekli
+        val_oblong: "Oblong (Uzun)",
+        detail_oblong: "Facial Index: {val} — Uzun ve dar yüz yapısı",
+        val_square: "Kare",
+        detail_square: "Belirgin çene hattı, geniş alın",
+        val_round: "Yuvarlak",
+        detail_round: "Geniş ve yuvarlak yüz, yumuşak hatlar",
+        val_diamond: "Elmas",
+        detail_diamond: "Belirgin elmacık kemikleri, dar alın ve çene",
+        val_heart: "Kalp",
+        detail_heart: "Geniş alın, daralan çene hattı",
+        val_oval: "Oval",
+        detail_oval: "Dengeli oranlar, oval yüz yapısı",
+
+        // Burun
+        val_leptorrhin: "Leptorrhin (Dar)",
+        detail_leptorrhin: "Nazal İndeks: {val} — Dar ve uzun burun",
+        val_mesorrhin: "Mesorrhin (Orta)",
+        detail_mesorrhin: "Nazal İndeks: {val} — Orta genişlikte burun",
+        val_platyrrhin: "Platyrrhin (Geniş)",
+        detail_platyrrhin: "Nazal İndeks: {val} — Geniş burun kanatları",
+        val_hyperplatyrrhin: "Hyperplatyrrhin (Çok Geniş)",
+        detail_hyperplatyrrhin: "Nazal İndeks: {val} — Çok geniş burun yapısı",
+
+        // Göz
+        val_monolid: "Çekik (Monolid)",
+        detail_monolid: "Dar göz açıklığı, epikantik kıvrım mevcut",
+        val_narrow: "Dar / Derin",
+        detail_narrow: "Göz Oran: {val} — Dar göz açıklığı",
+        val_almond: "Badem",
+        detail_almond: "Göz Oran: {val} — Badem şeklinde, dengeli oranlar",
+        val_round_eye: "Yuvarlak",
+        detail_round_eye: "Göz Oran: {val} — Geniş ve yuvarlak göz",
+
+        // Dudak
+        val_thin: "İnce",
+        val_medium: "Orta",
+        val_full: "Dolgun / Kalın",
+        detail_lip: "Dolgunluk: {val}% — {bal}",
+        bal_balanced: "Dengeli",
+        bal_lower: "Alt dudak baskın",
+        bal_upper: "Üst dudak dolgun",
+
+        // Çene
+        val_square_jaw: "Kare / Geniş",
+        detail_jaw_square: "Çene-Yüz: {val}% — Belirgin çene hattı",
+        val_medium_jaw: "Orta",
+        detail_jaw_medium: "Çene-Yüz: {val}% — Dengeli çene yapısı",
+        val_narrow_jaw: "Sivri / Dar",
+        detail_jaw_narrow: "Çene-Yüz: {val}% — İnce, daralan çene",
+
+        // Alın
+        val_high: "Yüksek",
+        val_medium_forehead: "Orta",
+        val_low: "Düşük",
+        detail_forehead: "Alın Oranı: {val}%",
+
+        // Elmacık
+        val_very_prominent: "Çok Belirgin",
+        detail_cheek_very_prominent: "Elmacık kemikleri yüz genişliğine göre çok belirgin",
+        val_prominent: "Belirgin",
+        detail_cheek_prominent: "Elmacık kemikleri hafif çıkık",
+        val_flat: "Düz / Normal",
+        detail_cheek_flat: "Elmacık kemikleri yüze oranla düz",
+
+        // Sınıflandırma
+        class_hyperleptoprosop: "Hyperleptoprosop (Çok Uzun)",
+        class_leptoprosop: "Leptoprosop (Uzun)",
+        class_mesoprosop: "Mesoprosop (Orta)",
+        class_euryprosop: "Euryprosop (Geniş)",
+        class_hypereuryprosop: "Hypereuryprosop (Çok Geniş)",
+        class_leptorrhin: "Leptorrhin (Dar)",
+        class_mesorrhin: "Mesorrhin (Orta)",
+        class_platyrrhin: "Platyrhin (Geniş)",
+        class_hyperplatyrrhin: "Hyperplatyrrhin (Çok Geniş)",
+
+        // --- Warnings ---
+        betaWarning: "⚠️ <strong>Site Yapım Aşamasındadır (Beta):</strong> Sonuçlar kesin değildir. Sakal/bıyık gibi detaylar morfolojik ölçümleri ve fenotip tahminini etkileyebilir."
+    },
+    en: {
+        pageTitle: "PhenoType AI — Detailed Phenotype Analysis",
+        subtitle: "Detailed Facial Phenotype Analysis",
+        privacy: "🔒 All analysis is performed in your browser — your photo is never sent to a server",
+        loadingModel: "Loading AI models...",
+        uploadTitle: "Upload your photo",
+        uploadDesc: "Drag & drop, click to select, or paste with <strong>Ctrl+V</strong>",
+        uploadFormats: "Supported formats: JPG, PNG, WebP",
+        faceSelectHint: "Multiple faces detected. Please select a face to analyze.",
+        morphologyToggle: "Include Morphology Analysis",
+        morphologyBeta: "(Beta - May have errors)",
+        analyzeBtn: "Analyze",
+        changePhotoBtn: "Change Photo",
+        analyzing_face: "Detecting face...",
+        analyzing_morph: "Analyzing facial morphology...",
+        analyzing_match: "Matching phenotypes...",
+        analyzing_done: "Completed! ✨",
+        step1: "Face detection",
+        step2: "Morphology measurements",
+        step3: "Phenotype matching",
+        resultsTitle: "📊 Analysis Results",
+        cardMap: "🗺️ Face Map",
+        cardBasic: "👤 Basic Info",
+        cardMorph: "📐 Facial Morphology",
+        cardIndices: "📏 Anthropometric Indices",
+        cardMatch: "🧬 Phenotype Matches",
+        matchDisclaimer: "Showing most similar phenotypes. High percentages indicate facial vector similarity.",
+        newAnalysisBtn: "New Analysis",
+        genderMale: "Male",
+        genderFemale: "Female",
+        confidence: "Confidence",
+        estAge: "Estimated Age",
+
+        // --- Morphology Labels ---
+        label_facialIndex: "Facial Index",
+        label_nasalIndex: "Nasal Index",
+        label_mouthFaceRatio: "Mouth-Face Ratio",
+        label_interocularRatio: "Interocular Ratio",
+        label_faceShape: "Face Shape",
+        label_noseType: "Nose Type",
+        label_eyeShape: "Eye Shape",
+        label_lipType: "Lip Type",
+        label_jawType: "Jaw Structure",
+        label_foreheadType: "Forehead",
+        label_cheekboneType: "Cheekbones",
+
+        // --- Values & Details (EN) ---
+        desc_percent: "{val}%",
+
+        // Face Shape
+        val_oblong: "Oblong (Long)",
+        detail_oblong: "Facial Index: {val} — Long and narrow face structure",
+        val_square: "Square",
+        detail_square: "Prominent jawline, wide forehead",
+        val_round: "Round",
+        detail_round: "Wide and round face, soft features",
+        val_diamond: "Diamond",
+        detail_diamond: "Prominent cheekbones, narrow forehead and chin",
+        val_heart: "Heart",
+        detail_heart: "Wide forehead, narrowing jawline",
+        val_oval: "Oval",
+        detail_oval: "Balanced proportions, oval face structure",
+
+        // Nose
+        val_leptorrhin: "Leptorrhin (Narrow)",
+        detail_leptorrhin: "Nasal Index: {val} — Narrow and long nose",
+        val_mesorrhin: "Mesorrhin (Medium)",
+        detail_mesorrhin: "Nasal Index: {val} — Medium width nose",
+        val_platyrrhin: "Platyrrhin (Wide)",
+        detail_platyrrhin: "Nasal Index: {val} — Wide nose wings",
+        val_hyperplatyrrhin: "Hyperplatyrrhin (Very Wide)",
+        detail_hyperplatyrrhin: "Nasal Index: {val} — Very wide nose structure",
+
+        // Eyes
+        val_monolid: "Monolid",
+        detail_monolid: "Narrow eye opening, epicanthic fold present",
+        val_narrow: "Narrow / Deep",
+        detail_narrow: "Eye Ratio: {val} — Narrow eye opening",
+        val_almond: "Almond",
+        detail_almond: "Eye Ratio: {val} — Almond shaped, balanced proportions",
+        val_round_eye: "Round",
+        detail_round_eye: "Eye Ratio: {val} — Wide and round eye",
+
+        // Lips
+        val_thin: "Thin",
+        val_medium: "Medium",
+        val_full: "Full / Thick",
+        detail_lip: "Fullness: {val}% — {bal}",
+        bal_balanced: "Balanced",
+        bal_lower: "Lower lip dominant",
+        bal_upper: "Upper lip dominant",
+
+        // Jaw
+        val_square_jaw: "Square / Wide",
+        detail_jaw_square: "Jaw-Face: {val}% — Prominent jawline",
+        val_medium_jaw: "Medium",
+        detail_jaw_medium: "Jaw-Face: {val}% — Balanced jaw structure",
+        val_narrow_jaw: "Pointed / Narrow",
+        detail_jaw_narrow: "Jaw-Face: {val}% — Thin, narrowing chin",
+
+        // Forehead
+        val_high: "High",
+        val_medium_forehead: "Medium",
+        val_low: "Low",
+        detail_forehead: "Forehead Ratio: {val}%",
+
+        // Cheekbones
+        val_very_prominent: "Very Prominent",
+        detail_cheek_very_prominent: "Cheekbones very prominent relative to face width",
+        val_prominent: "Prominent",
+        detail_cheek_prominent: "Cheekbones slightly prominent",
+        val_flat: "Flat / Normal",
+        detail_cheek_flat: "Cheekbones flat relative to face",
+
+        // Classifications
+        class_hyperleptoprosop: "Hyperleptoprosop (Very Long)",
+        class_leptoprosop: "Leptoprosop (Long)",
+        class_mesoprosop: "Mesoprosop (Medium)",
+        class_euryprosop: "Euryprosop (Wide)",
+        class_hypereuryprosop: "Hypereuryprosop (Very Wide)",
+        class_leptorrhin: "Leptorrhin (Narrow)",
+        class_mesorrhin: "Mesorrhin (Medium)",
+        class_platyrrhin: "Platyrhin (Wide)",
+        class_hyperplatyrrhin: "Hyperplatyrrhine (Very Wide)",
+
+        // --- Warnings ---
+        betaWarning: "⚠️ <strong>Site Under Construction (Beta):</strong> Results are not final. Facial hair (beard/mustache) may affect measurement accuracy."
+    },
+    de: {
+        pageTitle: "PhenoType AI — Detaillierte Phänotypanalyse",
+        subtitle: "Detaillierte Gesichts-Phänotypanalyse",
+        privacy: "🔒 Alle Analysen finden im Browser statt — Ihr Foto wird nicht an einen Server gesendet",
+        loadingModel: "Lade KI-Modelle...",
+        uploadTitle: "Laden Sie Ihr Foto hoch",
+        uploadDesc: "Drag & Drop, Klicken zum Auswählen oder <strong>Strg+V</strong> zum Einfügen",
+        uploadFormats: "Unterstützte Formate: JPG, PNG, WebP",
+        faceSelectHint: "Mehrere Gesichter erkannt. Bitte wählen Sie ein Gesicht zur Analyse aus.",
+        morphologyToggle: "Morphologie-Analyse einbeziehen",
+        morphologyBeta: "(Beta - Kann Fehler enthalten)",
+        analyzeBtn: "Analysieren",
+        changePhotoBtn: "Foto ändern",
+        analyzing_face: "Erkenne Gesicht...",
+        analyzing_morph: "Analysiere Gesichtsmorphologie...",
+        analyzing_match: "Phänotypen abgleichen...",
+        analyzing_done: "Abgeschlossen! ✨",
+        step1: "Gesichtserkennung",
+        step2: "Morphologie-Messungen",
+        step3: "Phänotyp-Abgleich",
+        resultsTitle: "📊 Analyse Ergebnisse",
+        cardMap: "🗺️ Gesichtskarte",
+        cardBasic: "👤 Basisinformationen",
+        cardMorph: "📐 Gesichtsmorphologie",
+        cardIndices: "📏 Anthropometrische Indizes",
+        cardMatch: "🧬 Phänotyp-Übereinstimmungen",
+        matchDisclaimer: "Zeigt die ähnlichsten Phänotypen an. Hohe Prozentsätze deuten auf eine Ähnlichkeit des Gesichtsvektors hin.",
+        newAnalysisBtn: "Neue Analyse",
+        genderMale: "Männlich",
+        genderFemale: "Weiblich",
+        confidence: "Konfidenz",
+        estAge: "Geschätztes Alter",
+        landmarksError: "Gesichtszüge konnten nicht gelesen werden (Landmarks not found). Bitte versuchen Sie ein klareres Foto.",
+
+        // --- Morphology Labels ---
+        label_facialIndex: "Gesichtsindex",
+        label_nasalIndex: "Nasenindex",
+        label_mouthFaceRatio: "Mund-Gesicht-Verhältnis",
+        label_interocularRatio: "Augenabstand-Verhältnis",
+        label_faceShape: "Gesichtsform",
+        label_noseType: "Nasentyp",
+        label_eyeShape: "Augenform",
+        label_lipType: "Lippentyp",
+        label_jawType: "Kieferstruktur",
+        label_foreheadType: "Stirn",
+        label_cheekboneType: "Wangenknochen",
+
+        // --- Values & Details (DE) ---
+        desc_percent: "{val}%",
+
+        // Face Shape
+        val_oblong: "Länglich (Oblong)",
+        detail_oblong: "Gesichtsindex: {val} — Lange und schmale Gesichtsstruktur",
+        val_square: "Quadratisch",
+        detail_square: "Markante Kieferlinie, breite Stirn",
+        val_round: "Rund",
+        detail_round: "Breites und rundes Gesicht, weiche Züge",
+        val_diamond: "Diamant",
+        detail_diamond: "Markante Wangenknochen, schmale Stirn und Kinn",
+        val_heart: "Herzförmig",
+        detail_heart: "Breite Stirn, schmaler werdende Kieferlinie",
+        val_oval: "Oval",
+        detail_oval: "Ausgewogene Proportionen, ovale Gesichtsstruktur",
+
+        // Nose
+        val_leptorrhin: "Leptorrhin (Schmal)",
+        detail_leptorrhin: "Nasenindex: {val} — Schmale und lange Nase",
+        val_mesorrhin: "Mesorrhin (Mittel)",
+        detail_mesorrhin: "Nasenindex: {val} — Mittelbreite Nase",
+        val_platyrrhin: "Platyrrhin (Breit)",
+        detail_platyrrhin: "Nasenindex: {val} — Breite Nasenflügel",
+        val_hyperplatyrrhin: "Hyperplatyrrhin (Sehr Breit)",
+        detail_hyperplatyrrhin: "Nasenindex: {val} — Sehr breite Nasenstruktur",
+
+        // Eyes
+        val_monolid: "Monolid",
+        detail_monolid: "Schmale Augenöffnung, Epikanthusfalte vorhanden",
+        val_narrow: "Schmal / Tief",
+        detail_narrow: "Augenverhältnis: {val} — Schmale Augenöffnung",
+        val_almond: "Mandelförmig",
+        detail_almond: "Augenverhältnis: {val} — Mandelförmig, ausgewogene Proportionen",
+        val_round_eye: "Rund",
+        detail_round_eye: "Augenverhältnis: {val} — Weites und rundes Auge",
+
+        // Lips
+        val_thin: "Dünn",
+        val_medium: "Mittel",
+        val_full: "Voll / Dick",
+        detail_lip: "Fülle: {val}% — {bal}",
+        bal_balanced: "Ausgewogen",
+        bal_lower: "Unterlippe dominant",
+        bal_upper: "Oberlippe dominant",
+
+        // Jaw
+        val_square_jaw: "Quadratisch / Breit",
+        detail_jaw_square: "Kiefer-Gesicht: {val}% — Markante Kieferlinie",
+        val_medium_jaw: "Mittel",
+        detail_jaw_medium: "Kiefer-Gesicht: {val}% — Ausgewogene Kieferstruktur",
+        val_narrow_jaw: "Spitz / Schmal",
+        detail_jaw_narrow: "Kiefer-Gesicht: {val}% — Dünnes, schmaler werdendes Kinn",
+
+        // Forehead
+        val_high: "Hoch",
+        val_medium_forehead: "Mittel",
+        val_low: "Niedrig",
+        detail_forehead: "Stirn-Verhältnis: {val}%",
+
+        // Cheekbones
+        val_very_prominent: "Sehr Markant",
+        detail_cheek_very_prominent: "Wangenknochen sehr markant im Verhältnis zur Gesichtsbreite",
+        val_prominent: "Markant",
+        detail_cheek_prominent: "Wangenknochen leicht hervorstehend",
+        val_flat: "Flach / Normal",
+        detail_cheek_flat: "Wangenknochen flach im Verhältnis zum Gesicht",
+
+        // Classifications
+        class_hyperleptoprosop: "Hyperleptoprosop (Sehr Lang)",
+        class_leptoprosop: "Leptoprosop (Lang)",
+        class_mesoprosop: "Mesoprosop (Mittel)",
+        class_euryprosop: "Euryprosop (Breit)",
+        class_hypereuryprosop: "Hypereuryprosop (Sehr Breit)",
+        class_leptorrhin: "Leptorrhin (Schmal)",
+        class_mesorrhin: "Mesorrhin (Mittel)",
+        class_platyrrhin: "Platyrrhin (Breit)",
+        class_hyperplatyrrhin: "Hyperplatyrrhin (Sehr Breit)",
+
+        // --- Warnings ---
+        betaWarning: "⚠️ <strong>Seite im Aufbau (Beta):</strong> Ergebnisse sind nicht endgültig. Bart/Schnurrbart kann die Genauigkeit der Messungen beeinträchtigen."
+
+    }
+};
