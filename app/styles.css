@@ -1558,3 +1558,70 @@ input:focus-visible,
   opacity: 1;
   color: #f87171;
 }
+
+
+/* ============================================
+   Export Card Updates (Top 5 Matches)
+   ============================================ */
+
+.export-card {
+  height: auto;
+  min-height: 650px;
+}
+
+.export-matches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.export-match-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.export-match-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.export-match-details {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.export-match-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.export-match-score {
+  font-size: 14px;
+  font-weight: 700;
+  color: #06d6a0;
+}
+
+/* Adjust layout for expanded list */
+.export-content {
+  gap: 30px;
+}
+
+.export-left {
+  width: 280px;
+}
+
+.export-image-box {
+  width: 280px;
+  height: 280px;
+}

@@ -937,16 +937,56 @@
             document.getElementById('exportGender').textContent = info.gender === 'male' ? '♂ Male' : '♀ Female';
             document.getElementById('exportAge').textContent = `~${Math.round(info.age)} Years`; // Keeping English/Universal for export card design or use translation
 
-            // Top Match
-            const topMatch = matches[0];
-            if (topMatch) {
-                const matchImg = document.getElementById('exportMatchImage');
-                matchImg.src = PhenotypeMatcher.getImagePath(topMatch.name, topMatch.sex);
-                // Handle fallback if needed (simplified here)
+            // Top 5 Matches
+            const matchesContainer = document.getElementById('exportMatchesList');
+            matchesContainer.innerHTML = '';
 
-                document.getElementById('exportMatchName').textContent = topMatch.name;
-                document.getElementById('exportMatchScore').textContent = `${topMatch.score.toFixed(1)}% Match Score`;
-            }
+            const top5 = matches.slice(0, 5);
+            const imagePromises = [];
+
+            top5.forEach(m => {
+                const div = document.createElement('div');
+                div.className = 'export-match-item';
+
+                // Create image manually to track loading
+                const imgEl = new Image();
+                imgEl.alt = m.name;
+
+                const p = new Promise(resolve => {
+                    imgEl.onload = resolve;
+                    imgEl.onerror = () => {
+                        // Fallback logic
+                        if (m.isBasic && !imgEl.dataset.retried) {
+                            imgEl.dataset.retried = 'true';
+                            imgEl.src = PhenotypeMatcher.getImagePath(m.name, m.sex);
+                        } else {
+                            resolve(); // Resolve even on error to continue
+                        }
+                    };
+                });
+                imagePromises.push(p);
+
+                // Set initial src
+                const primarySrc = m.isBasic
+                    ? PhenotypeMatcher.getBasicImagePath(m.name, m.sex)
+                    : PhenotypeMatcher.getImagePath(m.name, m.sex);
+                imgEl.src = primarySrc;
+
+                div.innerHTML = `
+                    <div class="export-match-details">
+                        <span class="export-match-name">${m.name}</span>
+                        <span class="export-match-score">${m.score.toFixed(1)}%</span>
+                    </div>
+                `;
+                div.prepend(imgEl); // Add image to start
+                matchesContainer.appendChild(div);
+            });
+
+            // Wait for all match images to load (max 2 seconds timeout)
+            await Promise.race([
+                Promise.all(imagePromises),
+                new Promise(r => setTimeout(r, 2000))
+            ]);
 
             // Stats
             const statsContainer = document.getElementById('exportStats');
