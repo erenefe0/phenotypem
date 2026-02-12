@@ -4,6 +4,18 @@
  */
 
 (async () => {
+    // Helper: Escape HTML to prevent XSS
+    const esc = (str) => {
+        if (typeof str !== 'string') return str;
+        return str.replace(/[&<>"']/g, m => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;'
+        })[m]);
+    };
+
     // ============================
     // DOM Elements
     // ============================
@@ -58,7 +70,8 @@
         const dict = (window.Translations && window.Translations[currentLang]) || {};
         let str = dict[key] || key;
         for (const [k, v] of Object.entries(params)) {
-            str = str.replace(`{${k}}`, v);
+            // Replace all occurrences of {k} with escaped value v
+            str = str.split(`{${k}}`).join(esc(v));
         }
         return str;
     }
@@ -481,18 +494,23 @@
         const genderLabel = info.gender === 'male' ? t('genderMale') : t('genderFemale');
         const ageRange = formatAgeRange(info.age);
 
+        const sGenderLabel = esc(genderLabel);
+        const sGenderProb = esc(info.genderProb);
+        const sAgeRange = esc(ageRange);
+        const labelGender = currentLang === 'tr' ? 'Cinsiyet' : 'Gender';
+
         document.getElementById('genderAgeInfo').innerHTML = `
       <div class="info-item">
-        <div class="info-label">${t('label_gender')}</div>
-        <div class="info-value">${genderLabel} ${info.gender === 'male' ? '♂️' : '♀️'}</div>
+        <div class="info-label">${esc(labelGender)}</div>
+        <div class="info-value">${sGenderLabel} ${info.gender === 'male' ? '♂️' : '♀️'}</div>
       </div>
       <div class="info-item">
         <div class="info-label">${t('confidence')}</div>
-        <div class="info-value">${info.genderProb}%</div>
+        <div class="info-value">${sGenderProb}%</div>
       </div>
       <div class="info-item">
         <div class="info-label">${t('estAge')}</div>
-        <div class="info-value">${ageRange}</div>
+        <div class="info-value">${sAgeRange}</div>
       </div>
     `;
 
@@ -507,7 +525,7 @@
 
                 morphHTML += `
           <div class="morph-item">
-            <div class="morph-label">${feat.icon} ${label}</div>
+            <div class="morph-label">${esc(feat.icon)} ${label}</div>
             <div class="morph-value">${val}</div>
             <div class="morph-detail">${detail}</div>
           </div>
@@ -524,7 +542,7 @@
                 indicesHTML += `
           <div class="index-item">
             <div class="index-label">${label}</div>
-            <div class="index-value">${idx.value}</div>
+            <div class="index-value">${esc(idx.value)}</div>
             <div class="index-desc">${desc}</div>
           </div>
         `;
@@ -546,17 +564,24 @@
             const scoreColor = isTopMatch ? '#06d6a0' : m.score > 50 ? '#06d6a0' : m.score > 40 ? '#38bdf8' : '#94a3b8';
             const topClass = isTopMatch ? ' top-match' : '';
 
-            // Group name check: m.groupName is usually just name of group, kept as is (proper noun)
+            const sName = esc(m.name);
+            const sGroupName = esc(m.groupName);
+            const sPrimarySrc = esc(primarySrc);
+            const sFallbackSrc = esc(fallbackSrc);
+            const sUrl = esc(url);
+            const sScore = m.score.toFixed(1);
+            const sScoreColor = esc(scoreColor);
+            const groupText = currentLang === 'tr' ? 'grubu' : 'group';
 
             phenoHTML += `
                 <div class="phenotype-item${topClass}">
-                    <img class="phenotype-img" src="${primarySrc}" data-fallback="${fallbackSrc}" alt="${m.name}" onerror="if (this.dataset.fallback) { const next = this.dataset.fallback; this.dataset.fallback = ''; this.src = next; } else { this.style.display='none'; }">
+                    <img class="phenotype-img" src="${sPrimarySrc}" data-fallback="${sFallbackSrc}" alt="${sName}" onerror="if (this.dataset.fallback) { const next = this.dataset.fallback; this.dataset.fallback = ''; this.src = next; } else { this.style.display='none'; }">
           <div class="phenotype-info">
-            <div class="phenotype-name"><a href="${url}" target="_blank" rel="noopener noreferrer">${m.name}</a></div>
-            ${m.isBasic && m.groupName !== m.name ? `<div class="phenotype-group">${m.groupName} ${currentLang === 'tr' ? 'grubu' : 'group'}</div>` : ''}
+            <div class="phenotype-name"><a href="${sUrl}" target="_blank" rel="noopener noreferrer">${sName}</a></div>
+            ${m.isBasic && m.groupName !== m.name ? `<div class="phenotype-group">${sGroupName} ${esc(groupText)}</div>` : ''}
           </div>
           <div style="text-align: right;">
-            <div class="phenotype-score" style="color: ${scoreColor}">${m.score.toFixed(1)}%</div>
+            <div class="phenotype-score" style="color: ${sScoreColor}">${sScore}%</div>
             <div class="score-bar">
               <div class="score-bar-fill" style="width: ${Math.min(100, m.score)}%"></div>
             </div>
