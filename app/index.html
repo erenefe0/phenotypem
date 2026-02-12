@@ -242,7 +242,10 @@
   <div id="historyModal" class="modal hidden">
     <div class="modal-content">
       <div class="modal-header">
-        <h2 data-i18n="historyTitle">Geçmiş Analizler</h2>
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <h2 data-i18n="historyTitle">Geçmiş Analizler</h2>
+          <button id="clearHistoryBtn" class="btn btn-sm btn-danger hidden" data-i18n="clearHistory">Temizle</button>
+        </div>
         <button id="closeHistoryBtn" class="close-btn">&times;</button>
       </div>
       <div class="modal-body">
@@ -250,6 +253,9 @@
           <!-- JS will populate -->
         </div>
         <p id="noHistoryMsg" class="no-history hidden" data-i18n="noHistory">Henüz kayıtlı analiz yok.</p>
+      </div>
+      <div class="modal-footer">
+        <p class="history-storage-info" data-i18n="historyStorageInfo">Analiz geçmişiniz tarayıcı hafızasında saklanır.</p>
       </div>
     </div>
   </div>
