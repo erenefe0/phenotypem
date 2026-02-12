@@ -265,6 +265,8 @@
         uploadSection.classList.remove('hidden');
         fileInput.value = '';
         cleanupObjectUrl();
+        // Move focus to drop zone for accessibility
+        setTimeout(() => dropZone.focus(), 300);
     });
 
     analyzeBtn.addEventListener('click', () => runAnalysis());
@@ -276,6 +278,8 @@
         uploadSection.classList.remove('hidden');
         fileInput.value = '';
         cleanupObjectUrl();
+        // Move focus to drop zone for accessibility
+        setTimeout(() => dropZone.focus(), 300);
     });
 
     window.addEventListener('resize', () => {
@@ -429,6 +433,12 @@
 
         resultsSection.classList.remove('hidden');
         resultsSection.scrollIntoView({ behavior: 'smooth' });
+
+        // Move focus to results title for accessibility
+        const resultsTitle = resultsSection.querySelector('.results-title');
+        if (resultsTitle) {
+            resultsTitle.focus({ preventScroll: true });
+        }
 
         const cards = resultsSection.querySelectorAll('.result-card');
         cards.forEach((card, i) => { card.style.animationDelay = (i * 0.1) + 's'; });

@@ -129,9 +129,12 @@ const PhenotypeMatcher = (() => {
         phenotypeList = JSON.parse(text);
 
         // Decode embeddings
-        const hexToF32Arr = (str) => new Float32Array(
-            new Uint8Array([...atob(str)].map(c => c.charCodeAt(0))).buffer
-        );
+        const hexToF32Arr = (str) => {
+            const bin = atob(str);
+            const bytes = new Uint8Array(bin.length);
+            for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+            return new Float32Array(bytes.buffer);
+        };
         const hexToF32 = (arr) => [arr[0], hexToF32Arr(arr[1]), hexToF32Arr(arr[2])];
 
         for (let i = 0; i < phenotypeList.length; i++) {
