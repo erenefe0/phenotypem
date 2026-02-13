@@ -11,7 +11,6 @@ const CORE_ASSETS = [
   '/app/styles.css',
   '/app/app.js',
   '/app/morphology.js',
-  '/app/color-analysis.js',
   '/app/phenotype-matcher.js',
   '/app/phenotype-worker.js',
   '/face-api.min.js',
