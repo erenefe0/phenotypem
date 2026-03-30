@@ -1,0 +1,21 @@
+{
+  "name": "PhenoType AI — Facial Phenotype Analysis",
+  "short_name": "PhenoType AI",
+  "description": "AI-powered facial phenotype analysis. Matches your face against 200+ human phenotypes using deep learning. Runs entirely in your browser.",
+  "start_url": "./app/index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0a0e1a",
+  "theme_color": "#0a0e1a",
+  "lang": "en",
+  "categories": ["education", "medical", "utilities"],
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
