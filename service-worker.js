@@ -1,6 +1,6 @@
 ﻿/* PhenoType AI Service Worker */
 
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 const CORE_CACHE = `phenotype-core-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `phenotype-runtime-${CACHE_VERSION}`;
 
@@ -85,7 +85,9 @@ async function cacheFirst(req) {
   const cached = await cache.match(req);
   if (cached) return cached;
   const fresh = await fetch(req);
-  cache.put(req, fresh.clone());
+  if (fresh && fresh.ok) {
+    cache.put(req, fresh.clone());
+  }
   return fresh;
 }
 
@@ -93,11 +95,15 @@ async function networkFirst(req) {
   const cache = await caches.open(RUNTIME_CACHE);
   try {
     const fresh = await fetch(req);
-    cache.put(req, fresh.clone());
+    if (fresh && fresh.ok) {
+      cache.put(req, fresh.clone());
+    }
     return fresh;
   } catch (err) {
     const cached = await cache.match(req);
     if (cached) return cached;
+    const offlineFallback = await caches.match('/index.html');
+    if (offlineFallback) return offlineFallback;
     throw err;
   }
 }
@@ -106,7 +112,9 @@ async function staleWhileRevalidate(req) {
   const cache = await caches.open(RUNTIME_CACHE);
   const cached = await cache.match(req);
   const fetchPromise = fetch(req).then((fresh) => {
-    cache.put(req, fresh.clone());
+    if (fresh && fresh.ok) {
+      cache.put(req, fresh.clone());
+    }
     return fresh;
   });
   return cached || fetchPromise;
