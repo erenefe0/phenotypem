@@ -1,6 +1,6 @@
-﻿/* PhenoType AI Service Worker */
+/* PhenoType AI Service Worker */
 
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 const CORE_CACHE = `phenotype-core-${CACHE_VERSION}`;
 const RUNTIME_CACHE = `phenotype-runtime-${CACHE_VERSION}`;
 
@@ -10,7 +10,9 @@ const CORE_ASSETS = [
   '/app/index.html',
   '/app/styles.css',
   '/app/app.js',
+  '/app/locales.js',
   '/app/morphology.js',
+  '/app/morphology-profiles.json',
   '/app/phenotype-matcher.js',
   '/app/phenotype-worker.js',
   '/face-api.min.js',
@@ -39,11 +41,26 @@ const CORE_ASSETS = [
 ];
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CORE_CACHE)
-      .then((cache) => cache.addAll(CORE_ASSETS))
-      .then(() => self.skipWaiting())
-  );
+  event.waitUntil((async () => {
+    const cache = await caches.open(CORE_CACHE);
+    const results = await Promise.allSettled(
+      CORE_ASSETS.map(async (asset) => {
+        const response = await fetch(asset, { cache: 'no-cache' });
+        if (!response.ok) throw new Error(`${asset} -> HTTP ${response.status}`);
+        await cache.put(asset, response.clone());
+      })
+    );
+
+    const failed = results
+      .map((result, index) => ({ result, asset: CORE_ASSETS[index] }))
+      .filter(({ result }) => result.status === 'rejected');
+
+    if (failed.length) {
+      console.warn('[SW] Some core assets failed to cache during install:', failed);
+    }
+
+    await self.skipWaiting();
+  })());
 });
 
 self.addEventListener('activate', (event) => {
@@ -64,7 +81,6 @@ self.addEventListener('fetch', (event) => {
 
   const url = new URL(req.url);
 
-  // Same-origin
   if (url.origin === self.location.origin) {
     if (req.mode === 'navigate' || req.destination === 'document') {
       event.respondWith(networkFirst(req));
@@ -74,7 +90,6 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // CDN assets (MediaPipe)
   if (url.origin === 'https://cdn.jsdelivr.net' || url.origin === 'https://storage.googleapis.com') {
     event.respondWith(staleWhileRevalidate(req));
   }
@@ -84,8 +99,11 @@ async function cacheFirst(req) {
   const cache = await caches.open(RUNTIME_CACHE);
   const cached = await cache.match(req);
   if (cached) return cached;
+
   const fresh = await fetch(req);
-  cache.put(req, fresh.clone());
+  if (fresh.ok || fresh.type === 'opaque') {
+    cache.put(req, fresh.clone());
+  }
   return fresh;
 }
 
@@ -93,7 +111,9 @@ async function networkFirst(req) {
   const cache = await caches.open(RUNTIME_CACHE);
   try {
     const fresh = await fetch(req);
-    cache.put(req, fresh.clone());
+    if (fresh.ok || fresh.type === 'opaque') {
+      cache.put(req, fresh.clone());
+    }
     return fresh;
   } catch (err) {
     const cached = await cache.match(req);
@@ -106,7 +126,9 @@ async function staleWhileRevalidate(req) {
   const cache = await caches.open(RUNTIME_CACHE);
   const cached = await cache.match(req);
   const fetchPromise = fetch(req).then((fresh) => {
-    cache.put(req, fresh.clone());
+    if (fresh.ok || fresh.type === 'opaque') {
+      cache.put(req, fresh.clone());
+    }
     return fresh;
   });
   return cached || fetchPromise;
