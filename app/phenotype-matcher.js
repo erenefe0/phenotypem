@@ -185,7 +185,7 @@ const PhenotypeMatcher = (() => {
     function matchFallback(descriptor, sex, topN = 25, userMorphology = null) {
         const i = (sex === 'm') ? 1 : 2;
         const results = [];
-        const useHybrid = morphologyProfiles && userMorphology;
+        const useHybrid = morphologyProfiles && userMorphology && userMorphology.rawIndices && userMorphology.features;
 
         for (const group of phenotypeList) {
             const groupLen = group.length;
@@ -230,10 +230,13 @@ const PhenotypeMatcher = (() => {
         let totalScore = 0;
         let maxScore = 0;
 
+        const rawIndices = user?.rawIndices || {};
+        const features = user?.features || {};
+
         const largeIndices = ['facialIndex', 'nasalIndex', 'jawFaceRatio', 'foreheadRatio', 'mouthFaceRatio', 'interocularRatio'];
         for (const key of largeIndices) {
-            if (user.rawIndices[key] !== undefined && ref[key] !== undefined) {
-                const diff = Math.abs(user.rawIndices[key] - ref[key]);
+            if (rawIndices[key] !== undefined && ref[key] !== undefined) {
+                const diff = Math.abs(rawIndices[key] - ref[key]);
                 const points = Math.max(0, 1 - (diff / 15));
                 totalScore += points;
                 maxScore += 1;
@@ -242,8 +245,8 @@ const PhenotypeMatcher = (() => {
 
         const smallIndices = ['eyeAspectRatio', 'lipFullnessRatio'];
         for (const key of smallIndices) {
-            if (user.rawIndices[key] !== undefined && ref[key] !== undefined) {
-                const diff = Math.abs(user.rawIndices[key] - ref[key]);
+            if (rawIndices[key] !== undefined && ref[key] !== undefined) {
+                const diff = Math.abs(rawIndices[key] - ref[key]);
                 const points = Math.max(0, 1 - (diff / 0.15));
                 totalScore += points;
                 maxScore += 1;
@@ -252,8 +255,8 @@ const PhenotypeMatcher = (() => {
 
         const categories = ['faceShape', 'noseType', 'eyeShape', 'lipType', 'jawType', 'foreheadType', 'cheekboneType'];
         for (const key of categories) {
-            if (user.features[key] && ref[key]) {
-                const userVal = user.features[key].value;
+            if (features[key] && ref[key]) {
+                const userVal = features[key].value;
                 const refVal = ref[key];
                 if (userVal === refVal) {
                     totalScore += 1;

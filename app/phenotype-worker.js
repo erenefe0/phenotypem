@@ -124,7 +124,7 @@ function cosine(a, b) {
 
 function match(descriptor, sex, topN, userMorphology) {
   const results = [];
-  const useHybrid = morphologyProfiles && userMorphology;
+  const useHybrid = morphologyProfiles && userMorphology && userMorphology.rawIndices && userMorphology.features;
 
   for (const p of phenotypes) {
     const refDesc = sex === 'm' ? p.m : p.f;
@@ -161,10 +161,13 @@ function calculateMorphologyScore(user, ref) {
   let maxScore = 0;
 
   // A. Sayısal İndeksler (Toleranslı karşılaştırma)
+  const rawIndices = user?.rawIndices || {};
+  const features = user?.features || {};
+
   const largeIndices = ['facialIndex', 'nasalIndex', 'jawFaceRatio', 'foreheadRatio', 'mouthFaceRatio', 'interocularRatio'];
   for (const key of largeIndices) {
-    if (user.rawIndices[key] !== undefined && ref[key] !== undefined) {
-      const diff = Math.abs(user.rawIndices[key] - ref[key]);
+    if (rawIndices[key] !== undefined && ref[key] !== undefined) {
+      const diff = Math.abs(rawIndices[key] - ref[key]);
       const points = Math.max(0, 1 - (diff / 15)); // 15 birim fark = 0 puan
       totalScore += points;
       maxScore += 1;
@@ -173,8 +176,8 @@ function calculateMorphologyScore(user, ref) {
 
   const smallIndices = ['eyeAspectRatio', 'lipFullnessRatio'];
   for (const key of smallIndices) {
-    if (user.rawIndices[key] !== undefined && ref[key] !== undefined) {
-      const diff = Math.abs(user.rawIndices[key] - ref[key]);
+    if (rawIndices[key] !== undefined && ref[key] !== undefined) {
+      const diff = Math.abs(rawIndices[key] - ref[key]);
       const points = Math.max(0, 1 - (diff / 0.15)); // 0.15 birim fark = 0 puan
       totalScore += points;
       maxScore += 1;
@@ -186,8 +189,8 @@ function calculateMorphologyScore(user, ref) {
   // ref içinde direkt string: 'Oval'
   const categories = ['faceShape', 'noseType', 'eyeShape', 'lipType', 'jawType', 'foreheadType', 'cheekboneType'];
   for (const key of categories) {
-    if (user.features[key] && ref[key]) {
-      const userVal = user.features[key].value;
+    if (features[key] && ref[key]) {
+      const userVal = features[key].value;
       const refVal = ref[key];
       if (userVal === refVal) {
         totalScore += 1;
