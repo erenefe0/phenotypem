@@ -46,6 +46,7 @@
     let pendingDetections = null;
     let selectionActive = false;
     let selectClickHandler = null;
+    let isAnalyzing = false;
 
     // ============================
     // 0. Dil Yönetimi (i18n)
@@ -334,6 +335,8 @@
     // 3. Analiz Pipeline
     // ============================
     async function runAnalysis(selectedDetection = null, options = {}) {
+        if (isAnalyzing) return;
+        isAnalyzing = true;
         const useCrop = options.useCrop === true;
 
         previewSection.classList.add('hidden');
@@ -439,7 +442,8 @@
             analyzingTextEl.textContent = t('analyzing_match');
             await sleep(300);
 
-            const includeMorphology = document.getElementById('morphologyToggle').checked;
+            const morphologyToggle = document.getElementById('morphologyToggle');
+            const includeMorphology = morphologyToggle ? morphologyToggle.checked : true;
             const matches = await PhenotypeMatcher.match(descriptor, sex, 25, includeMorphology ? morphResult : null);
             setStep(3, 'done');
 
@@ -461,6 +465,8 @@
                 analyzingSection.classList.add('hidden');
                 previewSection.classList.remove('hidden');
             }, 3000);
+        } finally {
+            isAnalyzing = false;
         }
     }
 
@@ -801,8 +807,26 @@
 
     function canvasToBlob(canvas, type, quality) {
         return new Promise((resolve) => {
-            canvas.toBlob((blob) => resolve(blob), type, quality);
+            canvas.toBlob((blob) => {
+                if (blob) {
+                    resolve(blob);
+                    return;
+                }
+                // Fallback for environments where toBlob returns null
+                const dataUrl = canvas.toDataURL(type, quality);
+                resolve(dataURLToBlob(dataUrl));
+            }, type, quality);
         });
+    }
+
+    function dataURLToBlob(dataUrl) {
+        const parts = dataUrl.split(',');
+        const mime = (parts[0].match(/:(.*?);/) || [])[1] || 'image/png';
+        const binary = atob(parts[1]);
+        const len = binary.length;
+        const bytes = new Uint8Array(len);
+        for (let i = 0; i < len; i++) bytes[i] = binary.charCodeAt(i);
+        return new Blob([bytes], { type: mime });
     }
 
     function drawImageWithOrientation(img, orientation, maxSize) {
@@ -1354,7 +1378,5 @@
     }
 
 })();
-
-
 
 
